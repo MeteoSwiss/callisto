@@ -15,7 +15,7 @@ function nextImage() {
 
 function loadPage(name) {
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("images/"+name+".json")
+  fetch("file_lists/"+name+".json")
     .then(response => response.json())
     .then(data => {
       imageNames = data;
