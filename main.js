@@ -24,3 +24,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 }
+
+window.addEventListener("keydown", event => {
+  if(event.keyCode === 39){
+  	// next event
+    nextImage();
+  } else if(event.keyCode === 37){
+  	// prev event
+    prevImage();
+  }
+});
