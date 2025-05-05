@@ -10,7 +10,7 @@ function prevImage() {
 }
 
 function nextImage() {
-  if (index < imageDates.length - 1) { index++; updateImage(); }
+  if (index < imageNames.length - 1) { index++; updateImage(); }
 }
 
 function loadPage(name) {
