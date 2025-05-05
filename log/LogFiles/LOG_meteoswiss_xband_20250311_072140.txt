@@ -1,0 +1,184 @@
+3/11/2025,7:21:40 AM,$HST:Application just created
+3/11/2025,7:21:40 AM,$HST:SW-version 1.24, e-Callisto
+3/11/2025,7:21:40 AM,$HST:Configurationfile read
+3/11/2025,7:21:40 AM,$HST:Switched to automatic
+3/11/2025,7:21:40 AM,$HST:ATmega16 pre-configured
+3/11/2025,7:21:40 AM,$HST:Frequencyfile frq99995.cfg
+3/11/2025,7:21:40 AM,$HST:Callisto ready now...
+3/11/2025,7:21:41 AM,$HST:Measurement idle
+3/11/2025,7:21:41 AM,$HST:File scheduler.cfg read
+3/11/2025,7:21:41 AM,$HST:Measurement enable
+3/11/2025,7:21:41 AM,$CRX:AGC gain = 1.94V
+3/11/2025,7:21:41 AM,$CRX:Emitter BF199 = 0.10V
+3/11/2025,7:21:41 AM,$CRX:Analog Input = 11.23
+3/11/2025,7:21:44 AM,$HST:File FRQ99995.CFG read
+3/11/2025,7:21:44 AM,$HST:No calibration file found
+3/11/2025,7:21:44 AM,$HST:Plot buffer erased...
+3/11/2025,7:21:44 AM,$HST:Parametrisation RCU
+3/11/2025,7:21:44 AM,$CRX:V1.8 / 2012-04-02
+3/11/2025,7:21:44 AM,$HST:Found LO=25.43 MHz
+3/11/2025,7:21:44 AM,$CRX:Debug=Off
+3/11/2025,7:21:44 AM,$CRX:Trigger=No
+3/11/2025,7:21:44 AM,$CRX:FPUcodex=0
+3/11/2025,7:21:44 AM,$CRX:GS =0
+3/11/2025,7:21:44 AM,$CRX:GA =0
+3/11/2025,7:21:44 AM,$CRX:Delay=0msec
+3/11/2025,7:21:44 AM,$CRX:Frequency=0.0MHz
+3/11/2025,7:21:44 AM,$HST:Receiver connected
+3/11/2025,7:21:44 AM,$CRX:Sweeplength=0
+3/11/2025,7:21:44 AM,$CRX:low_band_max=171MHz
+3/11/2025,7:21:44 AM,$CRX:mid_band_max=450MHz
+3/11/2025,7:21:44 AM,$CRX:high_band_max=863MHz
+3/11/2025,7:21:44 AM,$CRX:Idle=0
+3/11/2025,7:21:44 AM,$CRX:V1.8 / 2012-04-02
+3/11/2025,7:21:44 AM,$HST:Found LO=25.43 MHz
+3/11/2025,7:21:44 AM,$CRX:Debug=Off
+3/11/2025,7:21:44 AM,$CRX:Trigger=Intern
+3/11/2025,7:21:44 AM,$CRX:FPUcodex=0
+3/11/2025,7:21:44 AM,$CRX:GS =215
+3/11/2025,7:21:44 AM,$CRX:GA =0
+3/11/2025,7:21:44 AM,$CRX:Delay=0msec
+3/11/2025,7:21:44 AM,$CRX:Frequency=45.0MHz
+3/11/2025,7:21:44 AM,$HST:Receiver connected
+3/11/2025,7:21:44 AM,$CRX:Sweeplength=100
+3/11/2025,7:21:44 AM,$CRX:low_band_max=171MHz
+3/11/2025,7:21:44 AM,$CRX:mid_band_max=450MHz
+3/11/2025,7:21:44 AM,$CRX:high_band_max=863MHz
+3/11/2025,7:21:44 AM,$CRX:Idle=0
+3/11/2025,7:21:47 AM,$HST:File FRQ99995.CFG read
+3/11/2025,7:21:47 AM,$HST:No calibration file found
+3/11/2025,7:21:47 AM,$HST:Plot buffer erased...
+3/11/2025,7:21:47 AM,$HST:Parametrisation RCU
+3/11/2025,7:21:47 AM,$CRX:V1.8 / 2012-04-02
+3/11/2025,7:21:47 AM,$HST:Found LO=25.43 MHz
+3/11/2025,7:21:47 AM,$CRX:Debug=Off
+3/11/2025,7:21:47 AM,$CRX:Trigger=Intern
+3/11/2025,7:21:47 AM,$CRX:FPUcodex=0
+3/11/2025,7:21:47 AM,$CRX:GS =215
+3/11/2025,7:21:47 AM,$CRX:GA =0
+3/11/2025,7:21:47 AM,$CRX:Delay=0msec
+3/11/2025,7:21:47 AM,$CRX:Frequency=45.0MHz
+3/11/2025,7:21:47 AM,$HST:Receiver connected
+3/11/2025,7:21:47 AM,$CRX:Sweeplength=100
+3/11/2025,7:21:47 AM,$CRX:low_band_max=171MHz
+3/11/2025,7:21:47 AM,$CRX:mid_band_max=450MHz
+3/11/2025,7:21:47 AM,$CRX:high_band_max=863MHz
+3/11/2025,7:21:47 AM,$CRX:Idle=0
+3/11/2025,7:21:47 AM,$CRX:V1.8 / 2012-04-02
+3/11/2025,7:21:47 AM,$HST:Found LO=25.43 MHz
+3/11/2025,7:21:47 AM,$CRX:Debug=Off
+3/11/2025,7:21:47 AM,$CRX:Trigger=Intern
+3/11/2025,7:21:47 AM,$CRX:FPUcodex=0
+3/11/2025,7:21:47 AM,$CRX:GS =215
+3/11/2025,7:21:47 AM,$CRX:GA =0
+3/11/2025,7:21:47 AM,$CRX:Delay=0msec
+3/11/2025,7:21:47 AM,$CRX:Frequency=45.0MHz
+3/11/2025,7:21:47 AM,$HST:Receiver connected
+3/11/2025,7:21:47 AM,$CRX:Sweeplength=100
+3/11/2025,7:21:47 AM,$CRX:low_band_max=171MHz
+3/11/2025,7:21:47 AM,$CRX:mid_band_max=450MHz
+3/11/2025,7:21:47 AM,$CRX:high_band_max=863MHz
+3/11/2025,7:21:47 AM,$CRX:Idle=0
+3/11/2025,7:22:03 AM,$HST:Param. RCU due to START
+3/11/2025,7:22:03 AM,$HST:Actual focuscode 01
+3/11/2025,7:22:04 AM,$HST:Enable data transfer
+3/11/2025,7:22:04 AM,$HST:Continuous measurement
+3/11/2025,7:22:04 AM,$CRX:Started
+3/11/2025,7:22:04 AM,$HST:Start new FITS-file
+3/11/2025,7:22:04 AM,$HST:Continous measurement
+3/11/2025,7:24:36 AM,$HST:Yt plot selected
+3/11/2025,7:26:05 AM,$HST:XY plot selected
+3/11/2025,7:26:13 AM,$HST:XYZ plot selected
+3/11/2025,7:37:04 AM,$HST:FITS #1 100rows x 3600cols
+3/11/2025,7:52:04 AM,$HST:FITS #2 100rows x 3600cols
+3/11/2025,8:07:04 AM,$HST:FITS #3 100rows x 3600cols
+3/11/2025,8:22:04 AM,$HST:FITS #4 100rows x 3600cols
+3/11/2025,8:29:58 AM,$HST:Measurement stop
+3/11/2025,8:29:58 AM,$HST:FITS #5 100rows x 1895cols
+3/11/2025,8:29:58 AM,$HST:Measurement wait...
+3/11/2025,8:29:58 AM,$HST:EOT (&) detected
+3/11/2025,8:29:58 AM,$HST:Measurement halted
+3/11/2025,8:29:58 AM,$HST:Measurement stop
+3/11/2025,8:29:58 AM,$CRX:Stopped
+3/11/2025,8:29:59 AM,$HST:Measurement wait...
+3/11/2025,8:29:59 AM,$HST:Measurement halted
+3/11/2025,8:29:59 AM,$HST:Measurement idle
+3/11/2025,8:29:59 AM,$CRX:Stopped
+3/11/2025,8:30:00 AM,$HST:Autostart via scheduler
+3/11/2025,8:30:00 AM,$HST:Param. RCU due to START
+3/11/2025,8:30:00 AM,$HST:Actual focuscode 01
+3/11/2025,8:30:00 AM,$CRX:AGC gain = 2.54V
+3/11/2025,8:30:00 AM,$CRX:Emitter BF199 = 0.10V
+3/11/2025,8:30:00 AM,$CRX:Analog Input = 11.21
+3/11/2025,8:30:00 AM,$HST:Enable data transfer
+3/11/2025,8:30:00 AM,$HST:Continuous measurement
+3/11/2025,8:30:00 AM,$CRX:Started
+3/11/2025,8:30:00 AM,$HST:Start new FITS-file
+3/11/2025,8:30:00 AM,$HST:Continous measurement
+3/11/2025,8:45:00 AM,$HST:FITS #6 100rows x 3600cols
+3/11/2025,9:00:00 AM,$HST:FITS #7 100rows x 3600cols
+3/11/2025,9:15:00 AM,$HST:FITS #8 100rows x 3600cols
+3/11/2025,9:30:00 AM,$HST:FITS #9 100rows x 3600cols
+3/11/2025,9:45:00 AM,$HST:FITS #10 100rows x 3600cols
+3/11/2025,10:00:00 AM,$HST:FITS #11 100rows x 3600cols
+3/11/2025,10:15:00 AM,$HST:FITS #12 100rows x 3600cols
+3/11/2025,10:30:00 AM,$HST:FITS #13 100rows x 3600cols
+3/11/2025,10:45:00 AM,$HST:FITS #14 100rows x 3600cols
+3/11/2025,11:00:00 AM,$HST:FITS #15 100rows x 3600cols
+3/11/2025,11:15:00 AM,$HST:FITS #16 100rows x 3600cols
+3/11/2025,11:30:00 AM,$HST:FITS #17 100rows x 3600cols
+3/11/2025,11:45:00 AM,$HST:FITS #18 100rows x 3600cols
+3/11/2025,12:00:00 PM,$HST:FITS #19 100rows x 3600cols
+3/11/2025,12:15:00 PM,$HST:FITS #20 100rows x 3600cols
+3/11/2025,12:30:00 PM,$HST:FITS #21 100rows x 3600cols
+3/11/2025,12:45:00 PM,$HST:FITS #22 100rows x 3600cols
+3/11/2025,1:00:00 PM,$HST:FITS #23 100rows x 3600cols
+3/11/2025,1:15:01 PM,$HST:FITS #24 100rows x 3600cols
+3/11/2025,1:30:00 PM,$HST:FITS #25 100rows x 3600cols
+3/11/2025,1:45:01 PM,$HST:FITS #26 100rows x 3600cols
+3/11/2025,2:00:01 PM,$HST:FITS #27 100rows x 3600cols
+3/11/2025,2:15:01 PM,$HST:FITS #28 100rows x 3600cols
+3/11/2025,2:29:58 PM,$HST:Measurement stop
+3/11/2025,2:29:58 PM,$HST:FITS #29 100rows x 3588cols
+3/11/2025,2:29:58 PM,$HST:Measurement wait...
+3/11/2025,2:29:58 PM,$HST:EOT (&) detected
+3/11/2025,2:29:58 PM,$HST:Measurement halted
+3/11/2025,2:29:58 PM,$HST:Measurement stop
+3/11/2025,2:29:58 PM,$CRX:Stopped
+3/11/2025,2:29:58 PM,$HST:Measurement wait...
+3/11/2025,2:29:59 PM,$HST:Measurement halted
+3/11/2025,2:29:59 PM,$HST:Measurement idle
+3/11/2025,2:29:59 PM,$CRX:Stopped
+3/11/2025,2:30:00 PM,$HST:Measurement enable
+3/11/2025,2:30:00 PM,$CRX:AGC gain = 2.52V
+3/11/2025,2:30:00 PM,$CRX:Emitter BF199 = 0.10V
+3/11/2025,2:30:00 PM,$CRX:Analog Input = 11.21
+3/11/2025,2:30:01 PM,$HST:No more entries in scheduler.
+3/11/2025,9:29:58 PM,$HST:Measurement stop
+3/11/2025,9:29:58 PM,$HST:Measurement wait...
+3/11/2025,9:29:59 PM,$HST:Measurement halted
+3/11/2025,9:29:59 PM,$HST:Measurement idle
+3/11/2025,9:29:59 PM,$CRX:Stopped
+3/11/2025,9:29:59 PM,$HST:Measurement enable
+3/11/2025,9:29:59 PM,$CRX:AGC gain = 2.67V
+3/11/2025,9:29:59 PM,$CRX:Emitter BF199 = 0.10V
+3/11/2025,9:29:59 PM,$CRX:Analog Input = 11.21
+3/11/2025,9:30:00 PM,$HST:Autostart via scheduler
+3/11/2025,9:30:00 PM,$HST:Param. RCU due to START
+3/11/2025,9:30:00 PM,$HST:Actual focuscode 01
+3/11/2025,9:30:00 PM,$HST:Enable data transfer
+3/11/2025,9:30:00 PM,$HST:Continuous measurement
+3/11/2025,9:30:00 PM,$CRX:Started
+3/11/2025,9:30:00 PM,$HST:Start new FITS-file
+3/11/2025,9:30:00 PM,$HST:Continous measurement
+3/11/2025,9:45:00 PM,$HST:FITS #30 100rows x 3600cols
+3/11/2025,10:00:00 PM,$HST:FITS #31 100rows x 3600cols
+3/11/2025,10:15:00 PM,$HST:FITS #32 100rows x 3600cols
+3/11/2025,10:30:00 PM,$HST:FITS #33 100rows x 3600cols
+3/11/2025,10:45:00 PM,$HST:FITS #34 100rows x 3600cols
+3/11/2025,11:00:00 PM,$HST:FITS #35 100rows x 3600cols
+3/11/2025,11:15:00 PM,$HST:FITS #36 100rows x 3600cols
+3/11/2025,11:30:00 PM,$HST:FITS #37 100rows x 3600cols
+3/11/2025,11:45:00 PM,$HST:FITS #38 100rows x 3600cols
+3/12/2025,12:00:00 AM,$HST:Midnight -> memo cleared
+3/12/2025,12:00:00 AM,$HST:EOF(logfile)

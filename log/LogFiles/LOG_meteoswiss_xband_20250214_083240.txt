@@ -1,0 +1,18 @@
+2/14/2025,8:32:40 AM,$HST:Application just created
+2/14/2025,8:32:40 AM,$HST:SW-version 1.24, e-Callisto
+2/14/2025,8:32:40 AM,$HST:Configurationfile read
+2/14/2025,8:32:40 AM,$HST:Switched to automatic
+2/14/2025,8:32:40 AM,$HST:ATmega16 pre-configured
+2/14/2025,8:32:40 AM,$HST:Frequencyfile frq99995.cfg
+2/14/2025,8:32:40 AM,$HST:Callisto ready now...
+2/14/2025,8:32:41 AM,$HST:Measurement idle
+2/14/2025,8:32:41 AM,$HST:File scheduler.cfg read
+2/14/2025,8:32:41 AM,$HST:Measurement enable
+2/14/2025,8:32:44 AM,$HST:File FRQ99995.CFG read
+2/14/2025,8:32:44 AM,$HST:No calibration file found
+2/14/2025,8:32:44 AM,$HST:Plot buffer erased...
+2/14/2025,8:32:44 AM,$HST:Parametrisation RCU
+2/14/2025,8:32:47 AM,$HST:File FRQ99995.CFG read
+2/14/2025,8:32:47 AM,$HST:No calibration file found
+2/14/2025,8:32:47 AM,$HST:Plot buffer erased...
+2/14/2025,8:32:47 AM,$HST:Parametrisation RCU

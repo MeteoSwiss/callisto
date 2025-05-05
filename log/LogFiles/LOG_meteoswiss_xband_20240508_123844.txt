@@ -1,0 +1,156 @@
+5/8/2024,12:38:44 PM,$HST:Application just created
+5/8/2024,12:38:44 PM,$HST:SW-version 1.24, e-Callisto
+5/8/2024,12:38:44 PM,$HST:Configurationfile read
+5/8/2024,12:38:44 PM,$HST:Switched to automatic
+5/8/2024,12:38:44 PM,$HST:ATmega16 pre-configured
+5/8/2024,12:38:44 PM,$HST:Frequencyfile frq99995.cfg
+5/8/2024,12:38:44 PM,$HST:Callisto ready now...
+5/8/2024,12:38:45 PM,$HST:Measurement idle
+5/8/2024,12:38:45 PM,$HST:File scheduler.cfg read
+5/8/2024,12:38:45 PM,$HST:Measurement enable
+5/8/2024,12:38:45 PM,$CRX:AGC gain = 2.61V
+5/8/2024,12:38:45 PM,$CRX:Emitter BF199 = 0.10V
+5/8/2024,12:38:45 PM,$CRX:Analog Input = 11.23
+5/8/2024,12:38:48 PM,$HST:File FRQ99995.CFG read
+5/8/2024,12:38:48 PM,$HST:No calibration file found
+5/8/2024,12:38:48 PM,$HST:Plot buffer erased...
+5/8/2024,12:38:48 PM,$HST:Parametrisation RCU
+5/8/2024,12:38:48 PM,$CRX:V1.8 / 2012-04-02
+5/8/2024,12:38:48 PM,$HST:Found LO=25.43 MHz
+5/8/2024,12:38:48 PM,$CRX:Debug=Off
+5/8/2024,12:38:48 PM,$CRX:Trigger=Intern
+5/8/2024,12:38:48 PM,$CRX:FPUcodex=1
+5/8/2024,12:38:48 PM,$CRX:GS =215
+5/8/2024,12:38:48 PM,$CRX:GA =0
+5/8/2024,12:38:48 PM,$CRX:Delay=0msec
+5/8/2024,12:38:48 PM,$CRX:Frequency=45.0MHz
+5/8/2024,12:38:48 PM,$HST:Receiver connected
+5/8/2024,12:38:48 PM,$CRX:Sweeplength=100
+5/8/2024,12:38:48 PM,$CRX:low_band_max=171MHz
+5/8/2024,12:38:48 PM,$CRX:mid_band_max=450MHz
+5/8/2024,12:38:48 PM,$CRX:high_band_max=863MHz
+5/8/2024,12:38:48 PM,$CRX:Idle=0
+5/8/2024,12:38:48 PM,$CRX:V1.8 / 2012-04-02
+5/8/2024,12:38:48 PM,$HST:Found LO=25.43 MHz
+5/8/2024,12:38:48 PM,$CRX:Debug=Off
+5/8/2024,12:38:48 PM,$CRX:Trigger=Intern
+5/8/2024,12:38:48 PM,$CRX:FPUcodex=1
+5/8/2024,12:38:48 PM,$CRX:GS =215
+5/8/2024,12:38:48 PM,$CRX:GA =0
+5/8/2024,12:38:48 PM,$CRX:Delay=0msec
+5/8/2024,12:38:48 PM,$CRX:Frequency=45.0MHz
+5/8/2024,12:38:48 PM,$HST:Receiver connected
+5/8/2024,12:38:48 PM,$CRX:Sweeplength=100
+5/8/2024,12:38:48 PM,$CRX:low_band_max=171MHz
+5/8/2024,12:38:48 PM,$CRX:mid_band_max=450MHz
+5/8/2024,12:38:48 PM,$CRX:high_band_max=863MHz
+5/8/2024,12:38:48 PM,$CRX:Idle=0
+5/8/2024,12:38:51 PM,$HST:File FRQ99995.CFG read
+5/8/2024,12:38:51 PM,$HST:No calibration file found
+5/8/2024,12:38:51 PM,$HST:Plot buffer erased...
+5/8/2024,12:38:51 PM,$HST:Parametrisation RCU
+5/8/2024,12:38:51 PM,$CRX:V1.8 / 2012-04-02
+5/8/2024,12:38:51 PM,$HST:Found LO=25.43 MHz
+5/8/2024,12:38:51 PM,$CRX:Debug=Off
+5/8/2024,12:38:51 PM,$CRX:Trigger=Intern
+5/8/2024,12:38:51 PM,$CRX:FPUcodex=1
+5/8/2024,12:38:51 PM,$CRX:GS =215
+5/8/2024,12:38:51 PM,$CRX:GA =0
+5/8/2024,12:38:51 PM,$CRX:Delay=0msec
+5/8/2024,12:38:51 PM,$CRX:Frequency=45.0MHz
+5/8/2024,12:38:51 PM,$HST:Receiver connected
+5/8/2024,12:38:51 PM,$CRX:Sweeplength=100
+5/8/2024,12:38:51 PM,$CRX:low_band_max=171MHz
+5/8/2024,12:38:51 PM,$CRX:mid_band_max=450MHz
+5/8/2024,12:38:51 PM,$CRX:high_band_max=863MHz
+5/8/2024,12:38:51 PM,$CRX:Idle=0
+5/8/2024,12:38:51 PM,$CRX:V1.8 / 2012-04-02
+5/8/2024,12:38:51 PM,$HST:Found LO=25.43 MHz
+5/8/2024,12:38:51 PM,$CRX:Debug=Off
+5/8/2024,12:38:51 PM,$CRX:Trigger=Intern
+5/8/2024,12:38:51 PM,$CRX:FPUcodex=1
+5/8/2024,12:38:51 PM,$CRX:GS =215
+5/8/2024,12:38:51 PM,$CRX:GA =0
+5/8/2024,12:38:51 PM,$CRX:Delay=0msec
+5/8/2024,12:38:51 PM,$CRX:Frequency=45.0MHz
+5/8/2024,12:38:51 PM,$HST:Receiver connected
+5/8/2024,12:38:51 PM,$CRX:Sweeplength=100
+5/8/2024,12:38:51 PM,$CRX:low_band_max=171MHz
+5/8/2024,12:38:51 PM,$CRX:mid_band_max=450MHz
+5/8/2024,12:38:51 PM,$CRX:high_band_max=863MHz
+5/8/2024,12:38:51 PM,$CRX:Idle=0
+5/8/2024,12:38:58 PM,$HST:Param. RCU due to START
+5/8/2024,12:38:58 PM,$HST:Actual focuscode 01
+5/8/2024,12:38:58 PM,$HST:Enable data transfer
+5/8/2024,12:38:58 PM,$HST:Continuous measurement
+5/8/2024,12:38:58 PM,$CRX:Started
+5/8/2024,12:38:59 PM,$HST:Start new FITS-file
+5/8/2024,12:38:59 PM,$HST:Continous measurement
+5/8/2024,12:39:05 PM,$HST:Switched to manual
+5/8/2024,12:39:07 PM,$HST:Measurement stop
+5/8/2024,12:39:07 PM,$HST:FITS #1 100rows x 34cols
+5/8/2024,12:39:07 PM,$HST:Measurement wait...
+5/8/2024,12:39:07 PM,$HST:EOT (&) detected
+5/8/2024,12:39:07 PM,$HST:Measurement halted
+5/8/2024,12:39:08 PM,$HST:Measurement idle
+5/8/2024,12:39:08 PM,$CRX:Stopped
+5/8/2024,12:39:08 PM,$HST:Measurement enable
+5/8/2024,12:39:08 PM,$CRX:AGC gain = 2.44V
+5/8/2024,12:39:08 PM,$CRX:Emitter BF199 = 0.10V
+5/8/2024,12:39:08 PM,$CRX:Analog Input = 11.23
+5/8/2024,12:39:13 PM,$HST:Manual frequencyfile sel.
+5/8/2024,12:39:16 PM,$HST:File c:\callisto-01\application\FRQ99995.CFG read
+5/8/2024,12:39:16 PM,$HST:No calibration file found
+5/8/2024,12:39:16 PM,$HST:Plot buffer erased...
+5/8/2024,12:39:16 PM,$HST:Parametrisation RCU
+5/8/2024,12:39:16 PM,$CRX:V1.8 / 2012-04-02
+5/8/2024,12:39:16 PM,$HST:Found LO=25.43 MHz
+5/8/2024,12:39:16 PM,$CRX:Debug=Off
+5/8/2024,12:39:16 PM,$CRX:Trigger=Intern
+5/8/2024,12:39:16 PM,$CRX:FPUcodex=1
+5/8/2024,12:39:16 PM,$CRX:GS =215
+5/8/2024,12:39:16 PM,$CRX:GA =0
+5/8/2024,12:39:16 PM,$CRX:Delay=0msec
+5/8/2024,12:39:16 PM,$CRX:Frequency=45.0MHz
+5/8/2024,12:39:16 PM,$HST:Receiver connected
+5/8/2024,12:39:16 PM,$CRX:Sweeplength=100
+5/8/2024,12:39:16 PM,$CRX:low_band_max=171MHz
+5/8/2024,12:39:16 PM,$CRX:mid_band_max=450MHz
+5/8/2024,12:39:16 PM,$CRX:high_band_max=863MHz
+5/8/2024,12:39:16 PM,$CRX:Idle=0
+5/8/2024,12:39:16 PM,$CRX:V1.8 / 2012-04-02
+5/8/2024,12:39:16 PM,$HST:Found LO=25.43 MHz
+5/8/2024,12:39:16 PM,$CRX:Debug=Off
+5/8/2024,12:39:16 PM,$CRX:Trigger=Intern
+5/8/2024,12:39:16 PM,$CRX:FPUcodex=1
+5/8/2024,12:39:16 PM,$CRX:GS =215
+5/8/2024,12:39:16 PM,$CRX:GA =0
+5/8/2024,12:39:16 PM,$CRX:Delay=0msec
+5/8/2024,12:39:16 PM,$CRX:Frequency=45.0MHz
+5/8/2024,12:39:16 PM,$HST:Receiver connected
+5/8/2024,12:39:16 PM,$CRX:Sweeplength=100
+5/8/2024,12:39:16 PM,$CRX:low_band_max=171MHz
+5/8/2024,12:39:16 PM,$CRX:mid_band_max=450MHz
+5/8/2024,12:39:16 PM,$CRX:high_band_max=863MHz
+5/8/2024,12:39:16 PM,$CRX:Idle=0
+5/8/2024,12:39:20 PM,$HST:Param. RCU due to START
+5/8/2024,12:39:20 PM,$HST:Actual focuscode 01
+5/8/2024,12:39:20 PM,$HST:Enable data transfer
+5/8/2024,12:39:20 PM,$HST:Continuous measurement
+5/8/2024,12:39:20 PM,$CRX:Started
+5/8/2024,12:39:21 PM,$HST:Start new FITS-file
+5/8/2024,12:39:21 PM,$HST:Continous measurement
+5/8/2024,12:39:45 PM,$HST:Yt plot selected
+5/8/2024,12:41:00 PM,$HST:Measurement stop
+5/8/2024,12:41:00 PM,$HST:FITS #2 100rows x 397cols
+5/8/2024,12:41:00 PM,$HST:Measurement wait...
+5/8/2024,12:41:00 PM,$HST:EOT (&) detected
+5/8/2024,12:41:00 PM,$HST:Measurement halted
+5/8/2024,12:41:00 PM,$HST:Measurement idle
+5/8/2024,12:41:00 PM,$CRX:Stopped
+5/8/2024,12:41:01 PM,$HST:Measurement enable
+5/8/2024,12:41:01 PM,$CRX:AGC gain = 2.44V
+5/8/2024,12:41:01 PM,$CRX:Emitter BF199 = 0.10V
+5/8/2024,12:41:01 PM,$CRX:Analog Input = 11.23
+5/8/2024,12:42:39 PM,$HST:All threads terminated
+5/8/2024,12:42:39 PM,$HST:This application closed

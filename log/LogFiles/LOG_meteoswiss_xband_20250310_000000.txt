@@ -1,0 +1,41 @@
+3/10/2025,12:00:00 AM,$HST:STX(logfile)
+3/10/2025,8:29:58 AM,$HST:Measurement stop
+3/10/2025,8:29:58 AM,$HST:Measurement wait...
+3/10/2025,8:29:59 AM,$HST:Measurement halted
+3/10/2025,8:29:59 AM,$HST:Measurement idle
+3/10/2025,8:29:59 AM,$CRX:Stopped
+3/10/2025,8:29:59 AM,$HST:Measurement enable
+3/10/2025,8:29:59 AM,$CRX:AGC gain = 2.59V
+3/10/2025,8:29:59 AM,$CRX:Emitter BF199 = 0.10V
+3/10/2025,8:29:59 AM,$CRX:Analog Input = 11.21
+3/10/2025,8:30:00 AM,$HST:Autostart via scheduler
+3/10/2025,8:30:00 AM,$HST:Param. RCU due to START
+3/10/2025,8:30:00 AM,$HST:Actual focuscode 01
+3/10/2025,8:30:00 AM,$HST:Enable data transfer
+3/10/2025,8:30:00 AM,$HST:Continuous measurement
+3/10/2025,8:30:00 AM,$CRX:Started
+3/10/2025,8:30:00 AM,$HST:Start new FITS-file
+3/10/2025,8:30:00 AM,$HST:Continous measurement
+3/10/2025,8:45:00 AM,$HST:FITS #1 100rows x 3600cols
+3/10/2025,9:00:00 AM,$HST:FITS #2 100rows x 3600cols
+3/10/2025,9:15:00 AM,$HST:FITS #3 100rows x 3600cols
+3/10/2025,9:30:00 AM,$HST:FITS #4 100rows x 3600cols
+3/10/2025,9:45:00 AM,$HST:FITS #5 100rows x 3600cols
+3/10/2025,10:00:00 AM,$HST:FITS #6 100rows x 3600cols
+3/10/2025,10:15:00 AM,$HST:FITS #7 100rows x 3600cols
+3/10/2025,10:30:00 AM,$HST:FITS #8 100rows x 3600cols
+3/10/2025,10:45:00 AM,$HST:FITS #9 100rows x 3601cols
+3/10/2025,10:45:03 AM,$HST:Auto stop due to data loss.
+3/10/2025,10:45:03 AM,$HST:Measurement stop
+3/10/2025,10:45:04 AM,$HST:Measurement wait...
+3/10/2025,10:45:04 AM,$HST:Measurement halted
+3/10/2025,10:45:04 AM,$HST:Measurement idle
+3/10/2025,10:45:04 AM,$HST:Measurement enable
+3/10/2025,10:45:04 AM,$HST:FITS #10 100rows x 12cols
+3/10/2025,10:45:04 AM,$HST:EOT (&) detected
+3/10/2025,10:45:04 AM,$CRX:Stopped
+3/10/2025,10:45:04 AM,$CRX:AGC gain = 2.70V
+3/10/2025,10:45:04 AM,$CRX:Emitter BF199 = 0.10V
+3/10/2025,10:45:04 AM,$CRX:Analog Input = 11.21
+3/10/2025,10:45:06 AM,$HST:Check RS232-connection!
+3/10/2025,10:45:09 AM,$HST:Attempting Auto-Start

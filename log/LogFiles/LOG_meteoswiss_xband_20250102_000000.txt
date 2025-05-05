@@ -1,0 +1,58 @@
+1/2/2025,12:00:00 AM,$HST:STX(logfile)
+1/2/2025,8:29:58 AM,$HST:Measurement stop
+1/2/2025,8:29:58 AM,$HST:Measurement wait...
+1/2/2025,8:29:59 AM,$HST:Measurement halted
+1/2/2025,8:29:59 AM,$HST:Measurement idle
+1/2/2025,8:29:59 AM,$CRX:Stopped
+1/2/2025,8:29:59 AM,$HST:Measurement enable
+1/2/2025,8:29:59 AM,$CRX:AGC gain = 2.62V
+1/2/2025,8:29:59 AM,$CRX:Emitter BF199 = 0.10V
+1/2/2025,8:29:59 AM,$CRX:Analog Input = 11.23
+1/2/2025,8:30:00 AM,$HST:Autostart via scheduler
+1/2/2025,8:30:00 AM,$HST:Param. RCU due to START
+1/2/2025,8:30:00 AM,$HST:Actual focuscode 01
+1/2/2025,8:30:00 AM,$HST:Enable data transfer
+1/2/2025,8:30:00 AM,$HST:Continuous measurement
+1/2/2025,8:30:00 AM,$CRX:Started
+1/2/2025,8:30:00 AM,$HST:Start new FITS-file
+1/2/2025,8:30:00 AM,$HST:Continous measurement
+1/2/2025,8:45:00 AM,$HST:FITS #1 100rows x 3600cols
+1/2/2025,9:00:00 AM,$HST:FITS #2 100rows x 3600cols
+1/2/2025,9:15:00 AM,$HST:FITS #3 100rows x 3600cols
+1/2/2025,9:30:00 AM,$HST:FITS #4 100rows x 3600cols
+1/2/2025,9:45:00 AM,$HST:FITS #5 100rows x 3600cols
+1/2/2025,10:00:00 AM,$HST:FITS #6 100rows x 3600cols
+1/2/2025,10:15:01 AM,$HST:FITS #7 100rows x 3600cols
+1/2/2025,10:30:01 AM,$HST:FITS #8 100rows x 3600cols
+1/2/2025,10:45:01 AM,$HST:FITS #9 100rows x 3600cols
+1/2/2025,11:00:00 AM,$HST:FITS #10 100rows x 3600cols
+1/2/2025,11:15:01 AM,$HST:FITS #11 100rows x 3600cols
+1/2/2025,11:30:01 AM,$HST:FITS #12 100rows x 3600cols
+1/2/2025,11:45:01 AM,$HST:FITS #13 100rows x 3600cols
+1/2/2025,12:00:01 PM,$HST:FITS #14 100rows x 3600cols
+1/2/2025,12:15:01 PM,$HST:FITS #15 100rows x 3600cols
+1/2/2025,12:30:01 PM,$HST:FITS #16 100rows x 3600cols
+1/2/2025,12:45:01 PM,$HST:FITS #17 100rows x 3600cols
+1/2/2025,1:00:01 PM,$HST:FITS #18 100rows x 3600cols
+1/2/2025,1:15:01 PM,$HST:FITS #19 100rows x 3600cols
+1/2/2025,1:30:01 PM,$HST:FITS #20 100rows x 3600cols
+1/2/2025,1:45:01 PM,$HST:FITS #21 100rows x 3600cols
+1/2/2025,2:00:01 PM,$HST:FITS #22 100rows x 3600cols
+1/2/2025,2:15:01 PM,$HST:FITS #23 100rows x 3600cols
+1/2/2025,2:29:58 PM,$HST:Measurement stop
+1/2/2025,2:29:58 PM,$HST:FITS #24 100rows x 3587cols
+1/2/2025,2:29:58 PM,$HST:Measurement wait...
+1/2/2025,2:29:58 PM,$HST:EOT (&) detected
+1/2/2025,2:29:58 PM,$HST:Measurement halted
+1/2/2025,2:29:58 PM,$HST:Measurement stop
+1/2/2025,2:29:58 PM,$CRX:Stopped
+1/2/2025,2:29:59 PM,$HST:Measurement wait...
+1/2/2025,2:29:59 PM,$HST:Measurement halted
+1/2/2025,2:30:00 PM,$HST:Measurement idle
+1/2/2025,2:30:00 PM,$CRX:Stopped
+1/2/2025,2:30:00 PM,$HST:Measurement enable
+1/2/2025,2:30:00 PM,$CRX:AGC gain = 2.56V
+1/2/2025,2:30:00 PM,$CRX:Emitter BF199 = 0.10V
+1/2/2025,2:30:00 PM,$CRX:Analog Input = 11.23
+1/3/2025,12:00:00 AM,$HST:Midnight -> memo cleared
+1/3/2025,12:00:00 AM,$HST:EOF(logfile)

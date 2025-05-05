@@ -1,0 +1,132 @@
+10/7/2024,10:49:03 AM,$HST:Application just created
+10/7/2024,10:49:03 AM,$HST:SW-version 1.24, e-Callisto
+10/7/2024,10:49:03 AM,$HST:Configurationfile read
+10/7/2024,10:49:03 AM,$HST:Switched to automatic
+10/7/2024,10:49:03 AM,$HST:ATmega16 pre-configured
+10/7/2024,10:49:03 AM,$HST:Frequencyfile frq99995.cfg
+10/7/2024,10:49:03 AM,$HST:Callisto ready now...
+10/7/2024,10:49:04 AM,$HST:Measurement idle
+10/7/2024,10:49:04 AM,$HST:File scheduler.cfg read
+10/7/2024,10:49:04 AM,$HST:Measurement enable
+10/7/2024,10:49:04 AM,$CRX:AGC gain = 2.65V
+10/7/2024,10:49:04 AM,$CRX:Emitter BF199 = 0.10V
+10/7/2024,10:49:04 AM,$CRX:Analog Input = 11.19
+10/7/2024,10:49:06 AM,$HST:File FRQ99995.CFG read
+10/7/2024,10:49:06 AM,$HST:No calibration file found
+10/7/2024,10:49:06 AM,$HST:Plot buffer erased...
+10/7/2024,10:49:06 AM,$HST:Parametrisation RCU
+10/7/2024,10:49:06 AM,$CRX:V1.8 / 2012-04-02
+10/7/2024,10:49:06 AM,$HST:Found LO=25.43 MHz
+10/7/2024,10:49:06 AM,$CRX:Debug=Off
+10/7/2024,10:49:06 AM,$CRX:Trigger=Intern
+10/7/2024,10:49:06 AM,$CRX:FPUcodex=1
+10/7/2024,10:49:06 AM,$CRX:GS =215
+10/7/2024,10:49:06 AM,$CRX:GA =0
+10/7/2024,10:49:06 AM,$CRX:Delay=0msec
+10/7/2024,10:49:06 AM,$CRX:Frequency=45.0MHz
+10/7/2024,10:49:06 AM,$HST:Receiver connected
+10/7/2024,10:49:06 AM,$CRX:Sweeplength=100
+10/7/2024,10:49:06 AM,$CRX:low_band_max=171MHz
+10/7/2024,10:49:06 AM,$CRX:mid_band_max=450MHz
+10/7/2024,10:49:06 AM,$CRX:high_band_max=863MHz
+10/7/2024,10:49:06 AM,$CRX:Idle=0
+10/7/2024,10:49:06 AM,$CRX:V1.8 / 2012-04-02
+10/7/2024,10:49:06 AM,$HST:Found LO=25.43 MHz
+10/7/2024,10:49:06 AM,$CRX:Debug=Off
+10/7/2024,10:49:06 AM,$CRX:Trigger=Intern
+10/7/2024,10:49:06 AM,$CRX:FPUcodex=1
+10/7/2024,10:49:06 AM,$CRX:GS =215
+10/7/2024,10:49:06 AM,$CRX:GA =0
+10/7/2024,10:49:06 AM,$CRX:Delay=0msec
+10/7/2024,10:49:06 AM,$CRX:Frequency=45.0MHz
+10/7/2024,10:49:06 AM,$HST:Receiver connected
+10/7/2024,10:49:06 AM,$CRX:Sweeplength=100
+10/7/2024,10:49:06 AM,$CRX:low_band_max=171MHz
+10/7/2024,10:49:06 AM,$CRX:mid_band_max=450MHz
+10/7/2024,10:49:06 AM,$CRX:high_band_max=863MHz
+10/7/2024,10:49:06 AM,$CRX:Idle=0
+10/7/2024,10:49:09 AM,$HST:File FRQ99995.CFG read
+10/7/2024,10:49:09 AM,$HST:No calibration file found
+10/7/2024,10:49:09 AM,$HST:Plot buffer erased...
+10/7/2024,10:49:09 AM,$HST:Parametrisation RCU
+10/7/2024,10:49:09 AM,$CRX:V1.8 / 2012-04-02
+10/7/2024,10:49:09 AM,$HST:Found LO=25.43 MHz
+10/7/2024,10:49:09 AM,$CRX:Debug=Off
+10/7/2024,10:49:09 AM,$CRX:Trigger=Intern
+10/7/2024,10:49:09 AM,$CRX:FPUcodex=1
+10/7/2024,10:49:09 AM,$CRX:GS =215
+10/7/2024,10:49:09 AM,$CRX:GA =0
+10/7/2024,10:49:09 AM,$CRX:Delay=0msec
+10/7/2024,10:49:09 AM,$CRX:Frequency=45.0MHz
+10/7/2024,10:49:09 AM,$HST:Receiver connected
+10/7/2024,10:49:09 AM,$CRX:Sweeplength=100
+10/7/2024,10:49:09 AM,$CRX:low_band_max=171MHz
+10/7/2024,10:49:09 AM,$CRX:mid_band_max=450MHz
+10/7/2024,10:49:09 AM,$CRX:high_band_max=863MHz
+10/7/2024,10:49:09 AM,$CRX:Idle=0
+10/7/2024,10:49:09 AM,$CRX:V1.8 / 2012-04-02
+10/7/2024,10:49:09 AM,$HST:Found LO=25.43 MHz
+10/7/2024,10:49:09 AM,$CRX:Debug=Off
+10/7/2024,10:49:09 AM,$CRX:Trigger=Intern
+10/7/2024,10:49:09 AM,$CRX:FPUcodex=1
+10/7/2024,10:49:09 AM,$CRX:GS =215
+10/7/2024,10:49:09 AM,$CRX:GA =0
+10/7/2024,10:49:09 AM,$CRX:Delay=0msec
+10/7/2024,10:49:09 AM,$CRX:Frequency=45.0MHz
+10/7/2024,10:49:09 AM,$HST:Receiver connected
+10/7/2024,10:49:09 AM,$CRX:Sweeplength=100
+10/7/2024,10:49:09 AM,$CRX:low_band_max=171MHz
+10/7/2024,10:49:09 AM,$CRX:mid_band_max=450MHz
+10/7/2024,10:49:09 AM,$CRX:high_band_max=863MHz
+10/7/2024,10:49:09 AM,$CRX:Idle=0
+10/7/2024,10:49:17 AM,$HST:Yt plot selected
+10/7/2024,10:49:25 AM,$HST:XYZ plot selected
+10/7/2024,10:59:58 AM,$HST:Measurement stop
+10/7/2024,10:59:58 AM,$HST:Measurement wait...
+10/7/2024,10:59:59 AM,$HST:Measurement halted
+10/7/2024,10:59:59 AM,$HST:Measurement idle
+10/7/2024,10:59:59 AM,$CRX:Stopped
+10/7/2024,10:59:59 AM,$HST:Measurement enable
+10/7/2024,10:59:59 AM,$CRX:AGC gain = 2.64V
+10/7/2024,10:59:59 AM,$CRX:Emitter BF199 = 0.10V
+10/7/2024,10:59:59 AM,$CRX:Analog Input = 11.19
+10/7/2024,11:00:00 AM,$HST:Autostart via scheduler
+10/7/2024,11:00:00 AM,$HST:Param. RCU due to START
+10/7/2024,11:00:00 AM,$HST:Actual focuscode 01
+10/7/2024,11:00:00 AM,$HST:Enable data transfer
+10/7/2024,11:00:00 AM,$HST:Continuous measurement
+10/7/2024,11:00:00 AM,$CRX:Started
+10/7/2024,11:00:00 AM,$HST:Start new FITS-file
+10/7/2024,11:00:00 AM,$HST:Continous measurement
+10/7/2024,11:15:00 AM,$HST:FITS #1 100rows x 3600cols
+10/7/2024,11:30:00 AM,$HST:FITS #2 100rows x 3600cols
+10/7/2024,11:45:01 AM,$HST:FITS #3 100rows x 3600cols
+10/7/2024,11:49:54 AM,$HST:XY plot selected
+10/7/2024,12:00:00 PM,$HST:FITS #4 100rows x 3600cols
+10/7/2024,12:15:00 PM,$HST:FITS #5 100rows x 3600cols
+10/7/2024,12:30:00 PM,$HST:FITS #6 100rows x 3600cols
+10/7/2024,12:45:01 PM,$HST:FITS #7 100rows x 3600cols
+10/7/2024,1:00:01 PM,$HST:FITS #8 100rows x 3600cols
+10/7/2024,1:15:00 PM,$HST:FITS #9 100rows x 3600cols
+10/7/2024,1:30:00 PM,$HST:FITS #10 100rows x 3600cols
+10/7/2024,1:45:01 PM,$HST:FITS #11 100rows x 3600cols
+10/7/2024,2:00:01 PM,$HST:FITS #12 100rows x 3600cols
+10/7/2024,2:15:01 PM,$HST:FITS #13 100rows x 3600cols
+10/7/2024,2:29:58 PM,$HST:Measurement stop
+10/7/2024,2:29:58 PM,$HST:FITS #14 100rows x 3588cols
+10/7/2024,2:29:58 PM,$HST:Measurement wait...
+10/7/2024,2:29:58 PM,$HST:EOT (&) detected
+10/7/2024,2:29:58 PM,$HST:Measurement halted
+10/7/2024,2:29:58 PM,$HST:Measurement stop
+10/7/2024,2:29:58 PM,$CRX:Stopped
+10/7/2024,2:29:58 PM,$HST:Measurement wait...
+10/7/2024,2:29:59 PM,$HST:Measurement halted
+10/7/2024,2:29:59 PM,$HST:Measurement idle
+10/7/2024,2:29:59 PM,$CRX:Stopped
+10/7/2024,2:30:00 PM,$HST:Measurement enable
+10/7/2024,2:30:00 PM,$CRX:AGC gain = 2.51V
+10/7/2024,2:30:00 PM,$CRX:Emitter BF199 = 0.10V
+10/7/2024,2:30:00 PM,$CRX:Analog Input = 11.21
+10/7/2024,2:30:01 PM,$HST:No more entries in scheduler.
+10/8/2024,12:00:00 AM,$HST:Midnight -> memo cleared
+10/8/2024,12:00:00 AM,$HST:EOF(logfile)

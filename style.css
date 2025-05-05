@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f7f7f7;
+}
+#viewer {
+  margin-top: 20px;
+}
+img {
+  width: 90%;
+  max-width: 1000px;
+  border: 1px solid #ccc;
+}
+button {
+  font-size: 1.5em;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: green;
+}
+
+.plotdiv {
+	margin: 0px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#83d383;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}

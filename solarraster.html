@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Solar Flux Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topnav">
+  <a href="index.html">Daily quicklooks</a>
+  <a href="timeseries.html">Timeseries</a>
+  <a href="solarraster.html">Solar raster scan</a>
+</div>
+
+  <h2>Solar raster scans</h2>
+  <div id="viewer">
+    <button onclick="prevImage()">←</button>
+    <img id="plot" src="" alt="Plot">
+    <button onclick="nextImage()">→</button>
+  </div>
+  <script src="main.js"></script>
+  <script>loadPage("solar_raster")</script>
+</body>
+</html>
+

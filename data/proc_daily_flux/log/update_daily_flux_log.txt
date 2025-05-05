@@ -1,0 +1,900 @@
+
+2025-01-31 15:00:03 - Successfully run
+************************************************
+
+2025-02-01 15:00:03 - Successfully run
+************************************************
+
+2025-02-02 15:00:03 - Successfully run
+************************************************
+
+2025-02-03 15:00:03 - Successfully run
+************************************************
+
+2025-02-03 15:31:24 - Successfully run
+************************************************
+
+2025-02-03 15:35:04 - Successfully run
+************************************************
+
+2025-02-03 15:40:35 - Successfully run
+************************************************
+
+2025-02-03 15:47:25 - Successfully run
+************************************************
+
+2025-02-04 15:00:03 - Successfully run
+************************************************
+
+2025-02-05 15:00:03 - Successfully run
+************************************************
+
+2025-02-06 15:00:03 - Successfully run
+************************************************
+
+2025-02-07 15:00:03 - Successfully run
+************************************************
+
+2025-02-08 15:00:03 - Successfully run
+************************************************
+
+2025-02-09 15:00:03 - Successfully run
+************************************************
+
+2025-02-10 09:13:49 - Successfully run
+************************************************
+
+2025-02-10 15:00:03 - Successfully run
+************************************************
+
+2025-02-11 15:00:03 - Successfully run
+************************************************
+
+2025-02-12 15:00:03 - Successfully run
+************************************************
+
+2025-02-13 15:00:02 - Successfully run
+************************************************
+
+2025-02-14 15:00:04 - Successfully run
+************************************************
+
+2025-02-15 15:00:03 - Successfully run
+************************************************
+
+2025-02-16 15:00:03 - Successfully run
+************************************************
+
+2025-02-17 15:00:03 - Successfully run
+************************************************
+
+2025-02-18 15:00:03 - Successfully run
+************************************************
+
+2025-02-19 15:00:03 - Successfully run
+************************************************
+
+2025-02-20 15:00:03 - Successfully run
+************************************************
+
+2025-02-21 15:00:03 - Successfully run
+************************************************
+
+2025-02-22 15:00:02 - Successfully run
+************************************************
+
+2025-02-23 15:00:03 - Successfully run
+************************************************
+
+2025-02-24 15:00:03 - Successfully run
+************************************************
+
+2025-02-25 15:00:03 - Successfully run
+************************************************
+
+2025-02-26 15:00:03 - Successfully run
+************************************************
+
+2025-02-27 15:00:03 - Successfully run
+************************************************
+
+2025-02-28 15:00:03 - Successfully run
+************************************************
+
+2025-03-01 15:00:03 - Successfully run
+************************************************
+
+2025-03-02 15:00:03 - Successfully run
+************************************************
+
+2025-03-03 15:00:03 - Successfully run
+************************************************
+
+2025-03-04 15:00:03 - Successfully run
+************************************************
+
+2025-03-05 15:00:03 - Successfully run
+************************************************
+
+2025-03-06 15:00:03 - Successfully run
+************************************************
+
+2025-03-07 15:00:03 - Successfully run
+************************************************
+
+2025-03-08 15:00:03 - Successfully run
+************************************************
+
+2025-03-09 15:00:03 - Successfully run
+************************************************
+
+2025-03-10 15:00:02 - Successfully run
+************************************************
+
+2025-03-11 15:00:04 - Successfully run
+************************************************
+
+2025-03-12 15:00:02 - Successfully run
+************************************************
+
+2025-03-13 14:30:23 - Error: min() iterable argument is empty
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 644, in <module>
+    sfu_m = processFIT_returnSFU(path_fitfile, this_date, mean_Thot_morning, total_precip_morning, in_freq)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 222, in processFIT_returnSFU
+    azi_Tcold, elev_Tcold = get_AziElev_Tcold(time_Tcold)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\tools\get_coord_Tcold.py", line 91, in get_AziElev_Tcold
+    idx = diff.index(min(diff))
+                     ^^^^^^^^^
+ValueError: min() iterable argument is empty
+
+************************************************
+
+2025-03-13 15:00:01 - Error: min() iterable argument is empty
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 644, in <module>
+    sfu_m = processFIT_returnSFU(path_fitfile, this_date, mean_Thot_morning, total_precip_morning, in_freq)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 222, in processFIT_returnSFU
+    azi_Tcold, elev_Tcold = get_AziElev_Tcold(time_Tcold)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\tools\get_coord_Tcold.py", line 91, in get_AziElev_Tcold
+    idx = diff.index(min(diff))
+                     ^^^^^^^^^
+ValueError: min() iterable argument is empty
+
+************************************************
+
+2025-03-14 15:00:02 - Error: min() iterable argument is empty
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 644, in <module>
+    sfu_m = processFIT_returnSFU(path_fitfile, this_date, mean_Thot_morning, total_precip_morning, in_freq)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 222, in processFIT_returnSFU
+    azi_Tcold, elev_Tcold = get_AziElev_Tcold(time_Tcold)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\tools\get_coord_Tcold.py", line 91, in get_AziElev_Tcold
+    idx = diff.index(min(diff))
+                     ^^^^^^^^^
+ValueError: min() iterable argument is empty
+
+************************************************
+
+2025-03-15 15:00:01 - Error: min() iterable argument is empty
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 644, in <module>
+    sfu_m = processFIT_returnSFU(path_fitfile, this_date, mean_Thot_morning, total_precip_morning, in_freq)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 222, in processFIT_returnSFU
+    azi_Tcold, elev_Tcold = get_AziElev_Tcold(time_Tcold)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\tools\get_coord_Tcold.py", line 91, in get_AziElev_Tcold
+    idx = diff.index(min(diff))
+                     ^^^^^^^^^
+ValueError: min() iterable argument is empty
+
+************************************************
+
+2025-03-16 15:00:01 - Error: min() iterable argument is empty
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 644, in <module>
+    sfu_m = processFIT_returnSFU(path_fitfile, this_date, mean_Thot_morning, total_precip_morning, in_freq)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 222, in processFIT_returnSFU
+    azi_Tcold, elev_Tcold = get_AziElev_Tcold(time_Tcold)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\tools\get_coord_Tcold.py", line 91, in get_AziElev_Tcold
+    idx = diff.index(min(diff))
+                     ^^^^^^^^^
+ValueError: min() iterable argument is empty
+
+************************************************
+
+2025-03-17 10:54:39 - Error: min() iterable argument is empty
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 644, in <module>
+    sfu_m = processFIT_returnSFU(path_fitfile, this_date, mean_Thot_morning, total_precip_morning, in_freq)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 222, in processFIT_returnSFU
+    azi_Tcold, elev_Tcold = get_AziElev_Tcold(time_Tcold)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\tools\get_coord_Tcold.py", line 91, in get_AziElev_Tcold
+    idx = diff.index(min(diff))
+                     ^^^^^^^^^
+ValueError: min() iterable argument is empty
+
+************************************************
+
+2025-03-17 11:17:37 - No calibration found for the file at 09:00:00.733. Ssun flux set at -9999
+2025-03-17 11:17:37 - Error: 'int' object is not iterable
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 658, in <module>
+    sfu_morning.extend(sfu_m)
+TypeError: 'int' object is not iterable
+
+************************************************
+
+2025-03-17 11:21:26 - No calibration found for the file at 09:00:00.733. Ssun flux set at -9999
+2025-03-17 11:21:26 - No calibration found for the file at 09:15:00.752. Ssun flux set at -9999
+2025-03-17 11:21:26 - No calibration found for the file at 09:30:00.858. Ssun flux set at -9999
+2025-03-17 11:21:26 - No calibration found for the file at 09:45:00.839. Ssun flux set at -9999
+2025-03-17 11:21:26 - No calibration found for the file at 11:00:01.012. Ssun flux set at -9999
+2025-03-17 11:21:26 - No calibration found for the file at 11:15:00.966. Ssun flux set at -9999
+2025-03-17 11:21:26 - No calibration found for the file at 11:30:00.903. Ssun flux set at -9999
+2025-03-17 11:21:26 - No calibration found for the file at 11:45:01.107. Ssun flux set at -9999
+2025-03-17 11:21:26 - No calibration found for the file at 13:00:01.199. Ssun flux set at -9999
+2025-03-17 11:21:26 - No calibration found for the file at 13:15:01.182. Ssun flux set at -9999
+2025-03-17 11:21:26 - No calibration found for the file at 13:30:01.169. Ssun flux set at -9999
+2025-03-17 11:21:26 - No calibration found for the file at 13:45:01.287. Ssun flux set at -9999
+2025-03-17 11:21:29 - Successfully run
+************************************************
+
+2025-03-17 11:22:30 - Successfully run
+************************************************
+
+2025-03-17 11:46:51 - Error: '>=' not supported between instances of 'list' and 'int'
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 658, in <module>
+    comment_morning = get_comment(sfu_morning, total_precip_morning)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 278, in get_comment
+    if sfu >= -9998 and sfu <= -10000: comment = 'No calibration!'
+       ^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'list' and 'int'
+
+************************************************
+
+2025-03-17 11:50:31 - No calibration found for the file on 2025-03-13 at 09:00:00.733. Solar flux set to -9999
+2025-03-17 11:50:31 - No calibration found for the file on 2025-03-13 at 09:15:00.752. Solar flux set to -9999
+2025-03-17 11:50:31 - No calibration found for the file on 2025-03-13 at 09:30:00.858. Solar flux set to -9999
+2025-03-17 11:50:31 - No calibration found for the file on 2025-03-13 at 09:45:00.839. Solar flux set to -9999
+2025-03-17 11:50:31 - No calibration found for the file on 2025-03-13 at 11:00:01.012. Solar flux set to -9999
+2025-03-17 11:50:31 - No calibration found for the file on 2025-03-13 at 11:15:00.966. Solar flux set to -9999
+2025-03-17 11:50:31 - No calibration found for the file on 2025-03-13 at 11:30:00.903. Solar flux set to -9999
+2025-03-17 11:50:31 - No calibration found for the file on 2025-03-13 at 11:45:01.107. Solar flux set to -9999
+2025-03-17 11:50:31 - No calibration found for the file on 2025-03-13 at 13:00:01.199. Solar flux set to -9999
+2025-03-17 11:50:31 - No calibration found for the file on 2025-03-13 at 13:15:01.182. Solar flux set to -9999
+2025-03-17 11:50:31 - No calibration found for the file on 2025-03-13 at 13:30:01.169. Solar flux set to -9999
+2025-03-17 11:50:31 - No calibration found for the file on 2025-03-13 at 13:45:01.287. Solar flux set to -9999
+2025-03-17 11:50:33 - Successfully run
+************************************************
+
+2025-03-17 15:00:02 - Successfully run
+************************************************
+
+2025-03-18 15:00:03 - Successfully run
+************************************************
+
+2025-03-19 15:00:03 - Successfully run
+************************************************
+
+2025-03-20 15:00:03 - Successfully run
+************************************************
+
+2025-03-21 15:00:02 - Successfully run
+************************************************
+
+2025-03-22 15:00:03 - Successfully run
+************************************************
+
+2025-03-23 15:00:03 - Successfully run
+************************************************
+
+2025-03-24 15:00:03 - Successfully run
+************************************************
+
+2025-03-25 15:00:02 - Successfully run
+************************************************
+
+2025-03-26 15:00:03 - Successfully run
+************************************************
+
+2025-03-27 15:00:03 - Successfully run
+************************************************
+
+2025-03-28 13:44:41 - Error: 'datetime.date' object has no attribute 'date'
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 778, in <module>
+    c_morning, c_noon, c_afternoon = get_correction_factor(directory_offsets, this_date)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 611, in get_correction_factor
+    time_scan_morning = pd.to_datetime(str(date.date()) + '08:59:00')
+                                           ^^^^^^^^^
+AttributeError: 'datetime.date' object has no attribute 'date'
+
+************************************************
+
+2025-03-28 13:45:12 - Error: 'datetime.date' object has no attribute 'date'
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 778, in <module>
+    c_morning, c_noon, c_afternoon = get_correction_factor(directory_offsets, this_date)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 611, in get_correction_factor
+    time_scan_morning = pd.to_datetime(str(date.date()) + '08:59:00')
+                                           ^^^^^^^^^
+AttributeError: 'datetime.date' object has no attribute 'date'
+
+************************************************
+
+2025-03-28 13:46:48 - Error: Unknown datetime string format, unable to parse: 2025-03-2808:59:00, at position 0
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 780, in <module>
+    c_morning, c_noon, c_afternoon = get_correction_factor(directory_offsets, this_date)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 613, in get_correction_factor
+    time_scan_morning = pd.to_datetime(str(date.date()) + '08:59:00')
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\tools\datetimes.py", line 1101, in to_datetime
+    result = convert_listlike(np.array([arg]), format)[0]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\tools\datetimes.py", line 435, in _convert_listlike_datetimes
+    result, tz_parsed = objects_to_datetime64(
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\arrays\datetimes.py", line 2398, in objects_to_datetime64
+    result, tz_parsed = tslib.array_to_datetime(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "tslib.pyx", line 414, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 596, in pandas._libs.tslib.array_to_datetime
+  File "tslib.pyx", line 553, in pandas._libs.tslib.array_to_datetime
+  File "conversion.pyx", line 641, in pandas._libs.tslibs.conversion.convert_str_to_tsobject
+  File "parsing.pyx", line 336, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "parsing.pyx", line 666, in pandas._libs.tslibs.parsing.dateutil_parse
+pandas._libs.tslibs.parsing.DateParseError: Unknown datetime string format, unable to parse: 2025-03-2808:59:00, at position 0
+
+************************************************
+
+2025-03-28 13:47:40 - Error: [Errno 2] No such file or directory: 'C:\\xrt\\output\\data\\proc_daily_flux\\daily-flux_2024.csv'
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 830, in <module>
+    df_flux2 = pd.read_csv(filepath_csv_flux2)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xrt\\output\\data\\proc_daily_flux\\daily-flux_2024.csv'
+
+************************************************
+
+2025-03-28 13:51:05 - Successfully run
+************************************************
+
+2025-03-28 13:51:11 - Successfully run
+************************************************
+
+2025-03-28 13:53:05 - Successfully run
+************************************************
+
+2025-03-28 13:54:07 - Error: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 660, in <module>
+    filenames2process, dates2process = return_fits2process_csv(directory_fitfiles, directory_output)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 96, in return_fits2process_csv
+    latest_date = pd.to_datetime(df_latest['it_start_UT'].iloc[-1]).date()
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+************************************************
+
+2025-03-28 13:58:25 - No calibration found for the file on 2025-03-13 at 09:00:00.733. Solar flux set to -9999
+2025-03-28 13:58:25 - No calibration found for the file on 2025-03-13 at 09:15:00.752. Solar flux set to -9999
+2025-03-28 13:58:25 - No calibration found for the file on 2025-03-13 at 09:30:00.858. Solar flux set to -9999
+2025-03-28 13:58:25 - No calibration found for the file on 2025-03-13 at 09:45:00.839. Solar flux set to -9999
+2025-03-28 13:58:25 - No calibration found for the file on 2025-03-13 at 11:00:01.012. Solar flux set to -9999
+2025-03-28 13:58:25 - No calibration found for the file on 2025-03-13 at 11:15:00.966. Solar flux set to -9999
+2025-03-28 13:58:25 - No calibration found for the file on 2025-03-13 at 11:30:00.903. Solar flux set to -9999
+2025-03-28 13:58:25 - No calibration found for the file on 2025-03-13 at 11:45:01.107. Solar flux set to -9999
+2025-03-28 13:58:25 - No calibration found for the file on 2025-03-13 at 13:00:01.199. Solar flux set to -9999
+2025-03-28 13:58:25 - No calibration found for the file on 2025-03-13 at 13:15:01.182. Solar flux set to -9999
+2025-03-28 13:58:25 - No calibration found for the file on 2025-03-13 at 13:30:01.169. Solar flux set to -9999
+2025-03-28 13:58:25 - No calibration found for the file on 2025-03-13 at 13:45:01.287. Solar flux set to -9999
+2025-03-28 13:58:28 - Error: zero-size array to reduction operation maximum which has no identity
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 737, in <module>
+    comment_morning = get_comment(sfu_morning, total_precip_morning)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 279, in get_comment
+    if np.max(sfu) > 620: comment = comment+'FL/IF '
+       ^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 2810, in max
+    return _wrapreduction(a, np.maximum, 'max', axis, None, out,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 88, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation maximum which has no identity
+
+************************************************
+
+2025-03-28 14:02:49 - Error: zero-size array to reduction operation maximum which has no identity
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 737, in <module>
+    comment_morning = get_comment(sfu_morning, total_precip_morning)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 279, in get_comment
+    if np.max(sfu) > 620: comment = comment+'FL/IF '
+       ^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 2810, in max
+    return _wrapreduction(a, np.maximum, 'max', axis, None, out,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 88, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation maximum which has no identity
+
+************************************************
+
+2025-03-28 14:03:43 - Error: zero-size array to reduction operation maximum which has no identity
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 738, in <module>
+    comment_morning = get_comment(sfu_morning, total_precip_morning)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 279, in get_comment
+    if np.max(sfu) > 620: comment = comment+'FL/IF '
+       ^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 2810, in max
+    return _wrapreduction(a, np.maximum, 'max', axis, None, out,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 88, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: zero-size array to reduction operation maximum which has no identity
+
+************************************************
+
+2025-03-28 14:05:19 - Successfully run
+************************************************
+
+2025-03-28 14:23:19 - Successfully run
+************************************************
+
+2025-03-28 14:47:15 - Successfully run
+************************************************
+
+2025-03-28 14:49:20 - Successfully run
+************************************************
+
+2025-03-28 15:00:03 - Successfully run
+************************************************
+
+2025-03-29 15:00:03 - Successfully run
+************************************************
+
+2025-03-30 15:00:03 - Successfully run
+************************************************
+
+2025-03-31 14:12:01 - Successfully run
+************************************************
+
+2025-03-31 14:14:56 - Successfully run
+************************************************
+
+2025-03-31 14:53:03 - Successfully run
+************************************************
+
+2025-03-31 14:54:59 - Successfully run
+************************************************
+
+2025-03-31 15:00:03 - Successfully run
+************************************************
+
+2025-04-01 15:00:03 - Successfully run
+************************************************
+
+2025-04-02 10:05:54 - Successfully run
+************************************************
+
+2025-04-02 10:33:31 - Successfully run
+************************************************
+
+2025-04-02 10:34:58 - Successfully run
+************************************************
+
+2025-04-02 10:38:24 - Successfully run
+************************************************
+
+2025-04-02 10:41:11 - Error: name 'aaa' is not defined
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 840, in <module>
+    aaa
+NameError: name 'aaa' is not defined
+
+************************************************
+
+2025-04-02 10:42:03 - Error: name 'aaa' is not defined
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 844, in <module>
+    aaa
+NameError: name 'aaa' is not defined
+
+************************************************
+
+2025-04-02 10:42:33 - Successfully run
+************************************************
+
+2025-04-02 10:43:38 - Successfully run
+************************************************
+
+2025-04-02 10:45:55 - Successfully run
+************************************************
+
+2025-04-02 10:52:49 - Successfully run
+************************************************
+
+2025-04-02 10:56:38 - Successfully run
+************************************************
+
+2025-04-02 14:46:59 - Error: single positional indexer is out-of-bounds
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 758, in <module>
+    filenames2process, dates2process = return_fits2process_csv(directory_fitfiles, directory_output)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\update_daily_flux.py", line 98, in return_fits2process_csv
+    latest_date = pd.to_datetime(df_latest['it_start_UT'].iloc[-1]).date()
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+************************************************
+
+2025-04-02 14:49:17 - No calibration found for the file on 2025-03-13 at 09:00:00.733. Solar flux set to -9999
+2025-04-02 14:49:17 - No calibration found for the file on 2025-03-13 at 09:15:00.752. Solar flux set to -9999
+2025-04-02 14:49:17 - No calibration found for the file on 2025-03-13 at 09:30:00.858. Solar flux set to -9999
+2025-04-02 14:49:17 - No calibration found for the file on 2025-03-13 at 09:45:00.839. Solar flux set to -9999
+2025-04-02 14:49:17 - No calibration found for the file on 2025-03-13 at 11:00:01.012. Solar flux set to -9999
+2025-04-02 14:49:17 - No calibration found for the file on 2025-03-13 at 11:15:00.966. Solar flux set to -9999
+2025-04-02 14:49:17 - No calibration found for the file on 2025-03-13 at 11:30:00.903. Solar flux set to -9999
+2025-04-02 14:49:17 - No calibration found for the file on 2025-03-13 at 11:45:01.107. Solar flux set to -9999
+2025-04-02 14:49:17 - No calibration found for the file on 2025-03-13 at 13:00:01.199. Solar flux set to -9999
+2025-04-02 14:49:17 - No calibration found for the file on 2025-03-13 at 13:15:01.182. Solar flux set to -9999
+2025-04-02 14:49:17 - No calibration found for the file on 2025-03-13 at 13:30:01.169. Solar flux set to -9999
+2025-04-02 14:49:17 - No calibration found for the file on 2025-03-13 at 13:45:01.287. Solar flux set to -9999
+2025-04-02 14:49:25 - Error: object of type 'int' has no len()
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 946, in <module>
+    plot_daily_fluxes(df_flux_month, directory_output, 'month')
+  File "C:\xrt\src\proc\update_daily_flux.py", line 432, in plot_daily_fluxes
+    if len(len(idx_bad_morning)) > 0:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'int' has no len()
+
+************************************************
+
+2025-04-02 14:53:36 - Error: PathCollection.set() got an unexpected keyword argument 'fmt'
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 946, in <module>
+    plot_daily_fluxes(df_flux_month, directory_output, 'month')
+  File "C:\xrt\src\proc\update_daily_flux.py", line 434, in plot_daily_fluxes
+    ax1.scatter(times_morning[idx_bad_morning[i]], corr_sfu_morning[idx_bad_morning[i]], fmt='x', color='red', markersize=9)
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4769, in scatter
+    collection._internal_update(kwargs)
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 1219, in _internal_update
+    return self._update_props(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 1193, in _update_props
+    raise AttributeError(
+AttributeError: PathCollection.set() got an unexpected keyword argument 'fmt'
+
+************************************************
+
+2025-04-02 14:55:39 - Error: s must be a scalar, or float array-like with the same size as x and y
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 946, in <module>
+    plot_daily_fluxes(df_flux_month, directory_output, 'month')
+  File "C:\xrt\src\proc\update_daily_flux.py", line 434, in plot_daily_fluxes
+    ax1.scatter(times_morning[idx_bad_morning[i]], corr_sfu_morning[idx_bad_morning[i]], 'x', color='red', markersize=9)
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4664, in scatter
+    raise ValueError(
+ValueError: s must be a scalar, or float array-like with the same size as x and y
+
+************************************************
+
+2025-04-02 14:58:04 - Error: s must be a scalar, or float array-like with the same size as x and y
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 949, in <module>
+    plot_daily_fluxes(df_flux_month, directory_output, 'month')
+  File "C:\xrt\src\proc\update_daily_flux.py", line 437, in plot_daily_fluxes
+    ax1.scatter(times_morning[idx_bad_morning[i]], corr_sfu_morning[idx_bad_morning[i]], 'x', color='red', markersize=9)
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4664, in scatter
+    raise ValueError(
+ValueError: s must be a scalar, or float array-like with the same size as x and y
+
+************************************************
+
+2025-04-02 15:00:02 - Error: s must be a scalar, or float array-like with the same size as x and y
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 949, in <module>
+    plot_daily_fluxes(df_flux_month, directory_output, 'month')
+  File "C:\xrt\src\proc\update_daily_flux.py", line 437, in plot_daily_fluxes
+    ax1.scatter(times_morning[idx_bad_morning[i]], corr_sfu_morning[idx_bad_morning[i]], 'x', color='red', markersize=9)
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4664, in scatter
+    raise ValueError(
+ValueError: s must be a scalar, or float array-like with the same size as x and y
+
+************************************************
+
+2025-04-03 06:21:58 - Error: [Errno 2] No such file or directory: 'C:\\xrt\\output\\data\\meteoswiss\\meteoswiss_2025-04-03.csv'
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 780, in <module>
+    df_meteoswiss = pd.read_csv(filepath_csv, sep=',')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xrt\\output\\data\\meteoswiss\\meteoswiss_2025-04-03.csv'
+
+************************************************
+
+2025-04-03 06:23:22 - Error: s must be a scalar, or float array-like with the same size as x and y
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 951, in <module>
+    plot_daily_fluxes(df_flux_month, directory_output, 'month')
+  File "C:\xrt\src\proc\update_daily_flux.py", line 439, in plot_daily_fluxes
+    ax1.scatter(times_morning[idx_bad_morning[i]], corr_sfu_morning[idx_bad_morning[i]], 'x', color='red', markersize=9)
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4664, in scatter
+    raise ValueError(
+ValueError: s must be a scalar, or float array-like with the same size as x and y
+
+************************************************
+
+2025-04-03 06:24:58 - Error: PathCollection.set() got an unexpected keyword argument 'markersize'
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 951, in <module>
+    plot_daily_fluxes(df_flux_month, directory_output, 'month')
+  File "C:\xrt\src\proc\update_daily_flux.py", line 439, in plot_daily_fluxes
+    ax1.scatter(times_morning[idx_bad_morning[i]], corr_sfu_morning[idx_bad_morning[i]], marker='x', color='red', markersize=9)
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4769, in scatter
+    collection._internal_update(kwargs)
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 1219, in _internal_update
+    return self._update_props(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 1193, in _update_props
+    raise AttributeError(
+AttributeError: PathCollection.set() got an unexpected keyword argument 'markersize'
+
+************************************************
+
+2025-04-03 06:25:54 - Error: s must be a scalar, or float array-like with the same size as x and y
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 951, in <module>
+    plot_daily_fluxes(df_flux_month, directory_output, 'month')
+  File "C:\xrt\src\proc\update_daily_flux.py", line 494, in plot_daily_fluxes
+    ax2.scatter(times_noon[idx_bad_noon[i]], corr_sfu_noon[idx_bad_noon[i]], 'x', color='red', markersize=9)
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4664, in scatter
+    raise ValueError(
+ValueError: s must be a scalar, or float array-like with the same size as x and y
+
+************************************************
+
+2025-04-03 06:27:10 - Successfully run
+************************************************
+
+2025-04-03 06:36:42 - Successfully run
+************************************************
+
+2025-04-03 06:37:46 - Successfully run
+************************************************
+
+2025-04-03 06:39:28 - Successfully run
+************************************************
+
+2025-04-03 09:10:04 - Successfully run
+************************************************
+
+2025-04-03 11:44:31 - Successfully run
+************************************************
+
+2025-04-03 15:00:03 - Successfully run
+************************************************
+
+2025-04-04 13:55:35 - Successfully run
+************************************************
+
+2025-04-04 15:00:03 - Successfully run
+************************************************
+
+2025-04-05 15:00:03 - Successfully run
+************************************************
+
+2025-04-06 15:00:03 - Successfully run
+************************************************
+
+2025-04-07 15:00:03 - Successfully run
+************************************************
+
+2025-04-08 15:00:03 - Successfully run
+************************************************
+
+2025-04-09 07:11:02 - No calibration found for the file on 2025-03-13 at 09:00:00.733. Solar flux set to -9999
+2025-04-09 07:11:02 - No calibration found for the file on 2025-03-13 at 09:15:00.752. Solar flux set to -9999
+2025-04-09 07:11:02 - No calibration found for the file on 2025-03-13 at 09:30:00.858. Solar flux set to -9999
+2025-04-09 07:11:02 - No calibration found for the file on 2025-03-13 at 09:45:00.839. Solar flux set to -9999
+2025-04-09 07:11:02 - No calibration found for the file on 2025-03-13 at 11:00:01.012. Solar flux set to -9999
+2025-04-09 07:11:02 - No calibration found for the file on 2025-03-13 at 11:15:00.966. Solar flux set to -9999
+2025-04-09 07:11:02 - No calibration found for the file on 2025-03-13 at 11:30:00.903. Solar flux set to -9999
+2025-04-09 07:11:02 - No calibration found for the file on 2025-03-13 at 11:45:01.107. Solar flux set to -9999
+2025-04-09 07:11:02 - No calibration found for the file on 2025-03-13 at 13:00:01.199. Solar flux set to -9999
+2025-04-09 07:11:02 - No calibration found for the file on 2025-03-13 at 13:15:01.182. Solar flux set to -9999
+2025-04-09 07:11:02 - No calibration found for the file on 2025-03-13 at 13:30:01.169. Solar flux set to -9999
+2025-04-09 07:11:02 - No calibration found for the file on 2025-03-13 at 13:45:01.287. Solar flux set to -9999
+2025-04-09 07:11:17 - Error: [Errno 2] No such file or directory: 'C:\\xrt\\output\\data\\meteoswiss\\meteoswiss_2025-04-09.csv'
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 779, in <module>
+    df_meteoswiss = pd.read_csv(filepath_csv, sep=',')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xrt\\output\\data\\meteoswiss\\meteoswiss_2025-04-09.csv'
+
+************************************************
+
+2025-04-09 15:00:04 - Successfully run
+************************************************
+
+2025-04-10 15:00:03 - Successfully run
+************************************************
+
+2025-04-11 15:00:03 - Successfully run
+************************************************
+
+2025-04-12 15:00:03 - Successfully run
+************************************************
+
+2025-04-13 15:00:03 - Successfully run
+************************************************
+
+2025-04-14 15:00:03 - Successfully run
+************************************************
+
+2025-04-15 15:00:03 - Successfully run
+************************************************
+
+2025-04-16 15:00:03 - Successfully run
+************************************************
+
+2025-04-17 15:00:03 - Successfully run
+************************************************
+
+2025-04-18 15:00:03 - Successfully run
+************************************************
+
+2025-04-19 15:00:03 - Successfully run
+************************************************
+
+2025-04-20 15:00:03 - Successfully run
+************************************************
+
+2025-04-21 15:00:04 - Successfully run
+************************************************
+
+2025-04-22 15:00:03 - Successfully run
+************************************************
+
+2025-04-23 15:00:03 - Successfully run
+************************************************
+
+2025-04-24 15:00:04 - Successfully run
+************************************************
+
+2025-04-25 15:00:03 - Successfully run
+************************************************
+
+2025-04-26 15:00:03 - Successfully run
+************************************************
+
+2025-04-27 15:00:03 - Successfully run
+************************************************
+
+2025-04-28 15:00:03 - Successfully run
+************************************************
+
+2025-04-29 15:00:03 - Successfully run
+************************************************
+
+2025-04-30 15:00:04 - Successfully run
+************************************************
+
+2025-05-01 15:00:03 - Successfully run
+************************************************
+
+2025-05-02 15:00:03 - Successfully run
+************************************************
+
+2025-05-03 15:00:03 - Successfully run
+************************************************
+
+2025-05-04 15:00:04 - Successfully run
+************************************************

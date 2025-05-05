@@ -1,0 +1,45 @@
+10/28/2024,12:00:00 AM,$HST:STX(logfile)
+10/28/2024,8:14:58 AM,$HST:Measurement stop
+10/28/2024,8:14:58 AM,$HST:Measurement wait...
+10/28/2024,8:14:59 AM,$HST:Measurement halted
+10/28/2024,8:14:59 AM,$HST:Measurement idle
+10/28/2024,8:14:59 AM,$CRX:Stopped
+10/28/2024,8:14:59 AM,$HST:Measurement enable
+10/28/2024,8:14:59 AM,$CRX:AGC gain = 2.60V
+10/28/2024,8:14:59 AM,$CRX:Emitter BF199 = 0.10V
+10/28/2024,8:14:59 AM,$CRX:Analog Input = 11.23
+10/28/2024,8:15:00 AM,$HST:Autostart via scheduler
+10/28/2024,8:15:00 AM,$HST:Param. RCU due to START
+10/28/2024,8:15:00 AM,$HST:Actual focuscode 01
+10/28/2024,8:15:00 AM,$HST:Enable data transfer
+10/28/2024,8:15:00 AM,$HST:Continuous measurement
+10/28/2024,8:15:00 AM,$CRX:Started
+10/28/2024,8:15:00 AM,$HST:Start new FITS-file
+10/28/2024,8:15:00 AM,$HST:Continous measurement
+10/28/2024,8:27:56 AM,$HST:Measurement stop
+10/28/2024,8:27:56 AM,$HST:FITS #1 100rows x 3102cols
+10/28/2024,8:27:56 AM,$HST:Measurement wait...
+10/28/2024,8:27:56 AM,$HST:EOT (&) detected
+10/28/2024,8:27:56 AM,$HST:Measurement halted
+10/28/2024,8:27:56 AM,$HST:Measurement idle
+10/28/2024,8:27:56 AM,$CRX:Stopped
+10/28/2024,8:27:57 AM,$HST:Measurement enable
+10/28/2024,8:27:57 AM,$CRX:AGC gain = 2.50V
+10/28/2024,8:27:57 AM,$CRX:Emitter BF199 = 0.10V
+10/28/2024,8:27:57 AM,$CRX:Analog Input = 11.23
+10/28/2024,8:28:02 AM,$HST:Switched to manual
+10/28/2024,8:28:05 AM,$HST:Yt plot hidden
+10/28/2024,8:28:07 AM,$HST:Yt plot selected
+10/28/2024,8:28:15 AM,$HST:Param. RCU due to START
+10/28/2024,8:28:15 AM,$HST:Actual focuscode 01
+10/28/2024,8:28:15 AM,$HST:Enable data transfer
+10/28/2024,8:28:15 AM,$HST:Continuous measurement
+10/28/2024,8:28:15 AM,$CRX:Started
+10/28/2024,8:28:15 AM,$HST:Start new FITS-file
+10/28/2024,8:28:16 AM,$HST:Continous measurement
+10/28/2024,8:41:38 AM,$HST:Yt plot selected
+10/28/2024,8:43:15 AM,$HST:FITS #2 100rows x 3600cols
+10/28/2024,8:44:56 AM,$HST:XYZ plot selected
+10/28/2024,8:58:18 AM,$HST:FITS #3 100rows x 3600cols
+10/28/2024,9:05:58 AM,$HST:All threads terminated
+10/28/2024,9:05:58 AM,$HST:This application closed

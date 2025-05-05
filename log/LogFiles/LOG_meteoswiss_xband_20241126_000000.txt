@@ -1,0 +1,21 @@
+11/26/2024,12:00:00 AM,$HST:STX(logfile)
+11/26/2024,8:29:58 AM,$HST:Measurement stop
+11/26/2024,8:29:58 AM,$HST:Measurement wait...
+11/26/2024,8:29:59 AM,$HST:Measurement halted
+11/26/2024,8:29:59 AM,$HST:Measurement idle
+11/26/2024,8:29:59 AM,$CRX:Stopped
+11/26/2024,8:29:59 AM,$HST:Measurement enable
+11/26/2024,8:29:59 AM,$CRX:AGC gain = 2.59V
+11/26/2024,8:29:59 AM,$CRX:Emitter BF199 = 0.10V
+11/26/2024,8:29:59 AM,$CRX:Analog Input = 11.23
+11/26/2024,8:30:00 AM,$HST:Autostart via scheduler
+11/26/2024,8:30:00 AM,$HST:Param. RCU due to START
+11/26/2024,8:30:00 AM,$HST:Actual focuscode 01
+11/26/2024,8:30:00 AM,$HST:Enable data transfer
+11/26/2024,8:30:00 AM,$HST:Continuous measurement
+11/26/2024,8:30:00 AM,$CRX:Started
+11/26/2024,8:30:00 AM,$HST:Start new FITS-file
+11/26/2024,8:30:00 AM,$HST:Continous measurement
+11/26/2024,8:45:00 AM,$HST:FITS #1 100rows x 3600cols
+11/26/2024,9:00:00 AM,$HST:FITS #2 100rows x 3600cols
+11/26/2024,9:15:00 AM,$HST:FITS #3 100rows x 3600cols

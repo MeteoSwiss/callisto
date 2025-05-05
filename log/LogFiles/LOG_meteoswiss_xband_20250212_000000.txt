@@ -1,0 +1,11 @@
+2/12/2025,12:00:00 AM,$HST:STX(logfile)
+2/12/2025,8:29:58 AM,$HST:Measurement stop
+2/12/2025,8:29:58 AM,$HST:Measurement wait...
+2/12/2025,8:29:59 AM,$HST:Measurement halted
+2/12/2025,8:29:59 AM,$HST:Measurement idle
+2/12/2025,8:29:59 AM,$CRX:Stopped
+2/12/2025,8:29:59 AM,$HST:Measurement enable
+2/12/2025,8:29:59 AM,$CRX:AGC gain = 2.62V
+2/12/2025,8:29:59 AM,$CRX:Emitter BF199 = 0.10V
+2/12/2025,8:29:59 AM,$CRX:Analog Input = 11.23
+2/12/2025,8:30:00 AM,$HST:Autostart via scheduler

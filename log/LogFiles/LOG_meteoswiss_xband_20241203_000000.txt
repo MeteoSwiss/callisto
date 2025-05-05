@@ -1,0 +1,22 @@
+12/3/2024,12:00:00 AM,$HST:STX(logfile)
+12/3/2024,8:29:58 AM,$HST:Measurement stop
+12/3/2024,8:29:58 AM,$HST:Measurement wait...
+12/3/2024,8:29:59 AM,$HST:Measurement halted
+12/3/2024,8:29:59 AM,$HST:Measurement idle
+12/3/2024,8:29:59 AM,$HST:Measurement enable
+12/3/2024,8:30:00 AM,$HST:Autostart via scheduler
+12/3/2024,8:30:00 AM,$HST:Param. RCU due to START
+12/3/2024,8:30:00 AM,$HST:Actual focuscode 01
+12/3/2024,8:30:00 AM,$HST:Enable data transfer
+12/3/2024,8:30:00 AM,$HST:Continuous measurement
+12/3/2024,8:30:00 AM,$HST:Start new FITS-file
+12/3/2024,8:30:00 AM,$HST:Continous measurement
+12/3/2024,8:46:49 AM,$HST:Yt plot selected
+12/3/2024,8:46:53 AM,$HST:XY plot selected
+12/3/2024,8:46:59 AM,$HST:Measurement stop
+12/3/2024,8:46:59 AM,$HST:Measurement wait...
+12/3/2024,8:47:00 AM,$HST:Measurement halted
+12/3/2024,8:47:00 AM,$HST:Measurement idle
+12/3/2024,8:47:00 AM,$HST:Measurement enable
+12/3/2024,8:47:41 AM,$HST:All threads terminated
+12/3/2024,8:47:41 AM,$HST:This application closed

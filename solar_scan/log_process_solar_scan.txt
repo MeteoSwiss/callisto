@@ -1,0 +1,260 @@
+
+2025-03-28 12:00:52 - Successfully run
+************************************************
+
+2025-03-28 14:45:03 - Successfully run
+************************************************
+
+2025-03-29 14:45:03 - Successfully run
+************************************************
+
+2025-03-30 14:45:03 - Successfully run
+************************************************
+
+2025-03-31 14:09:26 - Successfully run
+************************************************
+
+2025-03-31 14:09:31 - Successfully run
+************************************************
+
+2025-03-31 14:09:43 - Error: list index out of range
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 243, in main
+    idx_file_morning = [ii for ii in range(len(list_fit)) if '08450' in list_fit[ii]][0]
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+************************************************
+
+2025-03-31 14:09:48 - Successfully run
+************************************************
+
+2025-03-31 14:09:52 - Successfully run
+************************************************
+
+2025-03-31 14:09:57 - Successfully run
+************************************************
+
+2025-03-31 14:10:01 - Successfully run
+************************************************
+
+2025-03-31 14:10:36 - Successfully run
+************************************************
+
+2025-03-31 14:10:41 - Successfully run
+************************************************
+
+2025-03-31 14:10:46 - Successfully run
+************************************************
+
+2025-03-31 14:10:51 - Successfully run
+************************************************
+
+2025-03-31 14:10:57 - Successfully run
+************************************************
+
+2025-03-31 14:45:03 - Successfully run
+************************************************
+
+2025-04-01 14:45:03 - Successfully run
+************************************************
+
+2025-04-02 08:53:31 - Error: num must be an integer with 1 <= num <= 3, not 5
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 636, in main
+    ax_noon_after = fig.add_subplot(315)
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 782, in add_subplot
+    ax = projection_class(self, *args, **pkw)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 639, in __init__
+    subplotspec = SubplotSpec._from_subplot_args(fig, args)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\gridspec.py", line 599, in _from_subplot_args
+    raise ValueError(
+ValueError: num must be an integer with 1 <= num <= 3, not 5
+
+************************************************
+
+2025-04-02 08:55:21 - Successfully run
+************************************************
+
+2025-04-02 08:57:44 - Successfully run
+************************************************
+
+2025-04-02 08:58:50 - Successfully run
+************************************************
+
+2025-04-02 09:00:28 - Successfully run
+************************************************
+
+2025-04-02 09:06:47 - Successfully run
+************************************************
+
+2025-04-02 09:07:24 - Successfully run
+************************************************
+
+2025-04-02 09:08:22 - Successfully run
+************************************************
+
+2025-04-02 09:54:22 - Successfully run
+************************************************
+
+2025-04-02 09:56:06 - Successfully run
+************************************************
+
+2025-04-02 09:57:02 - Successfully run
+************************************************
+
+2025-04-02 14:01:40 - Successfully run
+************************************************
+
+2025-04-02 14:06:33 - Successfully run
+************************************************
+
+2025-04-02 14:08:00 - Successfully run
+************************************************
+
+2025-04-02 14:09:33 - Successfully run
+************************************************
+
+2025-04-02 14:10:42 - Successfully run
+************************************************
+
+2025-04-02 14:11:32 - Successfully run
+************************************************
+
+2025-04-02 14:45:06 - Successfully run
+************************************************
+
+2025-04-03 09:19:12 - Error: 'utf-8' codec can't decode byte 0xb0 in position 110: invalid start byte
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 182, in main
+    df_motor = pd.read_csv(path_log_motor, sep=',', header=3)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1898, in _make_engine
+    return mapping[engine](f, **self.options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 93, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 574, in pandas._libs.parsers.TextReader.__cinit__
+  File "parsers.pyx", line 663, in pandas._libs.parsers.TextReader._get_header
+  File "parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "parsers.pyx", line 2053, in pandas._libs.parsers.raise_parser_error
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 110: invalid start byte
+
+************************************************
+
+2025-04-03 14:45:06 - Successfully run
+************************************************
+
+2025-04-04 14:45:06 - Successfully run
+************************************************
+
+2025-04-05 14:45:05 - Successfully run
+************************************************
+
+2025-04-06 14:45:05 - Successfully run
+************************************************
+
+2025-04-07 14:45:05 - Successfully run
+************************************************
+
+2025-04-08 14:45:05 - Successfully run
+************************************************
+
+2025-04-09 14:45:06 - Successfully run
+************************************************
+
+2025-04-10 14:45:06 - Successfully run
+************************************************
+
+2025-04-11 14:45:05 - Successfully run
+************************************************
+
+2025-04-12 14:45:06 - Successfully run
+************************************************
+
+2025-04-13 14:45:05 - Successfully run
+************************************************
+
+2025-04-14 14:45:05 - Successfully run
+************************************************
+
+2025-04-15 14:45:05 - Successfully run
+************************************************
+
+2025-04-16 14:45:06 - Successfully run
+************************************************
+
+2025-04-17 14:45:05 - Successfully run
+************************************************
+
+2025-04-18 14:45:06 - Successfully run
+************************************************
+
+2025-04-19 14:45:05 - Successfully run
+************************************************
+
+2025-04-20 14:45:06 - Successfully run
+************************************************
+
+2025-04-21 14:45:06 - Successfully run
+************************************************
+
+2025-04-22 14:45:01 - Error: index 0 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 245, in main
+    idx_start_scanning_morning_before = np.where(msg_morning_before == ' New scanning59 position')[0][0]
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+************************************************
+
+2025-04-23 14:45:05 - Successfully run
+************************************************
+
+2025-04-24 14:45:06 - Successfully run
+************************************************
+
+2025-04-25 14:45:05 - Successfully run
+************************************************
+
+2025-04-26 14:45:05 - Successfully run
+************************************************
+
+2025-04-27 14:45:05 - Successfully run
+************************************************
+
+2025-04-28 14:45:06 - Successfully run
+************************************************
+
+2025-04-29 14:45:05 - Successfully run
+************************************************
+
+2025-04-30 14:45:06 - Successfully run
+************************************************
+
+2025-05-01 14:45:06 - Successfully run
+************************************************
+
+2025-05-02 14:45:05 - Successfully run
+************************************************
+
+2025-05-03 14:45:05 - Successfully run
+************************************************
+
+2025-05-04 14:45:05 - Successfully run
+************************************************

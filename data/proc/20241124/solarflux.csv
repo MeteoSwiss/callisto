@@ -1,0 +1,5 @@
+# Tcold_K: 12
+# Thot_K: 284.15
+# freq_MHz: 11075
+# dfreq_MHz: 50
+date, time_start, Icold_adu, Ihot_adu, Ycal_dB, Isun_mean_adu, Isun_max_adu, Isun_mean_above_max_adu, nrvals_for_Isun_mean_above_max, Ssun_sfu, Sback_sfu, Ssun_minus_Sback_sfu

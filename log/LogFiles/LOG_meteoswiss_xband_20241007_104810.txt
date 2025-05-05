@@ -1,0 +1,7 @@
+10/7/2024,10:48:10 AM,$HST:Application just created
+10/7/2024,10:48:10 AM,$HST:SW-version 1.24, e-Callisto
+10/7/2024,10:48:10 AM,$HST:Configurationfile read
+10/7/2024,10:48:10 AM,$HST:Switched to automatic
+10/7/2024,10:48:10 AM,$HST:ATmega16 pre-configured
+10/7/2024,10:48:10 AM,$HST:Frequencyfile frq99995.cfg
+10/7/2024,10:48:10 AM,$HST:Callisto ready now...

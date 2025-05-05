@@ -1,0 +1,44 @@
+3/10/2025,2:46:23 PM,$HST:Application just created
+3/10/2025,2:46:23 PM,$HST:SW-version 1.24, e-Callisto
+3/10/2025,2:46:23 PM,$HST:Configurationfile read
+3/10/2025,2:46:23 PM,$HST:Switched to automatic
+3/10/2025,2:46:23 PM,$HST:ATmega16 pre-configured
+3/10/2025,2:46:23 PM,$HST:Frequencyfile frq99995.cfg
+3/10/2025,2:46:23 PM,$HST:Callisto ready now...
+3/10/2025,2:46:24 PM,$HST:Measurement idle
+3/10/2025,2:46:24 PM,$HST:File scheduler.cfg read
+3/10/2025,2:46:24 PM,$HST:Measurement enable
+3/10/2025,2:46:24 PM,$CRX:Analog Input = 11.19
+3/10/2025,2:46:27 PM,$HST:File FRQ99995.CFG read
+3/10/2025,2:46:27 PM,$HST:No calibration file found
+3/10/2025,2:46:27 PM,$HST:Plot buffer erased...
+3/10/2025,2:46:27 PM,$HST:Parametrisation RCU
+3/10/2025,2:46:30 PM,$HST:File FRQ99995.CFG read
+3/10/2025,2:46:30 PM,$HST:No calibration file found
+3/10/2025,2:46:30 PM,$HST:Plot buffer erased...
+3/10/2025,2:46:30 PM,$HST:Parametrisation RCU
+3/10/2025,2:46:37 PM,$HST:Param. RCU due to START
+3/10/2025,2:46:37 PM,$HST:Actual focuscode 01
+3/10/2025,2:46:37 PM,$HST:Enable data transfer
+3/10/2025,2:46:37 PM,$HST:Continuous measurement
+3/10/2025,2:46:37 PM,$HST:Start new FITS-file
+3/10/2025,2:46:37 PM,$HST:Continous measurement
+3/10/2025,2:46:44 PM,$HST:Yt plot selected
+3/10/2025,2:46:53 PM,$HST:XY plot selected
+3/10/2025,2:46:54 PM,$HST:Yt plot hidden
+3/10/2025,2:46:55 PM,$HST:Yt plot selected
+3/10/2025,9:29:58 PM,$HST:Measurement stop
+3/10/2025,9:29:58 PM,$HST:Measurement wait...
+3/10/2025,9:29:59 PM,$HST:Measurement halted
+3/10/2025,9:29:59 PM,$HST:Measurement idle
+3/10/2025,9:29:59 PM,$HST:Measurement enable
+3/10/2025,9:30:00 PM,$HST:Autostart via scheduler
+3/10/2025,9:30:00 PM,$HST:Param. RCU due to START
+3/10/2025,9:30:00 PM,$HST:Actual focuscode 01
+3/10/2025,9:30:00 PM,$HST:Enable data transfer
+3/10/2025,9:30:00 PM,$HST:Continuous measurement
+3/10/2025,9:30:00 PM,$HST:Start new FITS-file
+3/10/2025,9:30:00 PM,$HST:Continous measurement
+3/10/2025,9:30:01 PM,$HST:No more entries in scheduler.
+3/11/2025,12:00:00 AM,$HST:Midnight -> memo cleared
+3/11/2025,12:00:00 AM,$HST:EOF(logfile)

@@ -1,0 +1,31 @@
+11/29/2024,3:46:50 PM,$HST:Application just created
+11/29/2024,3:46:50 PM,$HST:SW-version 1.24, e-Callisto
+11/29/2024,3:46:50 PM,$HST:Configurationfile read
+11/29/2024,3:46:50 PM,$HST:Switched to automatic
+11/29/2024,3:46:50 PM,$HST:ATmega16 pre-configured
+11/29/2024,3:46:50 PM,$HST:Frequencyfile frq99995.cfg
+11/29/2024,3:46:50 PM,$HST:Callisto ready now...
+11/29/2024,3:46:51 PM,$HST:Measurement idle
+11/29/2024,3:46:51 PM,$HST:File scheduler.cfg read
+11/29/2024,3:46:51 PM,$HST:No more entries in scheduler.
+11/29/2024,3:46:51 PM,$HST:Measurement enable
+11/29/2024,3:46:51 PM,$CRX:AGC gain = 2.30V
+11/29/2024,3:46:51 PM,$CRX:Emitter BF199 = 0.10V
+11/29/2024,3:46:51 PM,$CRX:Analog Input = 11.21
+11/29/2024,3:46:54 PM,$HST:File FRQ99995.CFG read
+11/29/2024,3:46:54 PM,$HST:No calibration file found
+11/29/2024,3:46:54 PM,$HST:Plot buffer erased...
+11/29/2024,3:46:54 PM,$HST:Parametrisation RCU
+11/29/2024,3:46:57 PM,$HST:File FRQ99995.CFG read
+11/29/2024,3:46:57 PM,$HST:No calibration file found
+11/29/2024,3:46:57 PM,$HST:Plot buffer erased...
+11/29/2024,3:46:57 PM,$HST:Parametrisation RCU
+11/29/2024,3:47:02 PM,$HST:Param. RCU due to START
+11/29/2024,3:47:02 PM,$HST:Actual focuscode 01
+11/29/2024,3:47:02 PM,$HST:Enable data transfer
+11/29/2024,3:47:02 PM,$HST:Continuous measurement
+11/29/2024,3:47:02 PM,$HST:Start new FITS-file
+11/29/2024,3:47:03 PM,$HST:Continous measurement
+11/29/2024,3:47:25 PM,$HST:Yt plot selected
+11/30/2024,12:00:00 AM,$HST:Midnight -> memo cleared
+11/30/2024,12:00:00 AM,$HST:EOF(logfile)

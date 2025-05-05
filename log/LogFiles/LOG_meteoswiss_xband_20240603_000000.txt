@@ -1,0 +1,3 @@
+6/3/2024,12:00:00 AM,$HST:STX(logfile)
+6/3/2024,6:22:29 AM,$HST:All threads terminated
+6/3/2024,6:22:29 AM,$HST:This application closed

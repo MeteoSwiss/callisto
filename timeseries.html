@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Solar Flux Plots with Plotly</title>
+  <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+</head>
+<body>
+<div class="topnav">
+ 10   <a href="index.html">Daily quicklooks</a>
+ 11   <a href="timeseries.html">Timeseries</a>
+ 12   <a href="solarraster.html">Solar raster scan</a>
+ 13 </div>
+
+  <h2>Solar flux timeseries</h2>
+  <div style="width: 100%; display: table;">
+   <div style="display: flex">
+  <div id="plot0" class="plotdiv" style="width:33%;height:400px;"></div>
+  <div id="plot1" class="plotdiv" style="width:33%;height:400px;"></div>
+  <div id="plot2" class="plotdiv" style="width:33%;height:400px;"></div>
+    </div>
+</div>
+
+  <script>
+    // Load CSV externally
+	const currentYear = new Date().getFullYear();
+    fetch('data/proc_daily_flux/daily-flux_${currentYear}.csv')
+      .then(response => {
+        if (!response.ok) throw new Error("Network response was not ok");
+        return response.text();
+      })
+      .then(csvText => {
+        const parsedData = parseCSV(csvText);
+        makePlot(getEveryNth(parsedData, 0), "plot0", "Morning")
+        makePlot(getEveryNth(parsedData, 1), "plot1", "Noon");
+        makePlot(getEveryNth(parsedData, 2), "plot2", "Afternoon");
+      })
+      .catch(error => {
+        console.error("Failed to load CSV file:", error);
+      });
+
+    // Parse CSV string into array of objects
+    function parseCSV(csv) {
+      const lines = csv.trim().split('\n');
+      const headers = lines[0].split(',');
+      return lines.slice(1).map(line => {
+        const values = line.split(',');
+        return headers.reduce((obj, h, i) => {
+          obj[h] = values[i];
+          return obj;
+        }, {});
+      });
+    }
+
+    function getEveryNth(data, offset, step = 3) {
+      return data.filter((_, idx) => idx % step === offset);
+    }
+
+    function makePlot(data, divId, title) {
+      const times = data.map(d => d["it_start_UT"]);
+      var sfu = data.map(d => parseFloat(d["corr_sfu_10640MHz"]));
+	  sfu = sfu.map(value => value < 0 ? NaN : value);
+      const trace1 = {
+        x: times,
+        y: sfu,
+        type: 'scatter',
+        mode: 'markers',
+        name: 'SFU 10.64 GHz',
+        line: { color: 'blue' }
+      };
+
+      const layout = {
+        title: title,
+		autosize: true,
+		responsive: true,
+        xaxis: { title: 'Time' },
+        yaxis: { title: 'SFU', side: 'left' },
+        legend: { orientation: 'h' },
+        margin: { t: 50, b: 50 }
+      };
+
+      Plotly.newPlot(divId, [trace1], layout);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+2/14/2025,12:00:00 AM,$HST:STX(logfile)
+2/14/2025,7:41:32 AM,$HST:Yt plot selected
+2/14/2025,8:29:58 AM,$HST:Measurement stop
+2/14/2025,8:29:58 AM,$HST:Measurement wait...
+2/14/2025,8:29:59 AM,$HST:Measurement halted
+2/14/2025,8:29:59 AM,$HST:Measurement idle
+2/14/2025,8:29:59 AM,$HST:Measurement enable
+2/14/2025,8:30:00 AM,$HST:Autostart via scheduler
+2/14/2025,8:30:00 AM,$HST:Param. RCU due to START
+2/14/2025,8:30:00 AM,$HST:Actual focuscode 01
+2/14/2025,8:30:00 AM,$HST:Enable data transfer
+2/14/2025,8:30:00 AM,$HST:Continuous measurement
+2/14/2025,8:30:00 AM,$HST:Start new FITS-file
+2/14/2025,8:30:00 AM,$HST:Continous measurement
+2/14/2025,8:30:22 AM,$HST:Yt plot selected
+2/14/2025,8:30:48 AM,$HST:XY plot selected
+2/14/2025,8:30:50 AM,$HST:XYZ plot selected
+2/14/2025,8:30:58 AM,$HST:Yt plot selected
+2/14/2025,8:31:24 AM,$HST:XY plot selected
+2/14/2025,8:31:27 AM,$HST:XYZ plot selected
+2/14/2025,8:31:34 AM,$HST:Switched to manual
+2/14/2025,8:31:36 AM,$HST:Switched to automatic
+2/14/2025,8:31:42 AM,$HST:Switched to manual
+2/14/2025,8:31:43 AM,$HST:Measurement stop
+2/14/2025,8:31:43 AM,$HST:Measurement stop
+2/14/2025,8:31:43 AM,$HST:Measurement wait...
+2/14/2025,8:31:44 AM,$HST:Measurement halted
+2/14/2025,8:31:44 AM,$HST:Measurement idle
+2/14/2025,8:31:44 AM,$HST:Measurement enable
+2/14/2025,8:31:54 AM,$HST:Manual frequencyfile sel.
+2/14/2025,8:31:57 AM,$HST:File c:\callisto-01\application\FRQ99995.CFG read
+2/14/2025,8:31:57 AM,$HST:No calibration file found
+2/14/2025,8:31:57 AM,$HST:Plot buffer erased...
+2/14/2025,8:31:57 AM,$HST:Parametrisation RCU
+2/14/2025,8:32:00 AM,$HST:Switched to automatic
+2/14/2025,8:32:26 AM,$HST:Yt plot selected
+2/14/2025,8:32:35 AM,$HST:Switched to manual
+2/14/2025,8:32:37 AM,$HST:All threads terminated
+2/14/2025,8:32:37 AM,$HST:This application closed
