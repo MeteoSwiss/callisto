@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <title>Solar Flux Plots with Plotly</title>
   <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
 </head>
 <body>
-<div class="topnav">
- <a href="index.html">Daily quicklooks</a>
- <a href="timeseries.html">Timeseries</a>
- <a href="solarraster.html">Solar raster scan</a>
-</div>
-
-  <h2>Solar flux timeseries</h2>
+  <div class="topnav">
+    <a href="index.html">Daily quicklooks</a>
+    <a href="timeseries.html">Timeseries</a>
+    <a href="solarraster.html">Solar raster scan</a>
+  </div>
+  <h2>Solar Flux Timeseries</h2>
+  
+  <select id="traceSelector">
+    <option value="0">Morning</option>
+    <option value="1">Noon</option>
+    <option value="2">Afternoon</option>
+  </select>
+  
   <div style="width: 100%; display: table;">
-   <div style="display: flex">
-  <div id="plot0" class="plotdiv" style="width:33%;height:400px;"></div>
-  <div id="plot1" class="plotdiv" style="width:33%;height:400px;"></div>
-  <div id="plot2" class="plotdiv" style="width:33%;height:400px;"></div>
+    <div style="display: flex">
+      <div id="plot0" class="plotdiv" style="width:100%;height:400px;"></div>
     </div>
-</div>
-
+  </div>
+  
   <script>
     // Load CSV externally
-	const currentYear = new Date().getFullYear();
+    var parsedData;
+    const currentYear = new Date().getFullYear();
     fetch('data/proc_daily_flux/daily-flux_' + currentYear + '.csv')
-      .then(response => {
-        if (!response.ok) throw new Error("Network response was not ok");
-        return response.text();
-      })
-      .then(csvText => {
-        const parsedData = parseCSV(csvText);
-        makePlot(getEveryNth(parsedData, 0), "plot0", "Morning")
-        makePlot(getEveryNth(parsedData, 1), "plot1", "Noon");
-        makePlot(getEveryNth(parsedData, 2), "plot2", "Afternoon");
-      })
-      .catch(error => {
-        console.error("Failed to load CSV file:", error);
-      });
-
+    .then(response => {
+      if (!response.ok) throw new Error("Network response was not ok");
+      return response.text();
+    })
+    .then(csvText => {
+      parsedData = parseCSV(csvText);
+      makePlot(parsedData, "plot0","Morning",0);
+    })
+    .catch(error => {
+      console.error("Failed to load CSV file:", error);
+    });
+    
     // Parse CSV string into array of objects
     function parseCSV(csv) {
       const lines = csv.trim().split('\n');
@@ -52,36 +55,124 @@
         }, {});
       });
     }
-
+    
     function getEveryNth(data, offset, step = 3) {
       return data.filter((_, idx) => idx % step === offset);
     }
-
-    function makePlot(data, divId, title) {
+    
+    function makePlot(data, divId, title, index = 1) {
+      data = getEveryNth(data, index);
       const times = data.map(d => d["it_start_UT"]);
-      var sfu = data.map(d => parseFloat(d["corr_sfu_10640MHz"]));
-	  sfu = sfu.map(value => value < 0 ? NaN : value);
+      
+      var sfu = data.map(d => parseFloat(d["sfu_10640MHz"]));
+      var sfu_std = data.map(d => parseFloat(d["std_sfu_10640MHz"]));
+      var corrsfu = data.map(d => parseFloat(d["corr_sfu_10640MHz"]));
+      var corrsfu_std = data.map(d => parseFloat(d["corr_std_sfu_10640MHz"]));
+      var precip = data.map(d => parseFloat(d["precip_mm"]));
+      var ispointing = data.map(d => parseInt(d["quality_check_pointing"]));
+      
+      sfu = sfu.map(value => value < 0 ? NaN : value);
+      corrsfu = corrsfu.map(value => value < 0 ? NaN : value);
+      
+      const shapes = [];
+      const TWELVE_HOURS = 12 * 60 * 60 * 1000;
+      var timeSeries = times.map((time, i) => ({
+        time: time,
+        value: precip[i]
+      }));
+      
+      timeSeries.forEach(point => {
+        const value = point.value;
+        if (value > 0) {
+          const time = new Date(point.time);
+          const x0 = new Date(time.getTime() - TWELVE_HOURS).toISOString();
+          const x1 = new Date(time.getTime() + TWELVE_HOURS).toISOString();
+          
+          shapes.push({
+            type: 'rect',
+            xref: 'x',
+            yref: 'paper',
+            x0: x0,
+            y0: 0,
+            x1: x1,
+            y1: 1,
+            fillcolor: '#89CFF0',
+            opacity: 0.2,
+            line: {
+              width: 0
+            }
+          });
+        }
+      });
+      
       const trace1 = {
         x: times,
         y: sfu,
+        error_y: {
+          type: 'data',
+          array: sfu_std,
+          visible: true,
+          width: 0  // This removes the horizontal cap lines
+        },
         type: 'scatter',
         mode: 'markers',
         name: 'SFU 10.64 GHz',
         line: { color: 'blue' }
       };
-
-      const layout = {
-        title: title,
-		autosize: true,
-		responsive: true,
-        xaxis: { title: 'Time' },
-        yaxis: { title: 'SFU', side: 'left' },
-        legend: { orientation: 'h' },
-        margin: { t: 50, b: 50 }
+      const trace2 = {
+        x: times,
+        y: corrsfu,
+        error_y: {
+          type: 'data',
+          array: corrsfu_std,
+          visible: true,
+          width: 0  // This removes the horizontal cap lines
+        },
+        type: 'scatter',
+        mode: 'markers',
+        name: 'Corr SFU 10.64 GHz',
+        line: { color: 'green' }
       };
-
-      Plotly.newPlot(divId, [trace1], layout);
-    }
-  </script>
-</body>
-</html>
+      const trace3 = {
+        x: times.filter((_, i) => ispointing[i] === 0),
+        y: corrsfu.filter((_, i) => ispointing[i] === 0),
+        type: 'scatter',
+        mode: 'markers',
+        name: 'Corr SFU 10.64 GHz',
+        line: { color: 'red' }
+      };
+      const trace4 = {
+        x: [null],  // no actual data
+        y: [null],
+        mode: 'lines',
+        line: { color: '#89CFF0', width: 10 },
+        name: 'Precipitation',
+        showlegend: true,
+        hoverinfo: 'skip',
+        visible: 'legendonly'  // won't show on plot, just in legend
+      };
+  
+        const layout = {
+          title: title,
+      autosize: true,
+      responsive: true,
+          xaxis: { title: 'Time'},
+          yaxis: { title: 'Solar flux density [sfu]', side: 'left', autorangeoptions: {clipmax: 500, clipmin: 200}},
+          legend: { orientation: 'h' },
+          margin: { t: 50, b: 50 },
+      shapes: shapes,
+      showlegend: true
+        };
+  
+        Plotly.newPlot(divId, [trace1,trace2,trace3,trace4], layout);
+      
+    document.getElementById('traceSelector').addEventListener('change', function() {
+      makePlot(parsedData, "plot0", this.options[this.selectedIndex].text, Number(this.value));
+    });
+  
+      
+      }
+    </script>
+  </body>
+  </html>
+  
