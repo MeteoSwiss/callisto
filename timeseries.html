@@ -7,7 +7,7 @@
   <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
 </head>
 <body>
-  <div class="topnav">
+  <div class="topnav">S
     <a href="index.html">Daily quicklooks</a>
     <a href="timeseries.html">Timeseries</a>
     <a href="solarraster.html">Solar raster scan</a>
@@ -151,28 +151,31 @@
         hoverinfo: 'skip',
         visible: 'legendonly'  // won't show on plot, just in legend
       };
-  
-        const layout = {
-          title: title,
-      autosize: true,
-      responsive: true,
-          xaxis: { title: 'Time'},
-          yaxis: { title: 'Solar flux density [sfu]', side: 'left', autorangeoptions: {clipmax: 500, clipmin: 200}},
-          legend: { orientation: 'h' },
-          margin: { t: 50, b: 50 },
-      shapes: shapes,
-      showlegend: true
-        };
-  
-        Plotly.newPlot(divId, [trace1,trace2,trace3,trace4], layout);
+      var lastdate = new Date(times[times.length - 1].replace(' ', 'T'));
+      lastdate = new Date(lastdate.getTime() + TWELVE_HOURS);
+      lastdate = lastdate.toISOString().replace('T', ' ').substring(0, 19);
       
-    document.getElementById('traceSelector').addEventListener('change', function() {
-      makePlot(parsedData, "plot0", this.options[this.selectedIndex].text, Number(this.value));
-    });
-  
+      const layout = {
+        title: title,
+        autosize: true,
+        responsive: true,
+        xaxis: { title: 'Time'},
+        yaxis: { title: 'Solar flux density [sfu]', side: 'left', autorangeoptions: {clipmax: 500, clipmin: 200}},
+        xaxis: { title: 'Solar flux density [sfu]', side: 'left', autorangeoptions: {clipmax: lastdate }},
+        legend: { orientation: 'h' },
+        margin: { t: 50, b: 50 },
+        shapes: shapes,
+        showlegend: true
+      };
       
-      }
-    </script>
-  </body>
-  </html>
-  
+      Plotly.newPlot(divId, [trace1,trace2,trace3,trace4], layout);
+      
+      document.getElementById('traceSelector').addEventListener('change', function() {
+        makePlot(parsedData, "plot0", this.options[this.selectedIndex].text, Number(this.value));
+      });
+      
+      
+    }
+  </script>
+</body>
+</html>
