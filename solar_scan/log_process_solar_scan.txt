@@ -282,3 +282,21 @@ IndexError: index 0 is out of bounds for axis 0 with size 0
 
 2025-05-12 14:45:06 - Successfully run
 ************************************************
+
+2025-05-13 11:18:31 - Error: index 0 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 245, in main
+    idx_start_scanning_morning_before = np.where(msg_morning_before == ' New scanning59 position')[0][0]
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+************************************************
+
+2025-05-13 14:45:02 - Error: index 0 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 245, in main
+    idx_start_scanning_morning_before = np.where(msg_morning_before == ' New scanning59 position')[0][0]
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+************************************************
