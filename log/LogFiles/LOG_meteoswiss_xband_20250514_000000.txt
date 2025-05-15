@@ -96,3 +96,48 @@
 5/14/2025,2:29:59 PM,$CRX:Stopped
 5/14/2025,2:30:00 PM,$HST:Measurement enable
 5/14/2025,2:30:00 PM,$CRX:AGC gain = 2.49V
+5/14/2025,2:30:00 PM,$CRX:Emitter BF199 = 0.10V
+5/14/2025,2:30:00 PM,$CRX:Analog Input = 11.23
+5/14/2025,9:29:58 PM,$HST:Measurement stop
+5/14/2025,9:29:58 PM,$HST:Measurement wait...
+5/14/2025,9:29:59 PM,$HST:Measurement halted
+5/14/2025,9:29:59 PM,$HST:Measurement idle
+5/14/2025,9:29:59 PM,$CRX:Stopped
+5/14/2025,9:29:59 PM,$HST:Measurement enable
+5/14/2025,9:29:59 PM,$CRX:AGC gain = 2.64V
+5/14/2025,9:29:59 PM,$CRX:Emitter BF199 = 0.10V
+5/14/2025,9:29:59 PM,$CRX:Analog Input = 11.23
+5/14/2025,9:30:00 PM,$HST:Autostart via scheduler
+5/14/2025,9:30:00 PM,$HST:Param. RCU due to START
+5/14/2025,9:30:00 PM,$HST:Actual focuscode 01
+5/14/2025,9:30:00 PM,$HST:Enable data transfer
+5/14/2025,9:30:00 PM,$HST:Continuous measurement
+5/14/2025,9:30:00 PM,$CRX:Started
+5/14/2025,9:30:00 PM,$HST:Start new FITS-file
+5/14/2025,9:30:00 PM,$HST:Continous measurement
+5/14/2025,9:45:00 PM,$HST:FITS #47 100rows x 3600cols
+5/14/2025,10:00:00 PM,$HST:FITS #48 100rows x 3600cols
+5/14/2025,10:15:00 PM,$HST:FITS #49 100rows x 3600cols
+5/14/2025,10:30:00 PM,$HST:FITS #50 100rows x 3600cols
+5/14/2025,10:45:00 PM,$HST:FITS #51 100rows x 3600cols
+5/14/2025,11:00:00 PM,$HST:FITS #52 100rows x 3600cols
+5/14/2025,11:15:00 PM,$HST:FITS #53 100rows x 3600cols
+5/14/2025,11:30:00 PM,$HST:FITS #54 100rows x 3600cols
+5/14/2025,11:45:00 PM,$HST:FITS #55 100rows x 3600cols
+5/14/2025,11:59:57 PM,$HST:Measurement stop
+5/14/2025,11:59:57 PM,$HST:FITS #56 100rows x 3586cols
+5/14/2025,11:59:57 PM,$HST:Measurement wait...
+5/14/2025,11:59:57 PM,$HST:EOT (&) detected
+5/14/2025,11:59:57 PM,$HST:Measurement halted
+5/14/2025,11:59:57 PM,$HST:Measurement stop
+5/14/2025,11:59:57 PM,$CRX:Stopped
+5/14/2025,11:59:58 PM,$HST:Measurement wait...
+5/14/2025,11:59:58 PM,$HST:Measurement halted
+5/14/2025,11:59:58 PM,$HST:Measurement idle
+5/14/2025,11:59:58 PM,$CRX:Stopped
+5/14/2025,11:59:59 PM,$HST:Measurement enable
+5/14/2025,11:59:59 PM,$CRX:AGC gain = 2.43V
+5/14/2025,11:59:59 PM,$CRX:Emitter BF199 = 0.10V
+5/14/2025,11:59:59 PM,$CRX:Analog Input = 11.23
+5/15/2025,12:00:00 AM,$HST:Midnight -> memo cleared
+5/15/2025,12:00:00 AM,$HST:EOF(logfile)
