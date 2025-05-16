@@ -429,3 +429,330 @@ IndexError: index 0 is out of bounds for axis 0 with size 0
 
 2025-05-15 14:45:08 - Successfully run
 ************************************************
+
+2025-05-15 17:00:02 - Found 6 scan in the motor log file for day 20250514
+************************************************
+
+2025-05-15 17:04:05 - Found 6 scan in the motor log file for day 20250515
+************************************************
+
+2025-05-15 17:16:51 - Successfully run
+************************************************
+
+2025-05-15 17:16:52 - Successfully run
+************************************************
+
+2025-05-15 17:16:53 - Successfully run
+************************************************
+
+2025-05-15 17:16:55 - Successfully run
+************************************************
+
+2025-05-15 17:16:57 - Successfully run
+************************************************
+
+2025-05-15 17:17:00 - Successfully run
+************************************************
+
+2025-05-15 17:19:13 - Successfully run
+************************************************
+
+2025-05-15 17:19:13 - Successfully run
+************************************************
+
+2025-05-15 17:19:13 - Successfully run
+************************************************
+
+2025-05-15 17:19:13 - Successfully run
+************************************************
+
+2025-05-15 17:19:13 - Successfully run
+************************************************
+
+2025-05-15 17:19:13 - Successfully run
+************************************************
+
+2025-05-15 17:23:37 - Successfully run
+************************************************
+
+2025-05-15 17:23:37 - Successfully run
+************************************************
+
+2025-05-15 17:23:37 - Successfully run
+************************************************
+
+2025-05-15 17:23:37 - Successfully run
+************************************************
+
+2025-05-15 17:23:37 - Successfully run
+************************************************
+
+2025-05-15 17:23:37 - Successfully run
+************************************************
+
+2025-05-15 17:26:42 - Successfully run
+************************************************
+
+2025-05-15 17:26:42 - Successfully run
+************************************************
+
+2025-05-15 17:26:42 - Successfully run
+************************************************
+
+2025-05-15 17:26:42 - Successfully run
+************************************************
+
+2025-05-15 17:26:42 - Successfully run
+************************************************
+
+2025-05-15 17:26:42 - Successfully run
+************************************************
+
+2025-05-15 17:27:05 - Successfully run
+************************************************
+
+2025-05-15 17:27:05 - Successfully run
+************************************************
+
+2025-05-15 17:27:05 - Successfully run
+************************************************
+
+2025-05-15 17:27:05 - Successfully run
+************************************************
+
+2025-05-15 17:27:05 - Successfully run
+************************************************
+
+2025-05-15 17:27:05 - Successfully run
+************************************************
+
+2025-05-15 17:40:48 - Found 6 scan in the motor log file for day 20250515
+************************************************
+
+2025-05-15 17:40:48 - The fit of the scan at 2025-05-15 08:59 has failed!
+************************************************
+
+2025-05-15 17:40:48 - Error is array must not contain infs or NaNs
+************************************************
+
+2025-05-15 17:40:48 - Error: x and y must be the same size
+Traceback (most recent call last):
+  File "<ipython-input-3-5155b2ebb071>", line 187, in <module>
+    ax1[i].scatter(dtimes_with_offset, data_avg, c='r', s=100, label='Morning (averaged)')
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4655, in scatter
+    raise ValueError("x and y must be the same size")
+ValueError: x and y must be the same size
+
+************************************************
+
+2025-05-15 17:40:48 - The fit of the scan at 2025-05-15 09:59 has failed!
+************************************************
+
+2025-05-15 17:40:48 - Error is array must not contain infs or NaNs
+************************************************
+
+2025-05-15 17:40:48 - Error: x and y must be the same size
+Traceback (most recent call last):
+  File "<ipython-input-3-5155b2ebb071>", line 187, in <module>
+    ax1[i].scatter(dtimes_with_offset, data_avg, c='r', s=100, label='Morning (averaged)')
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4655, in scatter
+    raise ValueError("x and y must be the same size")
+ValueError: x and y must be the same size
+
+************************************************
+
+2025-05-15 17:40:49 - The fit of the scan at 2025-05-15 10:59 has failed!
+************************************************
+
+2025-05-15 17:40:49 - Error is array must not contain infs or NaNs
+************************************************
+
+2025-05-15 17:40:49 - Error: x and y must be the same size
+Traceback (most recent call last):
+  File "<ipython-input-3-5155b2ebb071>", line 187, in <module>
+    ax1[i].scatter(dtimes_with_offset, data_avg, c='r', s=100, label='Morning (averaged)')
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4655, in scatter
+    raise ValueError("x and y must be the same size")
+ValueError: x and y must be the same size
+
+************************************************
+
+2025-05-15 17:40:49 - The fit of the scan at 2025-05-15 11:59 has failed!
+************************************************
+
+2025-05-15 17:40:49 - Error is array must not contain infs or NaNs
+************************************************
+
+2025-05-15 17:40:49 - Error: x and y must be the same size
+Traceback (most recent call last):
+  File "<ipython-input-3-5155b2ebb071>", line 187, in <module>
+    ax1[i].scatter(dtimes_with_offset, data_avg, c='r', s=100, label='Morning (averaged)')
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4655, in scatter
+    raise ValueError("x and y must be the same size")
+ValueError: x and y must be the same size
+
+************************************************
+
+2025-05-15 17:40:49 - The fit of the scan at 2025-05-15 12:59 has failed!
+************************************************
+
+2025-05-15 17:40:49 - Error is array must not contain infs or NaNs
+************************************************
+
+2025-05-15 17:40:49 - Error: x and y must be the same size
+Traceback (most recent call last):
+  File "<ipython-input-3-5155b2ebb071>", line 187, in <module>
+    ax1[i].scatter(dtimes_with_offset, data_avg, c='r', s=100, label='Morning (averaged)')
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4655, in scatter
+    raise ValueError("x and y must be the same size")
+ValueError: x and y must be the same size
+
+************************************************
+
+2025-05-15 17:40:49 - The fit of the scan at 2025-05-15 13:59 has failed!
+************************************************
+
+2025-05-15 17:40:49 - Error is array must not contain infs or NaNs
+************************************************
+
+2025-05-15 17:40:49 - Error: x and y must be the same size
+Traceback (most recent call last):
+  File "<ipython-input-3-5155b2ebb071>", line 187, in <module>
+    ax1[i].scatter(dtimes_with_offset, data_avg, c='r', s=100, label='Morning (averaged)')
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\__init__.py", line 1478, in inner
+    return func(ax, *map(sanitize_sequence, args), **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_axes.py", line 4655, in scatter
+    raise ValueError("x and y must be the same size")
+ValueError: x and y must be the same size
+
+************************************************
+
+2025-05-15 17:41:28 - Found 6 scan in the motor log file for day 20250515
+************************************************
+
+2025-05-15 17:41:28 - Error: unsupported operand type(s) for -: 'int' and 'Timedelta'
+Traceback (most recent call last):
+  File "<ipython-input-1-5155b2ebb071>", line 128, in <module>
+    data_avg = average_around_time(fit_data["datetimes"],
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\wod_tests\utils.py", line 144, in average_around_time
+    averages = [average_around(i) for i in range(len(df))]
+                ^^^^^^^^^^^^^^^^^
+  File "c:\wod_tests\utils.py", line 140, in average_around
+    window = df.loc[date - delta : date + delta]
+                    ~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'int' and 'Timedelta'
+
+************************************************
+
+2025-05-15 17:41:28 - Error: unsupported operand type(s) for -: 'int' and 'Timedelta'
+Traceback (most recent call last):
+  File "<ipython-input-1-5155b2ebb071>", line 128, in <module>
+    data_avg = average_around_time(fit_data["datetimes"],
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\wod_tests\utils.py", line 144, in average_around_time
+    averages = [average_around(i) for i in range(len(df))]
+                ^^^^^^^^^^^^^^^^^
+  File "c:\wod_tests\utils.py", line 140, in average_around
+    window = df.loc[date - delta : date + delta]
+                    ~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'int' and 'Timedelta'
+
+************************************************
+
+2025-05-15 17:41:28 - Error: unsupported operand type(s) for -: 'int' and 'Timedelta'
+Traceback (most recent call last):
+  File "<ipython-input-1-5155b2ebb071>", line 128, in <module>
+    data_avg = average_around_time(fit_data["datetimes"],
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\wod_tests\utils.py", line 144, in average_around_time
+    averages = [average_around(i) for i in range(len(df))]
+                ^^^^^^^^^^^^^^^^^
+  File "c:\wod_tests\utils.py", line 140, in average_around
+    window = df.loc[date - delta : date + delta]
+                    ~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'int' and 'Timedelta'
+
+************************************************
+
+2025-05-15 17:41:28 - Error: unsupported operand type(s) for -: 'int' and 'Timedelta'
+Traceback (most recent call last):
+  File "<ipython-input-1-5155b2ebb071>", line 128, in <module>
+    data_avg = average_around_time(fit_data["datetimes"],
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\wod_tests\utils.py", line 144, in average_around_time
+    averages = [average_around(i) for i in range(len(df))]
+                ^^^^^^^^^^^^^^^^^
+  File "c:\wod_tests\utils.py", line 140, in average_around
+    window = df.loc[date - delta : date + delta]
+                    ~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'int' and 'Timedelta'
+
+************************************************
+
+2025-05-15 17:41:28 - Error: unsupported operand type(s) for -: 'int' and 'Timedelta'
+Traceback (most recent call last):
+  File "<ipython-input-1-5155b2ebb071>", line 128, in <module>
+    data_avg = average_around_time(fit_data["datetimes"],
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\wod_tests\utils.py", line 144, in average_around_time
+    averages = [average_around(i) for i in range(len(df))]
+                ^^^^^^^^^^^^^^^^^
+  File "c:\wod_tests\utils.py", line 140, in average_around
+    window = df.loc[date - delta : date + delta]
+                    ~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'int' and 'Timedelta'
+
+************************************************
+
+2025-05-15 17:41:28 - Error: unsupported operand type(s) for -: 'int' and 'Timedelta'
+Traceback (most recent call last):
+  File "<ipython-input-1-5155b2ebb071>", line 128, in <module>
+    data_avg = average_around_time(fit_data["datetimes"],
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\wod_tests\utils.py", line 144, in average_around_time
+    averages = [average_around(i) for i in range(len(df))]
+                ^^^^^^^^^^^^^^^^^
+  File "c:\wod_tests\utils.py", line 140, in average_around
+    window = df.loc[date - delta : date + delta]
+                    ~~~~~^~~~~~~
+TypeError: unsupported operand type(s) for -: 'int' and 'Timedelta'
+
+************************************************
+
+2025-05-15 17:42:23 - Found 6 scan in the motor log file for day 20250515
+************************************************
+
+2025-05-15 17:42:23 - Successfully run
+************************************************
+
+2025-05-15 17:42:23 - Successfully run
+************************************************
+
+2025-05-15 17:42:23 - Successfully run
+************************************************
+
+2025-05-15 17:42:23 - Successfully run
+************************************************
+
+2025-05-15 17:42:24 - Successfully run
+************************************************
+
+2025-05-15 17:42:24 - Successfully run
+************************************************
