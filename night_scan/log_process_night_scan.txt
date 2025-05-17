@@ -208,3 +208,14 @@
 
 2025-05-16 05:00:07 - Successfully run
 ************************************************
+
+2025-05-17 05:00:02 - Error: Optimal parameters not found: Number of calls to function has reached maxfev = 1200.
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_three_night_scans.py", line 569, in main
+    params_fit, _ = curve_fit(gaussian_2d, (azi_scan_TVsat, ele_scan_TVsat), data_scan_TVsat2fit.flatten(),
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\scipy\optimize\_minpack_py.py", line 1005, in curve_fit
+    raise RuntimeError("Optimal parameters not found: " + errmsg)
+RuntimeError: Optimal parameters not found: Number of calls to function has reached maxfev = 1200.
+
+************************************************
