@@ -219,3 +219,26 @@ Traceback (most recent call last):
 RuntimeError: Optimal parameters not found: Number of calls to function has reached maxfev = 1200.
 
 ************************************************
+
+2025-05-18 05:00:01 - Error: Unable to allocate 130. MiB for an array with shape (264, 64780) and data type float64
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_three_night_scans.py", line 445, in main
+    data_scan_fullsky, freqs_MHz, times_FIT_fullsky, data_FIT_fullsky = readscan(fullsky_files, time_scan_fullsky)
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\process_three_night_scans.py", line 163, in readscan
+    differences = np.abs(time_scan_np.reshape(-1, 1) - all_times_np)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 130. MiB for an array with shape (264, 64780) and data type float64
+
+************************************************
+
+2025-05-19 05:00:02 - Error: 
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_three_night_scans.py", line 445, in main
+    data_scan_fullsky, freqs_MHz, times_FIT_fullsky, data_FIT_fullsky = readscan(fullsky_files, time_scan_fullsky)
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xrt\src\proc\process_three_night_scans.py", line 148, in readscan
+    all_times.extend(time_axis_FIT)
+MemoryError
+
+************************************************
