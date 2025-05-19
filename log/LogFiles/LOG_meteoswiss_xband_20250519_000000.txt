@@ -58,3 +58,15 @@
 5/19/2025,7:30:00 AM,$HST:Continous measurement
 5/19/2025,7:45:00 AM,$HST:FITS #19 100rows x 3600cols
 5/19/2025,7:59:29 AM,$HST:Measurement stop
+5/19/2025,7:59:29 AM,$HST:FITS #20 100rows x 3476cols
+5/19/2025,7:59:29 AM,$HST:Measurement wait...
+5/19/2025,7:59:29 AM,$HST:EOT (&) detected
+5/19/2025,7:59:30 AM,$HST:Measurement halted
+5/19/2025,7:59:30 AM,$HST:Measurement idle
+5/19/2025,7:59:30 AM,$CRX:Stopped
+5/19/2025,7:59:30 AM,$HST:Measurement enable
+5/19/2025,7:59:30 AM,$CRX:AGC gain = 2.43V
+5/19/2025,7:59:30 AM,$CRX:Emitter BF199 = 0.10V
+5/19/2025,7:59:30 AM,$CRX:Analog Input = 11.23
+5/19/2025,8:43:08 AM,$HST:All threads terminated
+5/19/2025,8:43:08 AM,$HST:This application closed
