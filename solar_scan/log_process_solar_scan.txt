@@ -439,3 +439,489 @@
 
 2025-05-19 13:43:56 - Successfully run
 ************************************************
+
+2025-05-19 16:11:41 - Found 6 scans in the motor log file for day 20250519
+************************************************
+
+2025-05-19 16:11:41 - Processing scan from 2025-05-19 08:58:03.647000 to 2025-05-19 08:59:41.927000
+************************************************
+
+2025-05-19 16:11:41 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-2-fd4cf603419a>", line 113, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:11:41 - Processing scan from 2025-05-19 09:58:03.503000 to 2025-05-19 09:59:41.819000
+************************************************
+
+2025-05-19 16:11:41 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-2-fd4cf603419a>", line 113, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:11:41 - Processing scan from 2025-05-19 10:58:03.612000 to 2025-05-19 10:59:41.927000
+************************************************
+
+2025-05-19 16:11:41 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-2-fd4cf603419a>", line 113, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:11:41 - Processing scan from 2025-05-19 11:58:02.892000 to 2025-05-19 11:59:41.208000
+************************************************
+
+2025-05-19 16:11:41 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-2-fd4cf603419a>", line 113, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:11:41 - Processing scan from 2025-05-19 12:58:02.963000 to 2025-05-19 12:59:41.244000
+************************************************
+
+2025-05-19 16:11:41 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-2-fd4cf603419a>", line 113, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:11:41 - Processing scan from 2025-05-19 13:58:03.576000 to 2025-05-19 13:59:41.856000
+************************************************
+
+2025-05-19 16:11:41 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-2-fd4cf603419a>", line 113, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:12:06 - Found 6 scans in the motor log file for day 20250518
+************************************************
+
+2025-05-19 16:12:06 - Processing scan from 2025-05-18 08:58:03.252000 to 2025-05-18 08:59:41.532000
+************************************************
+
+2025-05-19 16:12:06 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-3-d78860fd65f0>", line 114, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:12:06 - Processing scan from 2025-05-18 09:58:03.576000 to 2025-05-18 09:59:41.856000
+************************************************
+
+2025-05-19 16:12:06 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-3-d78860fd65f0>", line 114, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:12:06 - Processing scan from 2025-05-18 10:58:03.432000 to 2025-05-18 10:59:41.712000
+************************************************
+
+2025-05-19 16:12:06 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-3-d78860fd65f0>", line 114, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:12:06 - Processing scan from 2025-05-18 11:58:03.791000 to 2025-05-18 11:59:42.072000
+************************************************
+
+2025-05-19 16:12:06 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-3-d78860fd65f0>", line 114, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:12:06 - Processing scan from 2025-05-18 12:58:03.252000 to 2025-05-18 12:59:41.532000
+************************************************
+
+2025-05-19 16:12:06 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-3-d78860fd65f0>", line 114, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:12:06 - Processing scan from 2025-05-18 13:58:03.396000 to 2025-05-18 13:59:41.712000
+************************************************
+
+2025-05-19 16:12:06 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-3-d78860fd65f0>", line 114, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:14:54 - Found 6 scans in the motor log file for day 20250519
+************************************************
+
+2025-05-19 16:14:54 - Processing scan from 2025-05-19 08:58:03.647000 to 2025-05-19 08:59:41.927000
+************************************************
+
+2025-05-19 16:14:54 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-11-38b1093a3ece>", line 113, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:14:54 - Processing scan from 2025-05-19 09:58:03.503000 to 2025-05-19 09:59:41.819000
+************************************************
+
+2025-05-19 16:14:54 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-11-38b1093a3ece>", line 113, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:14:54 - Processing scan from 2025-05-19 10:58:03.612000 to 2025-05-19 10:59:41.927000
+************************************************
+
+2025-05-19 16:14:54 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-11-38b1093a3ece>", line 113, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:14:54 - Processing scan from 2025-05-19 11:58:02.892000 to 2025-05-19 11:59:41.208000
+************************************************
+
+2025-05-19 16:14:54 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-11-38b1093a3ece>", line 113, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:14:54 - Processing scan from 2025-05-19 12:58:02.963000 to 2025-05-19 12:59:41.244000
+************************************************
+
+2025-05-19 16:14:54 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-11-38b1093a3ece>", line 113, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:14:54 - Processing scan from 2025-05-19 13:58:03.576000 to 2025-05-19 13:59:41.856000
+************************************************
+
+2025-05-19 16:14:54 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-11-38b1093a3ece>", line 113, in <module>
+    idx_closest = np.where(np.array(times_fit_files) < dtimes[-1])[0][-1]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:17:07 - Found 6 scans in the motor log file for day 20250519
+************************************************
+
+2025-05-19 16:17:07 - Processing scan from 2025-05-19 08:58:03.647000+00:00 to 2025-05-19 08:59:41.927000+00:00
+************************************************
+
+2025-05-19 16:17:07 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_085012_01.fit
+************************************************
+
+2025-05-19 16:17:07 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-14-054193f1f31a>", line 124, in <module>
+    mask_inscan = np.logical_and(fit_data["datetimes"] >= dtimes[0] - buffer,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:17:07 - Processing scan from 2025-05-19 09:58:03.503000+00:00 to 2025-05-19 09:59:41.819000+00:00
+************************************************
+
+2025-05-19 16:17:07 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_094500_01.fit
+************************************************
+
+2025-05-19 16:17:07 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-14-054193f1f31a>", line 124, in <module>
+    mask_inscan = np.logical_and(fit_data["datetimes"] >= dtimes[0] - buffer,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:17:07 - Processing scan from 2025-05-19 10:58:03.612000+00:00 to 2025-05-19 10:59:41.927000+00:00
+************************************************
+
+2025-05-19 16:17:07 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_104500_01.fit
+************************************************
+
+2025-05-19 16:17:07 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-14-054193f1f31a>", line 124, in <module>
+    mask_inscan = np.logical_and(fit_data["datetimes"] >= dtimes[0] - buffer,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:17:07 - Processing scan from 2025-05-19 11:58:02.892000+00:00 to 2025-05-19 11:59:41.208000+00:00
+************************************************
+
+2025-05-19 16:17:07 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_114500_01.fit
+************************************************
+
+2025-05-19 16:17:07 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-14-054193f1f31a>", line 124, in <module>
+    mask_inscan = np.logical_and(fit_data["datetimes"] >= dtimes[0] - buffer,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:17:07 - Processing scan from 2025-05-19 12:58:02.963000+00:00 to 2025-05-19 12:59:41.244000+00:00
+************************************************
+
+2025-05-19 16:17:07 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_124501_01.fit
+************************************************
+
+2025-05-19 16:17:07 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-14-054193f1f31a>", line 124, in <module>
+    mask_inscan = np.logical_and(fit_data["datetimes"] >= dtimes[0] - buffer,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:17:07 - Processing scan from 2025-05-19 13:58:03.576000+00:00 to 2025-05-19 13:59:41.856000+00:00
+************************************************
+
+2025-05-19 16:17:07 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_134501_01.fit
+************************************************
+
+2025-05-19 16:17:07 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-14-054193f1f31a>", line 124, in <module>
+    mask_inscan = np.logical_and(fit_data["datetimes"] >= dtimes[0] - buffer,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:17:42 - Found 6 scans in the motor log file for day 20250519
+************************************************
+
+2025-05-19 16:17:42 - Processing scan from 2025-05-19 08:58:03.647000+00:00 to 2025-05-19 08:59:41.927000+00:00
+************************************************
+
+2025-05-19 16:17:42 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_085012_01.fit
+************************************************
+
+2025-05-19 16:19:17 - Found 6 scans in the motor log file for day 20250519
+************************************************
+
+2025-05-19 16:19:17 - Processing scan from 2025-05-19 08:58:03.647000+00:00 to 2025-05-19 08:59:41.927000+00:00
+************************************************
+
+2025-05-19 16:19:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_085012_01.fit
+************************************************
+
+2025-05-19 16:19:17 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-21-054193f1f31a>", line 124, in <module>
+    mask_inscan = np.logical_and(fit_data["datetimes"] >= dtimes[0] - buffer,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:19:17 - Processing scan from 2025-05-19 09:58:03.503000+00:00 to 2025-05-19 09:59:41.819000+00:00
+************************************************
+
+2025-05-19 16:19:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_094500_01.fit
+************************************************
+
+2025-05-19 16:19:17 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-21-054193f1f31a>", line 124, in <module>
+    mask_inscan = np.logical_and(fit_data["datetimes"] >= dtimes[0] - buffer,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:19:17 - Processing scan from 2025-05-19 10:58:03.612000+00:00 to 2025-05-19 10:59:41.927000+00:00
+************************************************
+
+2025-05-19 16:19:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_104500_01.fit
+************************************************
+
+2025-05-19 16:19:17 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-21-054193f1f31a>", line 124, in <module>
+    mask_inscan = np.logical_and(fit_data["datetimes"] >= dtimes[0] - buffer,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:19:17 - Processing scan from 2025-05-19 11:58:02.892000+00:00 to 2025-05-19 11:59:41.208000+00:00
+************************************************
+
+2025-05-19 16:19:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_114500_01.fit
+************************************************
+
+2025-05-19 16:19:17 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-21-054193f1f31a>", line 124, in <module>
+    mask_inscan = np.logical_and(fit_data["datetimes"] >= dtimes[0] - buffer,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:19:17 - Processing scan from 2025-05-19 12:58:02.963000+00:00 to 2025-05-19 12:59:41.244000+00:00
+************************************************
+
+2025-05-19 16:19:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_124501_01.fit
+************************************************
+
+2025-05-19 16:19:17 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-21-054193f1f31a>", line 124, in <module>
+    mask_inscan = np.logical_and(fit_data["datetimes"] >= dtimes[0] - buffer,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:19:17 - Processing scan from 2025-05-19 13:58:03.576000+00:00 to 2025-05-19 13:59:41.856000+00:00
+************************************************
+
+2025-05-19 16:19:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_134501_01.fit
+************************************************
+
+2025-05-19 16:19:17 - Error: can't compare offset-naive and offset-aware datetimes
+Traceback (most recent call last):
+  File "<ipython-input-21-054193f1f31a>", line 124, in <module>
+    mask_inscan = np.logical_and(fit_data["datetimes"] >= dtimes[0] - buffer,
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can't compare offset-naive and offset-aware datetimes
+
+************************************************
+
+2025-05-19 16:19:27 - Found 6 scans in the motor log file for day 20250519
+************************************************
+
+2025-05-19 16:19:27 - Processing scan from 2025-05-19 08:58:03.647000+00:00 to 2025-05-19 08:59:41.927000+00:00
+************************************************
+
+2025-05-19 16:19:27 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_085012_01.fit
+************************************************
+
+2025-05-19 16:19:59 - Found 6 scans in the motor log file for day 20250519
+************************************************
+
+2025-05-19 16:19:59 - Processing scan from 2025-05-19 08:58:03.647000+00:00 to 2025-05-19 08:59:41.927000+00:00
+************************************************
+
+2025-05-19 16:19:59 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_085012_01.fit
+************************************************
+
+2025-05-19 16:19:59 - Successfully run
+************************************************
+
+2025-05-19 16:19:59 - Processing scan from 2025-05-19 09:58:03.503000+00:00 to 2025-05-19 09:59:41.819000+00:00
+************************************************
+
+2025-05-19 16:19:59 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_094500_01.fit
+************************************************
+
+2025-05-19 16:19:59 - Successfully run
+************************************************
+
+2025-05-19 16:19:59 - Processing scan from 2025-05-19 10:58:03.612000+00:00 to 2025-05-19 10:59:41.927000+00:00
+************************************************
+
+2025-05-19 16:19:59 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_104500_01.fit
+************************************************
+
+2025-05-19 16:19:59 - Successfully run
+************************************************
+
+2025-05-19 16:19:59 - Processing scan from 2025-05-19 11:58:02.892000+00:00 to 2025-05-19 11:59:41.208000+00:00
+************************************************
+
+2025-05-19 16:19:59 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_114500_01.fit
+************************************************
+
+2025-05-19 16:19:59 - Successfully run
+************************************************
+
+2025-05-19 16:19:59 - Processing scan from 2025-05-19 12:58:02.963000+00:00 to 2025-05-19 12:59:41.244000+00:00
+************************************************
+
+2025-05-19 16:19:59 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_124501_01.fit
+************************************************
+
+2025-05-19 16:20:00 - Successfully run
+************************************************
+
+2025-05-19 16:20:00 - Processing scan from 2025-05-19 13:58:03.576000+00:00 to 2025-05-19 13:59:41.856000+00:00
+************************************************
+
+2025-05-19 16:20:00 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_134501_01.fit
+************************************************
+
+2025-05-19 16:20:00 - Successfully run
+************************************************
