@@ -1153,3 +1153,1095 @@ TypeError: can't compare offset-naive and offset-aware datetimes
 
 2025-05-20 07:42:54 - Successfully run
 ************************************************
+
+2025-05-20 08:09:55 - Found 1 scans in the motor log file for day 20250520
+************************************************
+
+2025-05-20 08:10:08 - Found 6 scans in the motor log file for day 20250515
+************************************************
+
+2025-05-20 08:10:08 - Processing scan from 2025-05-15 08:58:02.856000+00:00 to 2025-05-15 08:59:41.135000+00:00
+************************************************
+
+2025-05-20 08:10:08 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_084500_01.fit
+************************************************
+
+2025-05-20 08:10:09 - Successfully run
+************************************************
+
+2025-05-20 08:10:09 - Processing scan from 2025-05-15 09:58:03.216000+00:00 to 2025-05-15 09:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:10:09 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_094501_01.fit
+************************************************
+
+2025-05-20 08:10:10 - Successfully run
+************************************************
+
+2025-05-20 08:10:10 - Processing scan from 2025-05-15 10:58:03.467000+00:00 to 2025-05-15 10:59:41.783000+00:00
+************************************************
+
+2025-05-20 08:10:10 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_104501_01.fit
+************************************************
+
+2025-05-20 08:10:11 - Successfully run
+************************************************
+
+2025-05-20 08:10:11 - Processing scan from 2025-05-15 11:58:03.036000+00:00 to 2025-05-15 11:59:41.352000+00:00
+************************************************
+
+2025-05-20 08:10:11 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_114501_01.fit
+************************************************
+
+2025-05-20 08:10:13 - Successfully run
+************************************************
+
+2025-05-20 08:10:13 - Processing scan from 2025-05-15 12:58:03.216000+00:00 to 2025-05-15 12:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:10:13 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_124501_01.fit
+************************************************
+
+2025-05-20 08:10:14 - Successfully run
+************************************************
+
+2025-05-20 08:10:14 - Processing scan from 2025-05-15 13:58:03.576000+00:00 to 2025-05-15 13:59:41.819000+00:00
+************************************************
+
+2025-05-20 08:10:14 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_134501_01.fit
+************************************************
+
+2025-05-20 08:10:15 - Successfully run
+************************************************
+
+2025-05-20 08:12:20 - Found 6 scans in the motor log file for day 20250515
+************************************************
+
+2025-05-20 08:12:20 - Processing scan from 2025-05-15 08:58:02.856000+00:00 to 2025-05-15 08:59:41.135000+00:00
+************************************************
+
+2025-05-20 08:12:20 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_084500_01.fit
+************************************************
+
+2025-05-20 08:12:20 - Error: set_aspect(..., adjustable='datalim') or axis('equal') are not allowed when both axes are shared.  Try set_aspect(..., adjustable='box').
+Traceback (most recent call last):
+  File "<ipython-input-8-cef48ad15765>", line 245, in <module>
+    fig2.savefig(os.path.join(folder_images,f'solar-scan59_map_{day_dt.strftime("%Y-%m-%d")}.png'))
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backend_bases.py", line 2193, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 497, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 445, in _print_pil
+    FigureCanvasAgg.draw(self)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 3143, in draw
+    artists = self._get_draw_artists(renderer)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 231, in _get_draw_artists
+    ax.apply_aspect(locator(ax, renderer) if locator else None)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 1975, in apply_aspect
+    raise RuntimeError("set_aspect(..., adjustable='datalim') or "
+RuntimeError: set_aspect(..., adjustable='datalim') or axis('equal') are not allowed when both axes are shared.  Try set_aspect(..., adjustable='box').
+
+************************************************
+
+2025-05-20 08:12:20 - Processing scan from 2025-05-15 09:58:03.216000+00:00 to 2025-05-15 09:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:12:20 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_094501_01.fit
+************************************************
+
+2025-05-20 08:12:21 - Error: set_aspect(..., adjustable='datalim') or axis('equal') are not allowed when both axes are shared.  Try set_aspect(..., adjustable='box').
+Traceback (most recent call last):
+  File "<ipython-input-8-cef48ad15765>", line 245, in <module>
+    fig2.savefig(os.path.join(folder_images,f'solar-scan59_map_{day_dt.strftime("%Y-%m-%d")}.png'))
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backend_bases.py", line 2193, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 497, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 445, in _print_pil
+    FigureCanvasAgg.draw(self)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 3143, in draw
+    artists = self._get_draw_artists(renderer)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 231, in _get_draw_artists
+    ax.apply_aspect(locator(ax, renderer) if locator else None)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 1975, in apply_aspect
+    raise RuntimeError("set_aspect(..., adjustable='datalim') or "
+RuntimeError: set_aspect(..., adjustable='datalim') or axis('equal') are not allowed when both axes are shared.  Try set_aspect(..., adjustable='box').
+
+************************************************
+
+2025-05-20 08:12:21 - Processing scan from 2025-05-15 10:58:03.467000+00:00 to 2025-05-15 10:59:41.783000+00:00
+************************************************
+
+2025-05-20 08:12:21 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_104501_01.fit
+************************************************
+
+2025-05-20 08:12:22 - Error: set_aspect(..., adjustable='datalim') or axis('equal') are not allowed when both axes are shared.  Try set_aspect(..., adjustable='box').
+Traceback (most recent call last):
+  File "<ipython-input-8-cef48ad15765>", line 245, in <module>
+    fig2.savefig(os.path.join(folder_images,f'solar-scan59_map_{day_dt.strftime("%Y-%m-%d")}.png'))
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backend_bases.py", line 2193, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 497, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 445, in _print_pil
+    FigureCanvasAgg.draw(self)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 3143, in draw
+    artists = self._get_draw_artists(renderer)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 231, in _get_draw_artists
+    ax.apply_aspect(locator(ax, renderer) if locator else None)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 1975, in apply_aspect
+    raise RuntimeError("set_aspect(..., adjustable='datalim') or "
+RuntimeError: set_aspect(..., adjustable='datalim') or axis('equal') are not allowed when both axes are shared.  Try set_aspect(..., adjustable='box').
+
+************************************************
+
+2025-05-20 08:12:22 - Processing scan from 2025-05-15 11:58:03.036000+00:00 to 2025-05-15 11:59:41.352000+00:00
+************************************************
+
+2025-05-20 08:12:22 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_114501_01.fit
+************************************************
+
+2025-05-20 08:12:23 - Error: set_aspect(..., adjustable='datalim') or axis('equal') are not allowed when both axes are shared.  Try set_aspect(..., adjustable='box').
+Traceback (most recent call last):
+  File "<ipython-input-8-cef48ad15765>", line 245, in <module>
+    fig2.savefig(os.path.join(folder_images,f'solar-scan59_map_{day_dt.strftime("%Y-%m-%d")}.png'))
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backend_bases.py", line 2193, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 497, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 445, in _print_pil
+    FigureCanvasAgg.draw(self)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 3143, in draw
+    artists = self._get_draw_artists(renderer)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 231, in _get_draw_artists
+    ax.apply_aspect(locator(ax, renderer) if locator else None)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 1975, in apply_aspect
+    raise RuntimeError("set_aspect(..., adjustable='datalim') or "
+RuntimeError: set_aspect(..., adjustable='datalim') or axis('equal') are not allowed when both axes are shared.  Try set_aspect(..., adjustable='box').
+
+************************************************
+
+2025-05-20 08:12:23 - Processing scan from 2025-05-15 12:58:03.216000+00:00 to 2025-05-15 12:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:12:23 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_124501_01.fit
+************************************************
+
+2025-05-20 08:12:23 - Error: set_aspect(..., adjustable='datalim') or axis('equal') are not allowed when both axes are shared.  Try set_aspect(..., adjustable='box').
+Traceback (most recent call last):
+  File "<ipython-input-8-cef48ad15765>", line 245, in <module>
+    fig2.savefig(os.path.join(folder_images,f'solar-scan59_map_{day_dt.strftime("%Y-%m-%d")}.png'))
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backend_bases.py", line 2193, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 497, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 445, in _print_pil
+    FigureCanvasAgg.draw(self)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 3143, in draw
+    artists = self._get_draw_artists(renderer)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 231, in _get_draw_artists
+    ax.apply_aspect(locator(ax, renderer) if locator else None)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 1975, in apply_aspect
+    raise RuntimeError("set_aspect(..., adjustable='datalim') or "
+RuntimeError: set_aspect(..., adjustable='datalim') or axis('equal') are not allowed when both axes are shared.  Try set_aspect(..., adjustable='box').
+
+************************************************
+
+2025-05-20 08:12:23 - Processing scan from 2025-05-15 13:58:03.576000+00:00 to 2025-05-15 13:59:41.819000+00:00
+************************************************
+
+2025-05-20 08:12:23 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_134501_01.fit
+************************************************
+
+2025-05-20 08:12:25 - Error: set_aspect(..., adjustable='datalim') or axis('equal') are not allowed when both axes are shared.  Try set_aspect(..., adjustable='box').
+Traceback (most recent call last):
+  File "<ipython-input-8-cef48ad15765>", line 245, in <module>
+    fig2.savefig(os.path.join(folder_images,f'solar-scan59_map_{day_dt.strftime("%Y-%m-%d")}.png'))
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backend_bases.py", line 2193, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 497, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 445, in _print_pil
+    FigureCanvasAgg.draw(self)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\backends\backend_agg.py", line 388, in draw
+    self.figure.draw(self.renderer)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 95, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\artist.py", line 72, in draw_wrapper
+    return draw(artist, renderer)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 3143, in draw
+    artists = self._get_draw_artists(renderer)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 231, in _get_draw_artists
+    ax.apply_aspect(locator(ax, renderer) if locator else None)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 1975, in apply_aspect
+    raise RuntimeError("set_aspect(..., adjustable='datalim') or "
+RuntimeError: set_aspect(..., adjustable='datalim') or axis('equal') are not allowed when both axes are shared.  Try set_aspect(..., adjustable='box').
+
+************************************************
+
+2025-05-20 08:12:48 - Found 6 scans in the motor log file for day 20250515
+************************************************
+
+2025-05-20 08:12:49 - Processing scan from 2025-05-15 08:58:02.856000+00:00 to 2025-05-15 08:59:41.135000+00:00
+************************************************
+
+2025-05-20 08:12:49 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_084500_01.fit
+************************************************
+
+2025-05-20 08:12:49 - Error: axis() got an unexpected keyword argument 'adjustable'
+Traceback (most recent call last):
+  File "<ipython-input-9-d7c65e2be831>", line 229, in <module>
+    ax2[i].axis(adjustable="box")
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 2133, in axis
+    raise _api.kwarg_error("axis", kwargs)
+TypeError: axis() got an unexpected keyword argument 'adjustable'
+
+************************************************
+
+2025-05-20 08:12:49 - Processing scan from 2025-05-15 09:58:03.216000+00:00 to 2025-05-15 09:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:12:49 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_094501_01.fit
+************************************************
+
+2025-05-20 08:12:49 - Error: axis() got an unexpected keyword argument 'adjustable'
+Traceback (most recent call last):
+  File "<ipython-input-9-d7c65e2be831>", line 229, in <module>
+    ax2[i].axis(adjustable="box")
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 2133, in axis
+    raise _api.kwarg_error("axis", kwargs)
+TypeError: axis() got an unexpected keyword argument 'adjustable'
+
+************************************************
+
+2025-05-20 08:12:49 - Processing scan from 2025-05-15 10:58:03.467000+00:00 to 2025-05-15 10:59:41.783000+00:00
+************************************************
+
+2025-05-20 08:12:49 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_104501_01.fit
+************************************************
+
+2025-05-20 08:12:49 - Error: axis() got an unexpected keyword argument 'adjustable'
+Traceback (most recent call last):
+  File "<ipython-input-9-d7c65e2be831>", line 229, in <module>
+    ax2[i].axis(adjustable="box")
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 2133, in axis
+    raise _api.kwarg_error("axis", kwargs)
+TypeError: axis() got an unexpected keyword argument 'adjustable'
+
+************************************************
+
+2025-05-20 08:12:49 - Processing scan from 2025-05-15 11:58:03.036000+00:00 to 2025-05-15 11:59:41.352000+00:00
+************************************************
+
+2025-05-20 08:12:49 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_114501_01.fit
+************************************************
+
+2025-05-20 08:12:49 - Error: axis() got an unexpected keyword argument 'adjustable'
+Traceback (most recent call last):
+  File "<ipython-input-9-d7c65e2be831>", line 229, in <module>
+    ax2[i].axis(adjustable="box")
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 2133, in axis
+    raise _api.kwarg_error("axis", kwargs)
+TypeError: axis() got an unexpected keyword argument 'adjustable'
+
+************************************************
+
+2025-05-20 08:12:49 - Processing scan from 2025-05-15 12:58:03.216000+00:00 to 2025-05-15 12:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:12:49 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_124501_01.fit
+************************************************
+
+2025-05-20 08:12:49 - Error: axis() got an unexpected keyword argument 'adjustable'
+Traceback (most recent call last):
+  File "<ipython-input-9-d7c65e2be831>", line 229, in <module>
+    ax2[i].axis(adjustable="box")
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 2133, in axis
+    raise _api.kwarg_error("axis", kwargs)
+TypeError: axis() got an unexpected keyword argument 'adjustable'
+
+************************************************
+
+2025-05-20 08:12:49 - Processing scan from 2025-05-15 13:58:03.576000+00:00 to 2025-05-15 13:59:41.819000+00:00
+************************************************
+
+2025-05-20 08:12:49 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_134501_01.fit
+************************************************
+
+2025-05-20 08:12:49 - Error: axis() got an unexpected keyword argument 'adjustable'
+Traceback (most recent call last):
+  File "<ipython-input-9-d7c65e2be831>", line 229, in <module>
+    ax2[i].axis(adjustable="box")
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\axes\_base.py", line 2133, in axis
+    raise _api.kwarg_error("axis", kwargs)
+TypeError: axis() got an unexpected keyword argument 'adjustable'
+
+************************************************
+
+2025-05-20 08:13:43 - Found 6 scans in the motor log file for day 20250515
+************************************************
+
+2025-05-20 08:13:43 - Processing scan from 2025-05-15 08:58:02.856000+00:00 to 2025-05-15 08:59:41.135000+00:00
+************************************************
+
+2025-05-20 08:13:43 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_084500_01.fit
+************************************************
+
+2025-05-20 08:13:44 - Successfully run
+************************************************
+
+2025-05-20 08:13:44 - Processing scan from 2025-05-15 09:58:03.216000+00:00 to 2025-05-15 09:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:13:44 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_094501_01.fit
+************************************************
+
+2025-05-20 08:13:45 - Successfully run
+************************************************
+
+2025-05-20 08:13:45 - Processing scan from 2025-05-15 10:58:03.467000+00:00 to 2025-05-15 10:59:41.783000+00:00
+************************************************
+
+2025-05-20 08:13:45 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_104501_01.fit
+************************************************
+
+2025-05-20 08:13:46 - Successfully run
+************************************************
+
+2025-05-20 08:13:46 - Processing scan from 2025-05-15 11:58:03.036000+00:00 to 2025-05-15 11:59:41.352000+00:00
+************************************************
+
+2025-05-20 08:13:46 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_114501_01.fit
+************************************************
+
+2025-05-20 08:13:47 - Successfully run
+************************************************
+
+2025-05-20 08:13:47 - Processing scan from 2025-05-15 12:58:03.216000+00:00 to 2025-05-15 12:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:13:47 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_124501_01.fit
+************************************************
+
+2025-05-20 08:13:49 - Successfully run
+************************************************
+
+2025-05-20 08:13:49 - Processing scan from 2025-05-15 13:58:03.576000+00:00 to 2025-05-15 13:59:41.819000+00:00
+************************************************
+
+2025-05-20 08:13:49 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_134501_01.fit
+************************************************
+
+2025-05-20 08:13:50 - Successfully run
+************************************************
+
+2025-05-20 08:14:16 - Found 6 scans in the motor log file for day 20250515
+************************************************
+
+2025-05-20 08:14:16 - Processing scan from 2025-05-15 08:58:02.856000+00:00 to 2025-05-15 08:59:41.135000+00:00
+************************************************
+
+2025-05-20 08:14:16 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_084500_01.fit
+************************************************
+
+2025-05-20 08:14:17 - Successfully run
+************************************************
+
+2025-05-20 08:14:17 - Processing scan from 2025-05-15 09:58:03.216000+00:00 to 2025-05-15 09:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:14:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_094501_01.fit
+************************************************
+
+2025-05-20 08:14:18 - Successfully run
+************************************************
+
+2025-05-20 08:14:18 - Processing scan from 2025-05-15 10:58:03.467000+00:00 to 2025-05-15 10:59:41.783000+00:00
+************************************************
+
+2025-05-20 08:14:18 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_104501_01.fit
+************************************************
+
+2025-05-20 08:14:19 - Successfully run
+************************************************
+
+2025-05-20 08:14:19 - Processing scan from 2025-05-15 11:58:03.036000+00:00 to 2025-05-15 11:59:41.352000+00:00
+************************************************
+
+2025-05-20 08:14:19 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_114501_01.fit
+************************************************
+
+2025-05-20 08:14:21 - Successfully run
+************************************************
+
+2025-05-20 08:14:21 - Processing scan from 2025-05-15 12:58:03.216000+00:00 to 2025-05-15 12:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:14:21 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_124501_01.fit
+************************************************
+
+2025-05-20 08:14:22 - Successfully run
+************************************************
+
+2025-05-20 08:14:22 - Processing scan from 2025-05-15 13:58:03.576000+00:00 to 2025-05-15 13:59:41.819000+00:00
+************************************************
+
+2025-05-20 08:14:22 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_134501_01.fit
+************************************************
+
+2025-05-20 08:14:23 - Successfully run
+************************************************
+
+2025-05-20 08:14:34 - Found 6 scans in the motor log file for day 20250515
+************************************************
+
+2025-05-20 08:14:34 - Processing scan from 2025-05-15 08:58:02.856000+00:00 to 2025-05-15 08:59:41.135000+00:00
+************************************************
+
+2025-05-20 08:14:34 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_084500_01.fit
+************************************************
+
+2025-05-20 08:14:34 - Successfully run
+************************************************
+
+2025-05-20 08:14:34 - Processing scan from 2025-05-15 09:58:03.216000+00:00 to 2025-05-15 09:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:14:34 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_094501_01.fit
+************************************************
+
+2025-05-20 08:14:35 - Successfully run
+************************************************
+
+2025-05-20 08:14:35 - Processing scan from 2025-05-15 10:58:03.467000+00:00 to 2025-05-15 10:59:41.783000+00:00
+************************************************
+
+2025-05-20 08:14:35 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_104501_01.fit
+************************************************
+
+2025-05-20 08:14:37 - Successfully run
+************************************************
+
+2025-05-20 08:14:37 - Processing scan from 2025-05-15 11:58:03.036000+00:00 to 2025-05-15 11:59:41.352000+00:00
+************************************************
+
+2025-05-20 08:14:37 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_114501_01.fit
+************************************************
+
+2025-05-20 08:14:39 - Successfully run
+************************************************
+
+2025-05-20 08:14:39 - Processing scan from 2025-05-15 12:58:03.216000+00:00 to 2025-05-15 12:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:14:39 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_124501_01.fit
+************************************************
+
+2025-05-20 08:14:41 - Successfully run
+************************************************
+
+2025-05-20 08:14:41 - Processing scan from 2025-05-15 13:58:03.576000+00:00 to 2025-05-15 13:59:41.819000+00:00
+************************************************
+
+2025-05-20 08:14:41 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_134501_01.fit
+************************************************
+
+2025-05-20 08:14:43 - Successfully run
+************************************************
+
+2025-05-20 08:21:05 - Found 6 scans in the motor log file for day 20250515
+************************************************
+
+2025-05-20 08:21:05 - Processing scan from 2025-05-15 08:58:02.856000+00:00 to 2025-05-15 08:59:41.135000+00:00
+************************************************
+
+2025-05-20 08:21:05 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_084500_01.fit
+************************************************
+
+2025-05-20 08:21:06 - Successfully run
+************************************************
+
+2025-05-20 08:21:06 - Processing scan from 2025-05-15 09:58:03.216000+00:00 to 2025-05-15 09:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:21:06 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_094501_01.fit
+************************************************
+
+2025-05-20 08:21:07 - Successfully run
+************************************************
+
+2025-05-20 08:21:07 - Processing scan from 2025-05-15 10:58:03.467000+00:00 to 2025-05-15 10:59:41.783000+00:00
+************************************************
+
+2025-05-20 08:21:07 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_104501_01.fit
+************************************************
+
+2025-05-20 08:21:08 - Successfully run
+************************************************
+
+2025-05-20 08:21:08 - Processing scan from 2025-05-15 11:58:03.036000+00:00 to 2025-05-15 11:59:41.352000+00:00
+************************************************
+
+2025-05-20 08:21:08 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_114501_01.fit
+************************************************
+
+2025-05-20 08:21:09 - Successfully run
+************************************************
+
+2025-05-20 08:21:09 - Processing scan from 2025-05-15 12:58:03.216000+00:00 to 2025-05-15 12:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:21:09 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_124501_01.fit
+************************************************
+
+2025-05-20 08:21:10 - Successfully run
+************************************************
+
+2025-05-20 08:21:10 - Processing scan from 2025-05-15 13:58:03.576000+00:00 to 2025-05-15 13:59:41.819000+00:00
+************************************************
+
+2025-05-20 08:21:10 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_134501_01.fit
+************************************************
+
+2025-05-20 08:21:12 - Successfully run
+************************************************
+
+2025-05-20 08:21:35 - Found 6 scans in the motor log file for day 20250515
+************************************************
+
+2025-05-20 08:21:35 - Processing scan from 2025-05-15 08:58:02.856000+00:00 to 2025-05-15 08:59:41.135000+00:00
+************************************************
+
+2025-05-20 08:21:35 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_084500_01.fit
+************************************************
+
+2025-05-20 08:21:36 - Successfully run
+************************************************
+
+2025-05-20 08:21:36 - Processing scan from 2025-05-15 09:58:03.216000+00:00 to 2025-05-15 09:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:21:36 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_094501_01.fit
+************************************************
+
+2025-05-20 08:21:37 - Successfully run
+************************************************
+
+2025-05-20 08:21:37 - Processing scan from 2025-05-15 10:58:03.467000+00:00 to 2025-05-15 10:59:41.783000+00:00
+************************************************
+
+2025-05-20 08:21:37 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_104501_01.fit
+************************************************
+
+2025-05-20 08:21:38 - Successfully run
+************************************************
+
+2025-05-20 08:21:38 - Processing scan from 2025-05-15 11:58:03.036000+00:00 to 2025-05-15 11:59:41.352000+00:00
+************************************************
+
+2025-05-20 08:21:38 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_114501_01.fit
+************************************************
+
+2025-05-20 08:21:40 - Successfully run
+************************************************
+
+2025-05-20 08:21:40 - Processing scan from 2025-05-15 12:58:03.216000+00:00 to 2025-05-15 12:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:21:40 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_124501_01.fit
+************************************************
+
+2025-05-20 08:21:41 - Successfully run
+************************************************
+
+2025-05-20 08:21:41 - Processing scan from 2025-05-15 13:58:03.576000+00:00 to 2025-05-15 13:59:41.819000+00:00
+************************************************
+
+2025-05-20 08:21:41 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_134501_01.fit
+************************************************
+
+2025-05-20 08:21:42 - Successfully run
+************************************************
+
+2025-05-20 08:21:51 - Found 6 scans in the motor log file for day 20250515
+************************************************
+
+2025-05-20 08:21:51 - Processing scan from 2025-05-15 08:58:02.856000+00:00 to 2025-05-15 08:59:41.135000+00:00
+************************************************
+
+2025-05-20 08:21:51 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_084500_01.fit
+************************************************
+
+2025-05-20 08:21:52 - Successfully run
+************************************************
+
+2025-05-20 08:21:52 - Processing scan from 2025-05-15 09:58:03.216000+00:00 to 2025-05-15 09:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:21:52 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_094501_01.fit
+************************************************
+
+2025-05-20 08:21:53 - Successfully run
+************************************************
+
+2025-05-20 08:21:53 - Processing scan from 2025-05-15 10:58:03.467000+00:00 to 2025-05-15 10:59:41.783000+00:00
+************************************************
+
+2025-05-20 08:21:53 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_104501_01.fit
+************************************************
+
+2025-05-20 08:21:55 - Successfully run
+************************************************
+
+2025-05-20 08:21:55 - Processing scan from 2025-05-15 11:58:03.036000+00:00 to 2025-05-15 11:59:41.352000+00:00
+************************************************
+
+2025-05-20 08:21:55 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_114501_01.fit
+************************************************
+
+2025-05-20 08:21:57 - Successfully run
+************************************************
+
+2025-05-20 08:21:57 - Processing scan from 2025-05-15 12:58:03.216000+00:00 to 2025-05-15 12:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:21:57 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_124501_01.fit
+************************************************
+
+2025-05-20 08:21:59 - Successfully run
+************************************************
+
+2025-05-20 08:21:59 - Processing scan from 2025-05-15 13:58:03.576000+00:00 to 2025-05-15 13:59:41.819000+00:00
+************************************************
+
+2025-05-20 08:21:59 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_134501_01.fit
+************************************************
+
+2025-05-20 08:22:01 - Successfully run
+************************************************
+
+2025-05-20 08:23:15 - Found 6 scans in the motor log file for day 20250515
+************************************************
+
+2025-05-20 08:23:15 - Processing scan from 2025-05-15 08:58:02.856000+00:00 to 2025-05-15 08:59:41.135000+00:00
+************************************************
+
+2025-05-20 08:23:15 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_084500_01.fit
+************************************************
+
+2025-05-20 08:23:16 - Successfully run
+************************************************
+
+2025-05-20 08:23:16 - Processing scan from 2025-05-15 09:58:03.216000+00:00 to 2025-05-15 09:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:23:16 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_094501_01.fit
+************************************************
+
+2025-05-20 08:23:17 - Successfully run
+************************************************
+
+2025-05-20 08:23:17 - Processing scan from 2025-05-15 10:58:03.467000+00:00 to 2025-05-15 10:59:41.783000+00:00
+************************************************
+
+2025-05-20 08:23:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_104501_01.fit
+************************************************
+
+2025-05-20 08:23:18 - Successfully run
+************************************************
+
+2025-05-20 08:23:18 - Processing scan from 2025-05-15 11:58:03.036000+00:00 to 2025-05-15 11:59:41.352000+00:00
+************************************************
+
+2025-05-20 08:23:18 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_114501_01.fit
+************************************************
+
+2025-05-20 08:23:19 - Successfully run
+************************************************
+
+2025-05-20 08:23:19 - Processing scan from 2025-05-15 12:58:03.216000+00:00 to 2025-05-15 12:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:23:19 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_124501_01.fit
+************************************************
+
+2025-05-20 08:23:20 - Successfully run
+************************************************
+
+2025-05-20 08:23:20 - Processing scan from 2025-05-15 13:58:03.576000+00:00 to 2025-05-15 13:59:41.819000+00:00
+************************************************
+
+2025-05-20 08:23:20 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_134501_01.fit
+************************************************
+
+2025-05-20 08:23:22 - Successfully run
+************************************************
+
+2025-05-20 08:30:51 - Found 6 scans in the motor log file for day 20250515
+************************************************
+
+2025-05-20 08:30:51 - Processing scan from 2025-05-15 08:58:02.856000+00:00 to 2025-05-15 08:59:41.135000+00:00
+************************************************
+
+2025-05-20 08:30:51 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_084500_01.fit
+************************************************
+
+2025-05-20 08:30:52 - Successfully run
+************************************************
+
+2025-05-20 08:30:52 - Processing scan from 2025-05-15 09:58:03.216000+00:00 to 2025-05-15 09:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:30:52 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_094501_01.fit
+************************************************
+
+2025-05-20 08:30:53 - Successfully run
+************************************************
+
+2025-05-20 08:30:53 - Processing scan from 2025-05-15 10:58:03.467000+00:00 to 2025-05-15 10:59:41.783000+00:00
+************************************************
+
+2025-05-20 08:30:53 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_104501_01.fit
+************************************************
+
+2025-05-20 08:30:54 - Successfully run
+************************************************
+
+2025-05-20 08:30:54 - Processing scan from 2025-05-15 11:58:03.036000+00:00 to 2025-05-15 11:59:41.352000+00:00
+************************************************
+
+2025-05-20 08:30:54 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_114501_01.fit
+************************************************
+
+2025-05-20 08:30:55 - Successfully run
+************************************************
+
+2025-05-20 08:30:55 - Processing scan from 2025-05-15 12:58:03.216000+00:00 to 2025-05-15 12:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:30:55 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_124501_01.fit
+************************************************
+
+2025-05-20 08:30:57 - Successfully run
+************************************************
+
+2025-05-20 08:30:57 - Processing scan from 2025-05-15 13:58:03.576000+00:00 to 2025-05-15 13:59:41.819000+00:00
+************************************************
+
+2025-05-20 08:30:57 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250515_134501_01.fit
+************************************************
+
+2025-05-20 08:30:58 - Successfully run
+************************************************
+
+2025-05-20 08:31:14 - Found 6 scans in the motor log file for day 20250516
+************************************************
+
+2025-05-20 08:31:14 - Processing scan from 2025-05-16 08:58:03.612000+00:00 to 2025-05-16 08:59:41.892000+00:00
+************************************************
+
+2025-05-20 08:31:14 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250516_084500_01.fit
+************************************************
+
+2025-05-20 08:31:15 - Successfully run
+************************************************
+
+2025-05-20 08:31:15 - Processing scan from 2025-05-16 09:58:03.323000+00:00 to 2025-05-16 09:59:41.603000+00:00
+************************************************
+
+2025-05-20 08:31:15 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250516_094500_01.fit
+************************************************
+
+2025-05-20 08:31:16 - Successfully run
+************************************************
+
+2025-05-20 08:31:16 - Processing scan from 2025-05-16 10:58:03.612000+00:00 to 2025-05-16 10:59:41.892000+00:00
+************************************************
+
+2025-05-20 08:31:16 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250516_104501_01.fit
+************************************************
+
+2025-05-20 08:31:17 - Successfully run
+************************************************
+
+2025-05-20 08:31:17 - Processing scan from 2025-05-16 11:58:03.647000+00:00 to 2025-05-16 11:59:41.927000+00:00
+************************************************
+
+2025-05-20 08:31:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250516_114501_01.fit
+************************************************
+
+2025-05-20 08:31:18 - Successfully run
+************************************************
+
+2025-05-20 08:31:18 - Processing scan from 2025-05-16 12:58:03.036000+00:00 to 2025-05-16 12:59:41.315000+00:00
+************************************************
+
+2025-05-20 08:31:18 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250516_124501_01.fit
+************************************************
+
+2025-05-20 08:31:20 - Successfully run
+************************************************
+
+2025-05-20 08:31:20 - Processing scan from 2025-05-16 13:58:03.396000+00:00 to 2025-05-16 13:59:41.676000+00:00
+************************************************
+
+2025-05-20 08:31:20 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250516_134501_01.fit
+************************************************
+
+2025-05-20 08:31:22 - Successfully run
+************************************************
+
+2025-05-20 08:31:45 - Found 6 scans in the motor log file for day 20250517
+************************************************
+
+2025-05-20 08:31:45 - Processing scan from 2025-05-17 08:58:03.827000+00:00 to 2025-05-17 08:59:42.107000+00:00
+************************************************
+
+2025-05-20 08:31:45 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250517_084500_01.fit
+************************************************
+
+2025-05-20 08:31:46 - Successfully run
+************************************************
+
+2025-05-20 08:31:46 - Processing scan from 2025-05-17 09:58:03.179000+00:00 to 2025-05-17 09:59:41.459000+00:00
+************************************************
+
+2025-05-20 08:31:46 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250517_094500_01.fit
+************************************************
+
+2025-05-20 08:31:47 - Successfully run
+************************************************
+
+2025-05-20 08:31:47 - Processing scan from 2025-05-17 10:58:03.827000+00:00 to 2025-05-17 10:59:42.107000+00:00
+************************************************
+
+2025-05-20 08:31:47 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250517_104501_01.fit
+************************************************
+
+2025-05-20 08:31:48 - Successfully run
+************************************************
+
+2025-05-20 08:31:48 - Processing scan from 2025-05-17 11:58:03.143000+00:00 to 2025-05-17 11:59:41.423000+00:00
+************************************************
+
+2025-05-20 08:31:48 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250517_114501_01.fit
+************************************************
+
+2025-05-20 08:31:49 - Successfully run
+************************************************
+
+2025-05-20 08:31:49 - Processing scan from 2025-05-17 12:58:03.287000+00:00 to 2025-05-17 12:59:41.568000+00:00
+************************************************
+
+2025-05-20 08:31:49 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250517_124501_01.fit
+************************************************
+
+2025-05-20 08:31:50 - Successfully run
+************************************************
+
+2025-05-20 08:31:50 - Processing scan from 2025-05-17 13:58:02.999000+00:00 to 2025-05-17 13:59:41.315000+00:00
+************************************************
+
+2025-05-20 08:31:50 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250517_134501_01.fit
+************************************************
+
+2025-05-20 08:31:52 - Successfully run
+************************************************
+
+2025-05-20 08:32:50 - Found 6 scans in the motor log file for day 20250518
+************************************************
+
+2025-05-20 08:32:50 - Processing scan from 2025-05-18 08:58:03.252000+00:00 to 2025-05-18 08:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:32:50 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250518_084500_01.fit
+************************************************
+
+2025-05-20 08:32:51 - Successfully run
+************************************************
+
+2025-05-20 08:32:51 - Processing scan from 2025-05-18 09:58:03.576000+00:00 to 2025-05-18 09:59:41.856000+00:00
+************************************************
+
+2025-05-20 08:32:51 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250518_094500_01.fit
+************************************************
+
+2025-05-20 08:32:52 - Successfully run
+************************************************
+
+2025-05-20 08:32:52 - Processing scan from 2025-05-18 10:58:03.432000+00:00 to 2025-05-18 10:59:41.712000+00:00
+************************************************
+
+2025-05-20 08:32:52 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250518_104501_01.fit
+************************************************
+
+2025-05-20 08:32:53 - Successfully run
+************************************************
+
+2025-05-20 08:32:53 - Processing scan from 2025-05-18 11:58:03.791000+00:00 to 2025-05-18 11:59:42.072000+00:00
+************************************************
+
+2025-05-20 08:32:53 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250518_114501_01.fit
+************************************************
+
+2025-05-20 08:32:54 - Successfully run
+************************************************
+
+2025-05-20 08:32:54 - Processing scan from 2025-05-18 12:58:03.252000+00:00 to 2025-05-18 12:59:41.532000+00:00
+************************************************
+
+2025-05-20 08:32:54 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250518_124501_01.fit
+************************************************
+
+2025-05-20 08:32:55 - Successfully run
+************************************************
+
+2025-05-20 08:32:55 - Processing scan from 2025-05-18 13:58:03.396000+00:00 to 2025-05-18 13:59:41.712000+00:00
+************************************************
+
+2025-05-20 08:32:55 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250518_134501_01.fit
+************************************************
+
+2025-05-20 08:32:56 - Successfully run
+************************************************
+
+2025-05-20 08:34:58 - Found 6 scans in the motor log file for day 20250519
+************************************************
+
+2025-05-20 08:34:58 - Processing scan from 2025-05-19 08:58:03.647000+00:00 to 2025-05-19 08:59:41.927000+00:00
+************************************************
+
+2025-05-20 08:34:58 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_085012_01.fit
+************************************************
+
+2025-05-20 08:34:59 - Successfully run
+************************************************
+
+2025-05-20 08:34:59 - Processing scan from 2025-05-19 09:58:03.503000+00:00 to 2025-05-19 09:59:41.819000+00:00
+************************************************
+
+2025-05-20 08:34:59 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_094500_01.fit
+************************************************
+
+2025-05-20 08:35:00 - Successfully run
+************************************************
+
+2025-05-20 08:35:00 - Processing scan from 2025-05-19 10:58:03.612000+00:00 to 2025-05-19 10:59:41.927000+00:00
+************************************************
+
+2025-05-20 08:35:00 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_104500_01.fit
+************************************************
+
+2025-05-20 08:35:01 - Successfully run
+************************************************
+
+2025-05-20 08:35:01 - Processing scan from 2025-05-19 11:58:02.892000+00:00 to 2025-05-19 11:59:41.208000+00:00
+************************************************
+
+2025-05-20 08:35:01 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_114500_01.fit
+************************************************
+
+2025-05-20 08:35:02 - Successfully run
+************************************************
+
+2025-05-20 08:35:02 - Processing scan from 2025-05-19 12:58:02.963000+00:00 to 2025-05-19 12:59:41.244000+00:00
+************************************************
+
+2025-05-20 08:35:02 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_124501_01.fit
+************************************************
+
+2025-05-20 08:35:03 - Successfully run
+************************************************
+
+2025-05-20 08:35:03 - Processing scan from 2025-05-19 13:58:03.576000+00:00 to 2025-05-19 13:59:41.856000+00:00
+************************************************
+
+2025-05-20 08:35:03 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250519_134501_01.fit
+************************************************
+
+2025-05-20 08:35:04 - Successfully run
+************************************************
