@@ -3097,3 +3097,871 @@ TypeError: axis() got an unexpected keyword argument 'adjustable'
 
 2025-05-21 09:34:40 - Successfully run
 ************************************************
+
+2025-05-21 15:06:09 - Found 6 scans in the motor log file for day 20250521
+************************************************
+
+2025-05-21 15:06:09 - Processing scan from 2025-05-21 08:58:03.108000+00:00 to 2025-05-21 08:59:41.423000+00:00
+************************************************
+
+2025-05-21 15:06:09 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_084500_01.fit
+************************************************
+
+2025-05-21 15:06:12 - Successfully run
+************************************************
+
+2025-05-21 15:06:12 - Processing scan from 2025-05-21 09:58:02.892000+00:00 to 2025-05-21 09:59:41.208000+00:00
+************************************************
+
+2025-05-21 15:06:12 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_094500_01.fit
+************************************************
+
+2025-05-21 15:06:15 - Successfully run
+************************************************
+
+2025-05-21 15:06:15 - Processing scan from 2025-05-21 10:58:03.432000+00:00 to 2025-05-21 10:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:06:15 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_104501_01.fit
+************************************************
+
+2025-05-21 15:06:19 - Successfully run
+************************************************
+
+2025-05-21 15:06:19 - Processing scan from 2025-05-21 11:58:03.396000+00:00 to 2025-05-21 11:59:41.676000+00:00
+************************************************
+
+2025-05-21 15:06:19 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_114501_01.fit
+************************************************
+
+2025-05-21 15:06:23 - Successfully run
+************************************************
+
+2025-05-21 15:06:23 - Processing scan from 2025-05-21 12:58:03.467000+00:00 to 2025-05-21 12:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:06:23 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_124501_01.fit
+************************************************
+
+2025-05-21 15:06:27 - Successfully run
+************************************************
+
+2025-05-21 15:06:27 - Processing scan from 2025-05-21 13:58:03.323000+00:00 to 2025-05-21 13:59:41.639000+00:00
+************************************************
+
+2025-05-21 15:06:28 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_134501_01.fit
+************************************************
+
+2025-05-21 15:06:33 - Successfully run
+************************************************
+
+2025-05-21 15:07:22 - Found 6 scans in the motor log file for day 20250521
+************************************************
+
+2025-05-21 15:07:22 - Processing scan from 2025-05-21 08:58:03.108000+00:00 to 2025-05-21 08:59:41.423000+00:00
+************************************************
+
+2025-05-21 15:07:22 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_084500_01.fit
+************************************************
+
+2025-05-21 15:07:22 - Error: 'numpy.ndarray' object has no attribute 'title'
+Traceback (most recent call last):
+  File "<ipython-input-2-9aa118ff3a3f>", line 246, in <module>
+    if not len(ax2.title.get_text()):
+               ^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'title'
+
+************************************************
+
+2025-05-21 15:07:22 - Processing scan from 2025-05-21 09:58:02.892000+00:00 to 2025-05-21 09:59:41.208000+00:00
+************************************************
+
+2025-05-21 15:07:22 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_094500_01.fit
+************************************************
+
+2025-05-21 15:07:22 - Error: 'numpy.ndarray' object has no attribute 'title'
+Traceback (most recent call last):
+  File "<ipython-input-2-9aa118ff3a3f>", line 246, in <module>
+    if not len(ax2.title.get_text()):
+               ^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'title'
+
+************************************************
+
+2025-05-21 15:07:22 - Processing scan from 2025-05-21 10:58:03.432000+00:00 to 2025-05-21 10:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:07:22 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_104501_01.fit
+************************************************
+
+2025-05-21 15:07:22 - Error: 'numpy.ndarray' object has no attribute 'title'
+Traceback (most recent call last):
+  File "<ipython-input-2-9aa118ff3a3f>", line 246, in <module>
+    if not len(ax2.title.get_text()):
+               ^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'title'
+
+************************************************
+
+2025-05-21 15:07:22 - Processing scan from 2025-05-21 11:58:03.396000+00:00 to 2025-05-21 11:59:41.676000+00:00
+************************************************
+
+2025-05-21 15:07:22 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_114501_01.fit
+************************************************
+
+2025-05-21 15:07:22 - Error: 'numpy.ndarray' object has no attribute 'title'
+Traceback (most recent call last):
+  File "<ipython-input-2-9aa118ff3a3f>", line 246, in <module>
+    if not len(ax2.title.get_text()):
+               ^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'title'
+
+************************************************
+
+2025-05-21 15:07:22 - Processing scan from 2025-05-21 12:58:03.467000+00:00 to 2025-05-21 12:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:07:22 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_124501_01.fit
+************************************************
+
+2025-05-21 15:07:23 - Error: 'numpy.ndarray' object has no attribute 'title'
+Traceback (most recent call last):
+  File "<ipython-input-2-9aa118ff3a3f>", line 246, in <module>
+    if not len(ax2.title.get_text()):
+               ^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'title'
+
+************************************************
+
+2025-05-21 15:07:23 - Processing scan from 2025-05-21 13:58:03.323000+00:00 to 2025-05-21 13:59:41.639000+00:00
+************************************************
+
+2025-05-21 15:07:23 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_134501_01.fit
+************************************************
+
+2025-05-21 15:07:23 - Error: 'numpy.ndarray' object has no attribute 'title'
+Traceback (most recent call last):
+  File "<ipython-input-2-9aa118ff3a3f>", line 246, in <module>
+    if not len(ax2.title.get_text()):
+               ^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'title'
+
+************************************************
+
+2025-05-21 15:07:32 - Found 6 scans in the motor log file for day 20250521
+************************************************
+
+2025-05-21 15:07:32 - Processing scan from 2025-05-21 08:58:03.108000+00:00 to 2025-05-21 08:59:41.423000+00:00
+************************************************
+
+2025-05-21 15:07:32 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_084500_01.fit
+************************************************
+
+2025-05-21 15:07:35 - Successfully run
+************************************************
+
+2025-05-21 15:07:35 - Processing scan from 2025-05-21 09:58:02.892000+00:00 to 2025-05-21 09:59:41.208000+00:00
+************************************************
+
+2025-05-21 15:07:35 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_094500_01.fit
+************************************************
+
+2025-05-21 15:07:38 - Successfully run
+************************************************
+
+2025-05-21 15:07:38 - Processing scan from 2025-05-21 10:58:03.432000+00:00 to 2025-05-21 10:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:07:38 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_104501_01.fit
+************************************************
+
+2025-05-21 15:07:42 - Successfully run
+************************************************
+
+2025-05-21 15:07:42 - Processing scan from 2025-05-21 11:58:03.396000+00:00 to 2025-05-21 11:59:41.676000+00:00
+************************************************
+
+2025-05-21 15:07:42 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_114501_01.fit
+************************************************
+
+2025-05-21 15:07:46 - Successfully run
+************************************************
+
+2025-05-21 15:07:46 - Processing scan from 2025-05-21 12:58:03.467000+00:00 to 2025-05-21 12:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:07:46 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_124501_01.fit
+************************************************
+
+2025-05-21 15:07:51 - Successfully run
+************************************************
+
+2025-05-21 15:07:51 - Processing scan from 2025-05-21 13:58:03.323000+00:00 to 2025-05-21 13:59:41.639000+00:00
+************************************************
+
+2025-05-21 15:07:51 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_134501_01.fit
+************************************************
+
+2025-05-21 15:07:56 - Successfully run
+************************************************
+
+2025-05-21 15:09:51 - Found 6 scans in the motor log file for day 20250521
+************************************************
+
+2025-05-21 15:09:52 - Processing scan from 2025-05-21 08:58:03.108000+00:00 to 2025-05-21 08:59:41.423000+00:00
+************************************************
+
+2025-05-21 15:09:52 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_084500_01.fit
+************************************************
+
+2025-05-21 15:09:54 - Successfully run
+************************************************
+
+2025-05-21 15:09:54 - Processing scan from 2025-05-21 09:58:02.892000+00:00 to 2025-05-21 09:59:41.208000+00:00
+************************************************
+
+2025-05-21 15:09:54 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_094500_01.fit
+************************************************
+
+2025-05-21 15:09:59 - Successfully run
+************************************************
+
+2025-05-21 15:09:59 - Processing scan from 2025-05-21 10:58:03.432000+00:00 to 2025-05-21 10:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:09:59 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_104501_01.fit
+************************************************
+
+2025-05-21 15:10:03 - Successfully run
+************************************************
+
+2025-05-21 15:10:03 - Processing scan from 2025-05-21 11:58:03.396000+00:00 to 2025-05-21 11:59:41.676000+00:00
+************************************************
+
+2025-05-21 15:10:03 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_114501_01.fit
+************************************************
+
+2025-05-21 15:10:07 - Successfully run
+************************************************
+
+2025-05-21 15:10:07 - Processing scan from 2025-05-21 12:58:03.467000+00:00 to 2025-05-21 12:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:10:07 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_124501_01.fit
+************************************************
+
+2025-05-21 15:10:12 - Successfully run
+************************************************
+
+2025-05-21 15:10:12 - Processing scan from 2025-05-21 13:58:03.323000+00:00 to 2025-05-21 13:59:41.639000+00:00
+************************************************
+
+2025-05-21 15:10:12 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_134501_01.fit
+************************************************
+
+2025-05-21 15:10:17 - Successfully run
+************************************************
+
+2025-05-21 15:11:26 - Found 6 scans in the motor log file for day 20250521
+************************************************
+
+2025-05-21 15:11:26 - Processing scan from 2025-05-21 08:58:03.108000+00:00 to 2025-05-21 08:59:41.423000+00:00
+************************************************
+
+2025-05-21 15:11:26 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_084500_01.fit
+************************************************
+
+2025-05-21 15:11:27 - Successfully run
+************************************************
+
+2025-05-21 15:11:27 - Processing scan from 2025-05-21 09:58:02.892000+00:00 to 2025-05-21 09:59:41.208000+00:00
+************************************************
+
+2025-05-21 15:11:27 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_094500_01.fit
+************************************************
+
+2025-05-21 15:11:27 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-2-2c32ccff7e2e>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:11:27 - Processing scan from 2025-05-21 10:58:03.432000+00:00 to 2025-05-21 10:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:11:27 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_104501_01.fit
+************************************************
+
+2025-05-21 15:11:27 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-2-2c32ccff7e2e>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:11:27 - Processing scan from 2025-05-21 11:58:03.396000+00:00 to 2025-05-21 11:59:41.676000+00:00
+************************************************
+
+2025-05-21 15:11:27 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_114501_01.fit
+************************************************
+
+2025-05-21 15:11:27 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-2-2c32ccff7e2e>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:11:27 - Processing scan from 2025-05-21 12:58:03.467000+00:00 to 2025-05-21 12:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:11:27 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_124501_01.fit
+************************************************
+
+2025-05-21 15:11:28 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-2-2c32ccff7e2e>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:11:28 - Processing scan from 2025-05-21 13:58:03.323000+00:00 to 2025-05-21 13:59:41.639000+00:00
+************************************************
+
+2025-05-21 15:11:28 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_134501_01.fit
+************************************************
+
+2025-05-21 15:11:30 - Successfully run
+************************************************
+
+2025-05-21 15:16:31 - Found 6 scans in the motor log file for day 20250521
+************************************************
+
+2025-05-21 15:16:31 - Processing scan from 2025-05-21 08:58:03.108000+00:00 to 2025-05-21 08:59:41.423000+00:00
+************************************************
+
+2025-05-21 15:16:31 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_084500_01.fit
+************************************************
+
+2025-05-21 15:16:33 - Successfully run
+************************************************
+
+2025-05-21 15:16:33 - Processing scan from 2025-05-21 09:58:02.892000+00:00 to 2025-05-21 09:59:41.208000+00:00
+************************************************
+
+2025-05-21 15:16:33 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_094500_01.fit
+************************************************
+
+2025-05-21 15:16:33 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-4-2c32ccff7e2e>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:16:33 - Processing scan from 2025-05-21 10:58:03.432000+00:00 to 2025-05-21 10:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:16:33 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_104501_01.fit
+************************************************
+
+2025-05-21 15:16:33 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-4-2c32ccff7e2e>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:16:33 - Processing scan from 2025-05-21 11:58:03.396000+00:00 to 2025-05-21 11:59:41.676000+00:00
+************************************************
+
+2025-05-21 15:16:33 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_114501_01.fit
+************************************************
+
+2025-05-21 15:16:33 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-4-2c32ccff7e2e>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:16:33 - Processing scan from 2025-05-21 12:58:03.467000+00:00 to 2025-05-21 12:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:16:33 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_124501_01.fit
+************************************************
+
+2025-05-21 15:16:33 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-4-2c32ccff7e2e>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:16:33 - Processing scan from 2025-05-21 13:58:03.323000+00:00 to 2025-05-21 13:59:41.639000+00:00
+************************************************
+
+2025-05-21 15:16:33 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_134501_01.fit
+************************************************
+
+2025-05-21 15:16:36 - Successfully run
+************************************************
+
+2025-05-21 15:16:51 - Found 6 scans in the motor log file for day 20250521
+************************************************
+
+2025-05-21 15:16:51 - Processing scan from 2025-05-21 08:58:03.108000+00:00 to 2025-05-21 08:59:41.423000+00:00
+************************************************
+
+2025-05-21 15:16:51 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_084500_01.fit
+************************************************
+
+2025-05-21 15:16:54 - Successfully run
+************************************************
+
+2025-05-21 15:16:54 - Processing scan from 2025-05-21 09:58:02.892000+00:00 to 2025-05-21 09:59:41.208000+00:00
+************************************************
+
+2025-05-21 15:16:55 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_094500_01.fit
+************************************************
+
+2025-05-21 15:16:58 - Successfully run
+************************************************
+
+2025-05-21 15:16:58 - Processing scan from 2025-05-21 10:58:03.432000+00:00 to 2025-05-21 10:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:16:58 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_104501_01.fit
+************************************************
+
+2025-05-21 15:17:02 - Successfully run
+************************************************
+
+2025-05-21 15:17:02 - Processing scan from 2025-05-21 11:58:03.396000+00:00 to 2025-05-21 11:59:41.676000+00:00
+************************************************
+
+2025-05-21 15:17:02 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_114501_01.fit
+************************************************
+
+2025-05-21 15:17:08 - Successfully run
+************************************************
+
+2025-05-21 15:17:08 - Processing scan from 2025-05-21 12:58:03.467000+00:00 to 2025-05-21 12:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:17:08 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_124501_01.fit
+************************************************
+
+2025-05-21 15:17:14 - Successfully run
+************************************************
+
+2025-05-21 15:17:14 - Processing scan from 2025-05-21 13:58:03.323000+00:00 to 2025-05-21 13:59:41.639000+00:00
+************************************************
+
+2025-05-21 15:17:14 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_134501_01.fit
+************************************************
+
+2025-05-21 15:17:21 - Successfully run
+************************************************
+
+2025-05-21 15:18:18 - Found 6 scans in the motor log file for day 20250521
+************************************************
+
+2025-05-21 15:18:18 - Processing scan from 2025-05-21 08:58:03.108000+00:00 to 2025-05-21 08:59:41.423000+00:00
+************************************************
+
+2025-05-21 15:18:18 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_084500_01.fit
+************************************************
+
+2025-05-21 15:18:20 - Successfully run
+************************************************
+
+2025-05-21 15:18:20 - Processing scan from 2025-05-21 09:58:02.892000+00:00 to 2025-05-21 09:59:41.208000+00:00
+************************************************
+
+2025-05-21 15:18:20 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_094500_01.fit
+************************************************
+
+2025-05-21 15:18:20 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-8-2c32ccff7e2e>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:18:20 - Processing scan from 2025-05-21 10:58:03.432000+00:00 to 2025-05-21 10:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:18:20 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_104501_01.fit
+************************************************
+
+2025-05-21 15:18:20 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-8-2c32ccff7e2e>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:18:20 - Processing scan from 2025-05-21 11:58:03.396000+00:00 to 2025-05-21 11:59:41.676000+00:00
+************************************************
+
+2025-05-21 15:18:20 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_114501_01.fit
+************************************************
+
+2025-05-21 15:18:20 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-8-2c32ccff7e2e>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:18:20 - Processing scan from 2025-05-21 12:58:03.467000+00:00 to 2025-05-21 12:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:18:20 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_124501_01.fit
+************************************************
+
+2025-05-21 15:18:20 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-8-2c32ccff7e2e>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:18:20 - Processing scan from 2025-05-21 13:58:03.323000+00:00 to 2025-05-21 13:59:41.639000+00:00
+************************************************
+
+2025-05-21 15:18:20 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_134501_01.fit
+************************************************
+
+2025-05-21 15:18:23 - Successfully run
+************************************************
+
+2025-05-21 15:19:15 - Found 6 scans in the motor log file for day 20250521
+************************************************
+
+2025-05-21 15:19:15 - Processing scan from 2025-05-21 08:58:03.108000+00:00 to 2025-05-21 08:59:41.423000+00:00
+************************************************
+
+2025-05-21 15:19:15 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_084500_01.fit
+************************************************
+
+2025-05-21 15:19:16 - Successfully run
+************************************************
+
+2025-05-21 15:19:16 - Processing scan from 2025-05-21 09:58:02.892000+00:00 to 2025-05-21 09:59:41.208000+00:00
+************************************************
+
+2025-05-21 15:19:16 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_094500_01.fit
+************************************************
+
+2025-05-21 15:19:17 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-10-65b830bb6a7f>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:19:17 - Processing scan from 2025-05-21 10:58:03.432000+00:00 to 2025-05-21 10:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:19:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_104501_01.fit
+************************************************
+
+2025-05-21 15:19:17 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-10-65b830bb6a7f>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:19:17 - Processing scan from 2025-05-21 11:58:03.396000+00:00 to 2025-05-21 11:59:41.676000+00:00
+************************************************
+
+2025-05-21 15:19:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_114501_01.fit
+************************************************
+
+2025-05-21 15:19:17 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-10-65b830bb6a7f>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:19:17 - Processing scan from 2025-05-21 12:58:03.467000+00:00 to 2025-05-21 12:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:19:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_124501_01.fit
+************************************************
+
+2025-05-21 15:19:17 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-10-65b830bb6a7f>", line 247, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:19:17 - Processing scan from 2025-05-21 13:58:03.323000+00:00 to 2025-05-21 13:59:41.639000+00:00
+************************************************
+
+2025-05-21 15:19:17 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_134501_01.fit
+************************************************
+
+2025-05-21 15:19:19 - Successfully run
+************************************************
+
+2025-05-21 15:20:38 - Found 6 scans in the motor log file for day 20250521
+************************************************
+
+2025-05-21 15:20:38 - Processing scan from 2025-05-21 08:58:03.108000+00:00 to 2025-05-21 08:59:41.423000+00:00
+************************************************
+
+2025-05-21 15:20:38 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_084500_01.fit
+************************************************
+
+2025-05-21 15:20:39 - Successfully run
+************************************************
+
+2025-05-21 15:20:39 - Processing scan from 2025-05-21 09:58:02.892000+00:00 to 2025-05-21 09:59:41.208000+00:00
+************************************************
+
+2025-05-21 15:20:39 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_094500_01.fit
+************************************************
+
+2025-05-21 15:20:40 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-11-85130cb26ae6>", line 248, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:20:40 - Processing scan from 2025-05-21 10:58:03.432000+00:00 to 2025-05-21 10:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:20:40 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_104501_01.fit
+************************************************
+
+2025-05-21 15:20:40 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-11-85130cb26ae6>", line 248, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:20:40 - Processing scan from 2025-05-21 11:58:03.396000+00:00 to 2025-05-21 11:59:41.676000+00:00
+************************************************
+
+2025-05-21 15:20:40 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_114501_01.fit
+************************************************
+
+2025-05-21 15:20:40 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-11-85130cb26ae6>", line 248, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:20:40 - Processing scan from 2025-05-21 12:58:03.467000+00:00 to 2025-05-21 12:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:20:40 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_124501_01.fit
+************************************************
+
+2025-05-21 15:20:40 - Error: <Axes: >
+Traceback (most recent call last):
+  File "<ipython-input-11-85130cb26ae6>", line 248, in <module>
+    fig2.delaxes(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 939, in delaxes
+    self._remove_axes(ax, owners=[self._axstack, self._localaxes])
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 954, in _remove_axes
+    owner.remove(ax)
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\matplotlib\figure.py", line 92, in remove
+    self._axes.pop(a)
+KeyError: <Axes: >
+
+************************************************
+
+2025-05-21 15:20:40 - Processing scan from 2025-05-21 13:58:03.323000+00:00 to 2025-05-21 13:59:41.639000+00:00
+************************************************
+
+2025-05-21 15:20:40 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_134501_01.fit
+************************************************
+
+2025-05-21 15:20:42 - Successfully run
+************************************************
+
+2025-05-21 15:22:37 - Found 6 scans in the motor log file for day 20250521
+************************************************
+
+2025-05-21 15:22:37 - Processing scan from 2025-05-21 08:58:03.108000+00:00 to 2025-05-21 08:59:41.423000+00:00
+************************************************
+
+2025-05-21 15:22:37 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_084500_01.fit
+************************************************
+
+2025-05-21 15:22:37 - Processing scan from 2025-05-21 09:58:02.892000+00:00 to 2025-05-21 09:59:41.208000+00:00
+************************************************
+
+2025-05-21 15:22:37 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_094500_01.fit
+************************************************
+
+2025-05-21 15:22:37 - Processing scan from 2025-05-21 10:58:03.432000+00:00 to 2025-05-21 10:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:22:37 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_104501_01.fit
+************************************************
+
+2025-05-21 15:22:37 - Processing scan from 2025-05-21 11:58:03.396000+00:00 to 2025-05-21 11:59:41.676000+00:00
+************************************************
+
+2025-05-21 15:22:37 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_114501_01.fit
+************************************************
+
+2025-05-21 15:22:37 - Processing scan from 2025-05-21 12:58:03.467000+00:00 to 2025-05-21 12:59:41.712000+00:00
+************************************************
+
+2025-05-21 15:22:37 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_124501_01.fit
+************************************************
+
+2025-05-21 15:22:37 - Processing scan from 2025-05-21 13:58:03.323000+00:00 to 2025-05-21 13:59:41.639000+00:00
+************************************************
+
+2025-05-21 15:22:37 - Corresponding fit file: C:\xrt\output\data\raw\FITfiles\meteoswiss_20250521_134501_01.fit
+************************************************
+
+2025-05-21 15:22:43 - Successfully run
+************************************************
