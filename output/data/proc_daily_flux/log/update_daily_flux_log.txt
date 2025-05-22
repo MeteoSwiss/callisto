@@ -943,3 +943,102 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xrt\\output\\data\\meteoswiss\\meteoswiss_2025-05-12.csv'
 
 ************************************************
+
+2025-05-22 15:28:01 - Error: [Errno 2] No such file or directory: 'C:\\xrt\\output\\data\\meteoswiss\\meteoswiss_2025-05-12.csv'
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 779, in <module>
+    df_meteoswiss = pd.read_csv(filepath_csv, sep=',')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xrt\\output\\data\\meteoswiss\\meteoswiss_2025-05-12.csv'
+
+************************************************
+
+2025-05-22 15:53:27 - Error: [Errno 2] No such file or directory: 'C:\\xrt\\output\\data\\meteoswiss\\meteoswiss_2025-05-12.csv'
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\update_daily_flux.py", line 779, in <module>
+    df_meteoswiss = pd.read_csv(filepath_csv, sep=',')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xrt\\output\\data\\meteoswiss\\meteoswiss_2025-05-12.csv'
+
+************************************************
+
+2025-05-22 16:00:43 - No calibration found for the file on 2025-05-12 at 09:00:00.964. Solar flux set to -9999
+2025-05-22 16:00:43 - No calibration found for the file on 2025-05-12 at 09:15:01.034. Solar flux set to -9999
+2025-05-22 16:00:43 - No calibration found for the file on 2025-05-12 at 09:30:00.978. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-12 at 09:45:00.981. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-12 at 11:00:01.116. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-12 at 11:15:01.235. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-12 at 11:30:01.275. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-12 at 11:45:01.142. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-12 at 13:00:01.326. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-12 at 13:15:01.401. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-12 at 13:30:01.384. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-12 at 13:45:01.318. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-13 at 09:00:00.755. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-13 at 09:15:00.822. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-13 at 09:30:00.845. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-13 at 09:45:00.922. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-13 at 11:00:00.991. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-13 at 11:15:01.008. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-13 at 11:30:01.052. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-13 at 11:45:01.163. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-13 at 13:00:01.187. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-13 at 13:15:01.205. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-13 at 13:30:01.245. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-13 at 13:45:01.325. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-14 at 09:00:00.804. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-14 at 09:15:00.886. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-14 at 09:30:00.983. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-14 at 09:45:00.903. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-14 at 11:00:01.020. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-14 at 11:15:01.231. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-14 at 11:30:01.240. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-14 at 11:45:01.268. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-14 at 13:00:01.281. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-14 at 13:15:01.437. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-14 at 13:30:01.281. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-14 at 13:45:01.470. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 09:00:01.010. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 09:15:01.038. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 09:30:01.059. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 09:45:01.082. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 11:00:01.162. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 11:15:01.234. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 11:30:01.220. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 11:45:01.341. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 13:00:01.286. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 13:15:01.441. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 13:30:01.448. Solar flux set to -9999
+2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 13:45:01.567. Solar flux set to -9999
+2025-05-22 16:00:48 - Successfully run
+************************************************

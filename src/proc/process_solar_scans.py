@@ -281,12 +281,12 @@ def main():
         #msg_scan_afternoon = msg_afternoon[idx_start_scanning_afternoon:idx_end_scanning_afternoon+1]
 
         ### find in listfit the file containing 084500, 104500, 124500
-        idx_file_morning_before = [ii for ii in range(len(list_fit)) if '08450' in list_fit[ii]][0]
-        idx_file_morning_after = [ii for ii in range(len(list_fit)) if '09450' in list_fit[ii]][0]
-        idx_file_noon_before = [ii for ii in range(len(list_fit)) if '10450' in list_fit[ii]][0]
-        idx_file_noon_after = [ii for ii in range(len(list_fit)) if '11450' in list_fit[ii]][0]
-        idx_file_afternoon_before = [ii for ii in range(len(list_fit)) if '12450' in list_fit[ii]][0]
-        idx_file_afternoon_after = [ii for ii in range(len(list_fit)) if '13450' in list_fit[ii]][0]
+        idx_file_morning_before = [ii for ii in range(len(list_fit)) if '0845' in list_fit[ii]][0]
+        idx_file_morning_after = [ii for ii in range(len(list_fit)) if '0945' in list_fit[ii]][0]
+        idx_file_noon_before = [ii for ii in range(len(list_fit)) if '1045' in list_fit[ii]][0]
+        idx_file_noon_after = [ii for ii in range(len(list_fit)) if '1145' in list_fit[ii]][0]
+        idx_file_afternoon_before = [ii for ii in range(len(list_fit)) if '1245' in list_fit[ii]][0]
+        idx_file_afternoon_after = [ii for ii in range(len(list_fit)) if '1345' in list_fit[ii]][0]
 
         ### open the first FIT for some info
         dict_morning_before = readfit(list_fit[idx_file_morning_before])

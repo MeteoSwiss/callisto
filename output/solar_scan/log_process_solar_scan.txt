@@ -288,3 +288,231 @@ Traceback (most recent call last):
 IndexError: list index out of range
 
 ************************************************
+
+2025-05-22 15:25:34 - Error: list index out of range
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 285, in main
+    idx_file_morning_before = [ii for ii in range(len(list_fit)) if '08450' in list_fit[ii]][0]
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+************************************************
+
+2025-05-22 15:26:54 - Error: list index out of range
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 284, in main
+    idx_file_morning_before = [ii for ii in range(len(list_fit)) if '08450' in list_fit[ii]][0]
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+************************************************
+
+2025-05-22 15:27:50 - Error: list index out of range
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 284, in main
+    idx_file_morning_before = [ii for ii in range(len(list_fit)) if '08450' in list_fit[ii]][0]
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+************************************************
+
+2025-05-22 15:35:20 - Error: list index out of range
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 284, in main
+    idx_file_morning_before = [ii for ii in range(len(list_fit)) if '08450' in list_fit[ii]][0]
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+************************************************
+
+2025-05-22 15:38:34 - Error: attempt to get argmin of an empty sequence
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 380, in main
+    idx_morning_before = np.argmin(np.abs(pd.to_datetime(time_axis_FIT_morning_before) - time_scan_morning_before[nn]))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 1325, in argmin
+    return _wrapfunc(a, 'argmin', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\indexes\base.py", line 7385, in argmin
+    return super().argmin(skipna=skipna)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\base.py", line 783, in argmin
+    return delegate.argmin()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\arrays\_mixins.py", line 213, in argmin
+    return nargminmax(self, "argmin", axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\sorting.py", line 483, in nargminmax
+    return _nanargminmax(arr_values, mask, func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\sorting.py", line 494, in _nanargminmax
+    return non_nan_idx[func(non_nans)]
+                       ^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 1325, in argmin
+    return _wrapfunc(a, 'argmin', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+ValueError: attempt to get argmin of an empty sequence
+
+************************************************
+
+2025-05-22 15:43:13 - Error: attempt to get argmin of an empty sequence
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 380, in main
+    idx_morning_before = np.argmin(np.abs(pd.to_datetime(time_axis_FIT_morning_before) - time_scan_morning_before[nn]))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 1325, in argmin
+    return _wrapfunc(a, 'argmin', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\indexes\base.py", line 7385, in argmin
+    return super().argmin(skipna=skipna)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\base.py", line 783, in argmin
+    return delegate.argmin()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\arrays\_mixins.py", line 213, in argmin
+    return nargminmax(self, "argmin", axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\sorting.py", line 483, in nargminmax
+    return _nanargminmax(arr_values, mask, func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\sorting.py", line 494, in _nanargminmax
+    return non_nan_idx[func(non_nans)]
+                       ^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 1325, in argmin
+    return _wrapfunc(a, 'argmin', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+ValueError: attempt to get argmin of an empty sequence
+
+************************************************
+
+2025-05-22 15:44:10 - Error: attempt to get argmin of an empty sequence
+Traceback (most recent call last):
+  File "<ipython-input-5-96d722598c61>", line 371, in main
+    idx_morning_before = np.argmin(np.abs(pd.to_datetime(time_axis_FIT_morning_before) - time_scan_morning_before[nn]))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 1325, in argmin
+    return _wrapfunc(a, 'argmin', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\indexes\base.py", line 7385, in argmin
+    return super().argmin(skipna=skipna)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\base.py", line 783, in argmin
+    return delegate.argmin()
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\arrays\_mixins.py", line 213, in argmin
+    return nargminmax(self, "argmin", axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\sorting.py", line 483, in nargminmax
+    return _nanargminmax(arr_values, mask, func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\sorting.py", line 494, in _nanargminmax
+    return non_nan_idx[func(non_nans)]
+                       ^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 1325, in argmin
+    return _wrapfunc(a, 'argmin', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+ValueError: attempt to get argmin of an empty sequence
+
+************************************************
+
+2025-05-22 15:46:50 - Error: attempt to get argmin of an empty sequence
+Traceback (most recent call last):
+  File "<ipython-input-13-74601c85c36c>", line 371, in main
+    idx_morning_before = np.argmin(np.abs(pd.to_datetime(time_axis_FIT_morning_before) - time_scan_morning_before[nn]))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 1325, in argmin
+    return _wrapfunc(a, 'argmin', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\indexes\base.py", line 7385, in argmin
+    return super().argmin(skipna=skipna)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\base.py", line 783, in argmin
+    return delegate.argmin()
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\arrays\_mixins.py", line 213, in argmin
+    return nargminmax(self, "argmin", axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\sorting.py", line 483, in nargminmax
+    return _nanargminmax(arr_values, mask, func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\sorting.py", line 494, in _nanargminmax
+    return non_nan_idx[func(non_nans)]
+                       ^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 1325, in argmin
+    return _wrapfunc(a, 'argmin', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+ValueError: attempt to get argmin of an empty sequence
+
+************************************************
+
+2025-05-22 15:48:11 - Error: attempt to get argmin of an empty sequence
+Traceback (most recent call last):
+  File "<ipython-input-17-4964d7a53bd1>", line 369, in <module>
+    idx_morning_before = np.argmin(np.abs(pd.to_datetime(time_axis_FIT_morning_before) - time_scan_morning_before[nn]))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 1325, in argmin
+    return _wrapfunc(a, 'argmin', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\indexes\base.py", line 7385, in argmin
+    return super().argmin(skipna=skipna)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\base.py", line 783, in argmin
+    return delegate.argmin()
+           ^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\arrays\_mixins.py", line 213, in argmin
+    return nargminmax(self, "argmin", axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\sorting.py", line 483, in nargminmax
+    return _nanargminmax(arr_values, mask, func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\pandas\core\sorting.py", line 494, in _nanargminmax
+    return non_nan_idx[func(non_nans)]
+                       ^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 1325, in argmin
+    return _wrapfunc(a, 'argmin', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Tools\python\venv\callisto_env\Lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+ValueError: attempt to get argmin of an empty sequence
+
+************************************************
+
+2025-05-22 15:51:57 - The fit of the scan at 08:59 has failed!
+************************************************
+
+2025-05-22 15:52:01 - Successfully run
+************************************************
+
+2025-05-22 15:59:05 - The fit of the scan at 08:59 has failed!
+************************************************
+
+2025-05-22 15:59:09 - Successfully run
+************************************************
