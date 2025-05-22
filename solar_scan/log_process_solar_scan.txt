@@ -279,3 +279,12 @@ IndexError: index 0 is out of bounds for axis 0 with size 0
 
 2025-05-11 14:45:05 - Successfully run
 ************************************************
+
+2025-05-22 14:45:01 - Error: list index out of range
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 284, in main
+    idx_file_morning_before = [ii for ii in range(len(list_fit)) if '08450' in list_fit[ii]][0]
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+************************************************
