@@ -16,6 +16,7 @@ jobs:
           mkdir -p file_lists
           find solar_scan/maps_solar-scan/solar-scan59_map_*.png -type f | jq -R . | jq -s . > file_lists/solar_raster.json
           find fig/solarflux/callisto_meteoswiss_*.png -type f | jq -R . | jq -s . > file_lists/daily_quicklooks.json
+          find solar_scan/maps_solar-scan/solar-scan59_time-profiles_*.png -type f | jq -R . | jq -s . > file_lists/solar_timeseries.json
       - name: Commit and push
         run: |
           git config --global user.name "github-actions"
