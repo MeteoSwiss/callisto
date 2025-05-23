@@ -1042,3 +1042,6 @@ FileNotFoundError: [Errno 2] No such file or directory: 'C:\\xrt\\output\\data\\
 2025-05-22 16:00:44 - No calibration found for the file on 2025-05-15 at 13:45:01.567. Solar flux set to -9999
 2025-05-22 16:00:48 - Successfully run
 ************************************************
+
+2025-05-23 15:00:04 - Successfully run
+************************************************

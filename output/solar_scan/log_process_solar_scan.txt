@@ -516,3 +516,12 @@ ValueError: attempt to get argmin of an empty sequence
 
 2025-05-22 15:59:09 - Successfully run
 ************************************************
+
+2025-05-23 14:45:02 - Error: index 0 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 249, in main
+    idx_start_scanning_noon_before = np.where(msg_noon_before == ' New scanning59 position')[0][0]
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+************************************************
