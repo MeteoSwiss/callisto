@@ -96,3 +96,7 @@
 5/29/2025,2:29:59 PM,$CRX:Stopped
 5/29/2025,2:30:00 PM,$HST:Measurement enable
 5/29/2025,2:30:00 PM,$CRX:AGC gain = 2.53V
+5/29/2025,2:30:00 PM,$CRX:Emitter BF199 = 0.10V
+5/29/2025,2:30:00 PM,$CRX:Analog Input = 11.23
+5/29/2025,5:03:57 PM,$HST:All threads terminated
+5/29/2025,5:03:57 PM,$HST:This application closed
