@@ -44,6 +44,7 @@ AziPark   = config.getfloat('Tracker','AziPark')
 ElePark   = config.getfloat('Tracker','ElePark')
 aziref    = config.getfloat('Tracker','aziref')
 eleref    = config.getfloat('Tracker','eleref')
+ele4aziref = config.getfloat('Tracker','ele4aziref')
 azidir    = config.getfloat('Tracker','azidir')
 eledir    = config.getfloat('Tracker','eledir')
 planecorr = config.getfloat('Tracker','planecorr')
@@ -194,7 +195,10 @@ def ElevationRevision(myazi,myele):
 #------------------------------------------------------------------------------
 # track-/scan-/calibration-block
 
-RotorAzi = azidir*(azi - aziref) # conversion 0° ... 360° -> +/- 180°
+# I think it is more complicated than what I've tried here...
+horizontal_squint = (aziref-180)*np.cos(ele4aziref*np.pi/180)
+RotorAzi = azidir*(azi - (180 + horizontal_squint/np.cos(ele)))
+# RotorAzi = azidir*(azi - aziref) # conversion 0° ... 360° -> +/- 180°
 RotorEle = eledir*(ele - eleref) # conversion 0° ... 90° -> +/- 45°
 RotorEle = ElevationRevision(RotorAzi,RotorEle) # +/-1.25°
 
