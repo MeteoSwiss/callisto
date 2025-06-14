@@ -588,3 +588,12 @@ Traceback (most recent call last):
 IndexError: index 0 is out of bounds for axis 0 with size 0
 
 ************************************************
+
+2025-06-14 14:45:01 - Error: index 0 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "C:\xrt\src\proc\process_solar_scans.py", line 247, in main
+    idx_start_scanning_morning_after = np.where(msg_morning_after == ' New scanning59 position')[0][0]
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+************************************************
