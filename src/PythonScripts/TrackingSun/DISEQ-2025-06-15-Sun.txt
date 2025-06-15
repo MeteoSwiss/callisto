@@ -1,0 +1,822 @@
+DiSEqC radio telescope tracker
+Author: Christian Monstein, HB9SCT
+Version: 2023-04-27
+
+TIME [UT], Azimuth[deg], Elevation[deg], Message
+ 7.00000, 186.300,  60.500, Reference positions.
+
+ 7.00010, 145.000,  77.000, New tracking position
+ 7.01676, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+ 7.01678, 145.000, -14.000, New tracking position
+ 7.03342,  89.795,  33.107, Back to the Sun
+ 7.03345,  89.795,  33.107, New tracking position
+ 7.05012,  81.116, -27.212, Rotor position possibly out of range
+ 7.05012,  89.975,  33.280, Sun position possibly out of range
+ 7.06678,  84.117, -27.039, Rotor position possibly out of range
+ 7.06678,  90.155,  33.453, Sun position possibly out of range
+ 7.08345,  85.349, -26.866, Rotor position possibly out of range
+ 7.08345,  90.336,  33.626, Sun position possibly out of range
+ 7.10012,  85.936, -26.693, Rotor position possibly out of range
+ 7.10012,  90.517,  33.799, Sun position possibly out of range
+ 7.11678,  86.212, -26.520, Rotor position possibly out of range
+ 7.11678,  90.699,  33.972, Sun position possibly out of range
+ 7.13345,  86.309, -26.347, Rotor position possibly out of range
+ 7.13345,  90.881,  34.145, Sun position possibly out of range
+ 7.15012,  86.287, -26.174, Rotor position possibly out of range
+ 7.15012,  91.063,  34.318, Sun position possibly out of range
+ 7.16679,  86.175, -26.001, Rotor position possibly out of range
+ 7.16679,  91.246,  34.490, Sun position possibly out of range
+ 7.18345,  85.983, -25.828, Rotor position possibly out of range
+ 7.18345,  91.429,  34.663, Sun position possibly out of range
+ 7.20013,  85.711, -25.655, Rotor position possibly out of range
+ 7.20013,  91.612,  34.836, Sun position possibly out of range
+ 7.21682,  85.343, -25.482, Rotor position possibly out of range
+ 7.21682,  91.796,  35.009, Sun position possibly out of range
+ 7.23348,  84.847, -25.309, Rotor position possibly out of range
+ 7.23348,  91.981,  35.182, Sun position possibly out of range
+ 7.25012, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+ 7.25014, 145.000,  77.000, New tracking position
+ 7.26679, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+ 7.26681, 145.000, -14.000, New tracking position
+ 7.28346,  92.536,  35.701, Back to the Sun
+ 7.28348,  81.259, -24.791, Rotor position possibly out of range
+ 7.28348,  92.536,  35.701, Sun position possibly out of range
+ 7.30015,  77.071, -24.619, Rotor position possibly out of range
+ 7.30015,  92.722,  35.873, Sun position possibly out of range
+ 7.31681,  92.909,  36.046, New tracking position
+ 7.33349, 115.337, -24.270, Rotor position possibly out of range
+ 7.33349,  93.096,  36.219, Sun position possibly out of range
+ 7.35015,  96.603, -24.099, Rotor position possibly out of range
+ 7.35015,  93.283,  36.392, Sun position possibly out of range
+ 7.36682,  92.622, -23.926, Rotor position possibly out of range
+ 7.36682,  93.471,  36.564, Sun position possibly out of range
+ 7.38348,  90.842, -23.754, Rotor position possibly out of range
+ 7.38348,  93.659,  36.737, Sun position possibly out of range
+ 7.40015,  89.807, -23.581, Rotor position possibly out of range
+ 7.40015,  93.848,  36.910, Sun position possibly out of range
+ 7.41683,  89.118, -23.409, Rotor position possibly out of range
+ 7.41683,  94.037,  37.082, Sun position possibly out of range
+ 7.43351,  88.623, -23.236, Rotor position possibly out of range
+ 7.43351,  94.227,  37.255, Sun position possibly out of range
+ 7.45018,  88.254, -23.064, Rotor position possibly out of range
+ 7.45018,  94.417,  37.427, Sun position possibly out of range
+ 7.46685,  87.978, -22.891, Rotor position possibly out of range
+ 7.46685,  94.608,  37.600, Sun position possibly out of range
+ 7.48352,  87.781, -22.719, Rotor position possibly out of range
+ 7.48352,  94.799,  37.772, Sun position possibly out of range
+ 7.50017, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+ 7.50019, 145.000,  77.000, New tracking position
+ 7.51684, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+ 7.51686, 145.000, -14.000, New tracking position
+ 7.53351,  95.376,  38.289, Back to the Sun
+ 7.53354,  87.721, -22.202, Rotor position possibly out of range
+ 7.53354,  95.376,  38.289, Sun position possibly out of range
+ 7.55020,  87.988, -22.030, Rotor position possibly out of range
+ 7.55020,  95.569,  38.461, Sun position possibly out of range
+ 7.56687,  88.566, -21.858, Rotor position possibly out of range
+ 7.56687,  95.763,  38.633, Sun position possibly out of range
+ 7.58356,  89.788, -21.685, Rotor position possibly out of range
+ 7.58356,  95.958,  38.806, Sun position possibly out of range
+ 7.60022,  92.777, -21.513, Rotor position possibly out of range
+ 7.60022,  96.153,  38.978, Sun position possibly out of range
+ 7.61689, 105.082, -21.340, Rotor position possibly out of range
+ 7.61689,  96.348,  39.150, Sun position possibly out of range
+ 7.63356,  96.545,  39.321, New tracking position
+ 7.65023,  96.741,  39.493, New tracking position
+ 7.66690,  96.939,  39.665, New tracking position
+ 7.68357,  78.071, -20.655, Rotor position possibly out of range
+ 7.68357,  97.137,  39.837, Sun position possibly out of range
+ 7.70025,  78.842, -20.484, Rotor position possibly out of range
+ 7.70025,  97.335,  40.008, Sun position possibly out of range
+ 7.71692,  79.206, -20.312, Rotor position possibly out of range
+ 7.71692,  97.534,  40.180, Sun position possibly out of range
+ 7.73359,  79.350, -20.141, Rotor position possibly out of range
+ 7.73359,  97.734,  40.351, Sun position possibly out of range
+ 7.75023, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+ 7.75025, 145.000,  77.000, New tracking position
+ 7.76690, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+ 7.76692, 145.000, -14.000, New tracking position
+ 7.78357,  98.337,  40.865, Back to the Sun
+ 7.78359,  79.089, -19.627, Rotor position possibly out of range
+ 7.78359,  98.337,  40.865, Sun position possibly out of range
+ 7.80026,  78.837, -19.456, Rotor position possibly out of range
+ 7.80026,  98.539,  41.036, Sun position possibly out of range
+ 7.81692,  78.501, -19.285, Rotor position possibly out of range
+ 7.81692,  98.742,  41.208, Sun position possibly out of range
+ 7.83359,  78.057, -19.114, Rotor position possibly out of range
+ 7.83359,  98.946,  41.378, Sun position possibly out of range
+ 7.85027,  77.460, -18.943, Rotor position possibly out of range
+ 7.85027,  99.150,  41.549, Sun position possibly out of range
+ 7.86693,  99.356,  41.720, New tracking position
+ 7.88360,  99.561,  41.891, New tracking position
+ 7.90026,  99.768,  42.061, New tracking position
+ 7.91693,  99.975,  42.232, New tracking position
+ 7.93362,-195.273, -18.117, Rotor position possibly out of range
+ 7.93362, 100.183,  42.402, Sun position possibly out of range
+ 7.95028,  95.674, -17.918, Rotor position possibly out of range
+ 7.95028, 100.391,  42.572, Sun position possibly out of range
+ 7.96695,  87.318, -17.749, Rotor position possibly out of range
+ 7.96695, 100.601,  42.743, Sun position possibly out of range
+ 7.98362,  84.547, -17.579, Rotor position possibly out of range
+ 7.98362, 100.811,  42.913, Sun position possibly out of range
+ 8.00026, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+ 8.00028, 145.000,  77.000, New tracking position
+ 8.01693, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+ 8.01695, 145.000, -14.000, New tracking position
+ 8.03359, 101.446,  43.422, Back to the Sun
+ 8.03362,  81.593, -17.070, Rotor position possibly out of range
+ 8.03362, 101.446,  43.422, Sun position possibly out of range
+ 8.05029,  81.125, -16.901, Rotor position possibly out of range
+ 8.05029, 101.659,  43.591, Sun position possibly out of range
+ 8.06696,  80.765, -16.731, Rotor position possibly out of range
+ 8.06696, 101.873,  43.761, Sun position possibly out of range
+ 8.08364,  80.485, -16.559, Rotor position possibly out of range
+ 8.08364, 102.091,  43.933, Sun position possibly out of range
+ 8.10031,  80.285, -16.390, Rotor position possibly out of range
+ 8.10031, 102.307,  44.102, Sun position possibly out of range
+ 8.11698,  80.161, -16.221, Rotor position possibly out of range
+ 8.11698, 102.523,  44.271, Sun position possibly out of range
+ 8.13365,  80.128, -16.052, Rotor position possibly out of range
+ 8.13365, 102.741,  44.440, Sun position possibly out of range
+ 8.15033,  80.217, -15.884, Rotor position possibly out of range
+ 8.15033, 102.959,  44.608, Sun position possibly out of range
+ 8.16699,  80.496, -15.715, Rotor position possibly out of range
+ 8.16699, 103.178,  44.777, Sun position possibly out of range
+ 8.18367,  81.109, -15.547, Rotor position possibly out of range
+ 8.18367, 103.398,  44.945, Sun position possibly out of range
+ 8.20034,  82.430, -15.378, Rotor position possibly out of range
+ 8.20034, 103.618,  45.114, Sun position possibly out of range
+ 8.21702,  85.760, -15.210, Rotor position possibly out of range
+ 8.21702, 103.840,  45.282, Sun position possibly out of range
+ 8.23341, 100.202, -15.043, Rotor position possibly out of range
+ 8.23341, 104.059,  45.447, Sun position possibly out of range
+ 8.25007, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+ 8.25009, 145.000,  77.000, New tracking position
+ 8.26676, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+ 8.26678, 145.000, -14.000, New tracking position
+ 8.28343, 104.732,  45.950, Back to the Sun
+ 8.28345, 104.732,  45.950, New tracking position
+ 8.30011, 104.958,  46.117, New tracking position
+ 8.31678, 105.185,  46.284, New tracking position
+ 8.33346, 105.414,  46.451, New tracking position
+ 8.35013, 105.643,  46.618, New tracking position
+ 8.36680, 105.873,  46.784, New tracking position
+ 8.38346, 106.104,  46.950, New tracking position
+ 8.40013, 106.336,  47.117, New tracking position
+ 8.41680, 106.569,  47.283, New tracking position
+ 8.43347, 106.804,  47.448, New tracking position
+ 8.45014, 107.039,  47.614, New tracking position
+ 8.46681, 107.275,  47.779, New tracking position
+ 8.48347, 107.513,  47.944, New tracking position
+ 8.50013, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+ 8.50015, 145.000,  77.000, New tracking position
+ 8.51681, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+ 8.51682, 145.000, -14.000, New tracking position
+ 8.53347, 108.232,  48.438, Back to the Sun
+ 8.53349, 108.232,  48.438, New tracking position
+ 8.55016, 108.474,  48.603, New tracking position
+ 8.56684, 107.102, -11.723, Rotor position possibly out of range
+ 8.56684, 108.717,  48.767, Sun position possibly out of range
+ 8.58350,  82.060, -11.561, Rotor position possibly out of range
+ 8.58350, 108.961,  48.930, Sun position possibly out of range
+ 8.60018,  77.414, -11.398, Rotor position possibly out of range
+ 8.60018, 109.207,  49.094, Sun position possibly out of range
+ 8.61684, 109.453,  49.257, New tracking position
+ 8.63351, 109.701,  49.420, New tracking position
+ 8.65017, 109.950,  49.583, New tracking position
+ 8.66686, 110.200,  49.746, New tracking position
+ 8.68353, 110.452,  49.908, New tracking position
+ 8.70019, 110.704,  50.070, New tracking position
+ 8.71686, 110.958,  50.232, New tracking position
+ 8.73354, 111.214,  50.393, New tracking position
+ 8.75020, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+ 8.75022, 145.000,  77.000, New tracking position
+ 8.76686, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+ 8.76688, 145.000, -14.000, New tracking position
+ 8.78352, 111.988,  50.876, Back to the Sun
+ 8.78354, 111.988,  50.876, New tracking position
+ 8.80021, 112.248,  51.036, New tracking position
+ 8.81688, 112.510,  51.196, New tracking position
+ 8.83354, 112.774,  51.356, New tracking position
+ 8.85021, 113.038,  51.515, New tracking position
+ 8.86688,  82.643,  -8.818, Rotor position possibly out of range
+ 8.86688, 113.305,  51.674, Sun position possibly out of range
+ 8.88355, 845.079,  -8.583, Rotor position possibly out of range
+ 8.88355, 113.572,  51.833, Sun position possibly out of range
+ 8.90023, 113.841,  51.991, New tracking position
+ 8.91690, 114.112,  52.150, New tracking position
+ 8.93357, 114.384,  52.307, New tracking position
+ 8.95024, 114.657,  52.465, New tracking position
+ 8.96691, 114.932,  52.622, New tracking position
+ 8.98359, 115.209,  52.779, New tracking position
+ 8.98431, 113.809,  51.379, New scanning59 position
+ 8.98493, 114.509,  51.379, New scanning59 position
+ 8.98555, 115.209,  51.379, New scanning59 position
+ 8.98617, 115.909,  51.379, New scanning59 position
+ 8.98679, 116.609,  51.379, New scanning59 position
+ 8.98741, 116.609,  52.079, New scanning59 position
+ 8.98803, 115.909,  52.079, New scanning59 position
+ 8.98866, 115.209,  52.079, New scanning59 position
+ 8.98928, 114.509,  52.079, New scanning59 position
+ 8.98990, 113.809,  52.079, New scanning59 position
+ 8.99052, 113.809,  52.779, New scanning59 position
+ 8.99114, 114.509,  52.779, New scanning59 position
+ 8.99176, 115.209,  52.779, New scanning59 position
+ 8.99238, 115.909,  52.779, New scanning59 position
+ 8.99300, 116.609,  52.779, New scanning59 position
+ 8.99362, 116.609,  53.479, New scanning59 position
+ 8.99424, 115.909,  53.479, New scanning59 position
+ 8.99486, 115.209,  53.479, New scanning59 position
+ 8.99548, 114.509,  53.479, New scanning59 position
+ 8.99610, 113.809,  53.479, New scanning59 position
+ 8.99672, 113.809,  54.179, New scanning59 position
+ 8.99734, 114.509,  54.179, New scanning59 position
+ 8.99796, 115.209,  54.179, New scanning59 position
+ 8.99858, 115.909,  54.179, New scanning59 position
+ 8.99920, 116.609,  54.179, New scanning59 position
+ 8.99929, 115.209,  52.779, End of the scan59. Back to the Sun
+ 9.00026, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+ 9.00028, 145.000,  77.000, New tracking position
+ 9.01692, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+ 9.01694, 145.000, -14.000, New tracking position
+ 9.03360, 116.048,  53.247, Back to the Sun
+ 9.03362, 116.048,  53.247, New tracking position
+ 9.05029, 116.331,  53.402, New tracking position
+ 9.06696, 116.615,  53.557, New tracking position
+ 9.08362, 116.901,  53.711, New tracking position
+ 9.10029, 117.189,  53.866, New tracking position
+ 9.11695, 117.478,  54.019, New tracking position
+ 9.13362, 117.769,  54.173, New tracking position
+ 9.15029, 118.062,  54.326, New tracking position
+ 9.16696, 118.357,  54.478, New tracking position
+ 9.18363, 118.653,  54.630, New tracking position
+ 9.20030, 118.956,  54.784, New tracking position
+ 9.21697, 119.256,  54.935, New tracking position
+ 9.23364,  84.239,  -5.405, Rotor position possibly out of range
+ 9.23364, 119.558,  55.086, Sun position possibly out of range
+ 9.25030, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+ 9.25032, 145.000,  77.000, New tracking position
+ 9.26695, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+ 9.26697, 145.000, -14.000, New tracking position
+ 9.28362, 120.474,  55.536, Back to the Sun
+ 9.28364, 120.474,  55.536, New tracking position
+ 9.30030, 120.783,  55.685, New tracking position
+ 9.31697, 121.094,  55.833, New tracking position
+ 9.33366, 121.407,  55.981, New tracking position
+ 9.35032, 121.722,  56.129, New tracking position
+ 9.36698, 122.039,  56.275, New tracking position
+ 9.38365, 122.357,  56.422, New tracking position
+ 9.40032, 122.678,  56.568, New tracking position
+ 9.41699, 123.001,  56.713, New tracking position
+ 9.43366, 123.326,  56.858, New tracking position
+ 9.45032, 123.653,  57.002, New tracking position
+ 9.46699, 123.982,  57.146, New tracking position
+ 9.48365, 124.313,  57.289, New tracking position
+ 9.50031, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+ 9.50033, 145.000,  77.000, New tracking position
+ 9.51699, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+ 9.51700, 145.000, -14.000, New tracking position
+ 9.53365, 125.319,  57.716, Back to the Sun
+ 9.53367, 125.319,  57.716, New tracking position
+ 9.55007, 125.653,  57.854, New tracking position
+ 9.56674, 125.995,  57.995, New tracking position
+ 9.58341,-119.315,  -2.378, Rotor position possibly out of range
+ 9.58341, 126.339,  58.134, Sun position possibly out of range
+ 9.60008, 126.686,  58.273, New tracking position
+ 9.61674, 127.034,  58.412, New tracking position
+ 9.63340, 127.385,  58.550, New tracking position
+ 9.65007, 127.738,  58.687, New tracking position
+ 9.66675, 128.094,  58.823, New tracking position
+ 9.68343, 128.452,  58.959, New tracking position
+ 9.70011, 128.812,  59.095, New tracking position
+ 9.71677, 129.175,  59.229, New tracking position
+ 9.73345, 129.540,  59.363, New tracking position
+ 9.75011, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+ 9.75013, 145.000,  77.000, New tracking position
+ 9.76677, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+ 9.76679, 145.000, -14.000, New tracking position
+ 9.78344, 130.650,  59.760, Back to the Sun
+ 9.78346, 130.650,  59.760, New tracking position
+ 9.80012, 131.025,  59.891, New tracking position
+ 9.81680, 131.402,  60.021, New tracking position
+ 9.83347, 131.782,  60.151, New tracking position
+ 9.85015, 132.165,  60.279, New tracking position
+ 9.86682, 132.550,  60.407, New tracking position
+ 9.88349, 132.937,  60.534, New tracking position
+ 9.90019, 133.328,  60.661, New tracking position
+ 9.91685, 133.720,  60.786, New tracking position
+ 9.93352, 134.116,  60.911, New tracking position
+ 9.95019, 134.514,  61.035, New tracking position
+ 9.96688, 134.915,  61.158, New tracking position
+ 9.98355, 182.533,   0.798, Rotor position possibly out of range
+ 9.98355, 135.318,  61.280, Sun position possibly out of range
+10.00020, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+10.00022, 145.000,  77.000, New tracking position
+10.01686, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+10.01688, 145.000, -14.000, New tracking position
+10.03353, 136.545,  61.641, Back to the Sun
+10.03355, 136.545,  61.641, New tracking position
+10.05022, 136.960,  61.759, New tracking position
+10.06689, 137.377,  61.877, New tracking position
+10.08356, 137.797,  61.994, New tracking position
+10.10022, 138.219,  62.110, New tracking position
+10.11690, 138.645,  62.224, New tracking position
+10.13357, 139.073,  62.338, New tracking position
+10.15025, 139.504,  62.451, New tracking position
+10.16692, 139.938,  62.563, New tracking position
+10.18360, 140.375,  62.674, New tracking position
+10.20027, 140.815,  62.784, New tracking position
+10.21694, 141.257,  62.893, New tracking position
+10.23362, 141.703,  63.001, New tracking position
+10.25028, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+10.25030, 145.000,  77.000, New tracking position
+10.26695, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+10.26697, 145.000, -14.000, New tracking position
+10.28364, 143.064,  63.319, Back to the Sun
+10.28366, 143.064,  63.319, New tracking position
+10.30032, 143.521,  63.423, New tracking position
+10.31699, 143.981,  63.525, New tracking position
+10.33366, 144.444,  63.626, New tracking position
+10.35033, 144.909,  63.726, New tracking position
+10.36700, 145.378,  63.825, New tracking position
+10.38367, 145.849,  63.923, New tracking position
+10.40034, 146.324,  64.020, New tracking position
+10.41674, 146.793,  64.113, New tracking position
+10.43342, 147.273,  64.208, New tracking position
+10.45008, 147.756,  64.301, New tracking position
+10.46676, 280.217,   3.920, Rotor position possibly out of range
+10.46676, 148.242,  64.392, Sun position possibly out of range
+10.48343, 148.731,  64.483, New tracking position
+10.50008, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+10.50010, 145.000,  77.000, New tracking position
+10.51674, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+10.51676, 145.000, -14.000, New tracking position
+10.53343, 150.214,  64.747, Back to the Sun
+10.53345, 150.214,  64.747, New tracking position
+10.55011, 150.714,  64.832, New tracking position
+10.56678, 151.217,  64.916, New tracking position
+10.58345, 151.723,  64.999, New tracking position
+10.60013, 152.231,  65.080, New tracking position
+10.61679, 152.742,  65.160, New tracking position
+10.63346, 153.256,  65.238, New tracking position
+10.65012, 153.773,  65.316, New tracking position
+10.66680, 154.293,  65.391, New tracking position
+10.68348, 154.815,  65.466, New tracking position
+10.70015, 155.339,  65.539, New tracking position
+10.71684, 155.867,  65.610, New tracking position
+10.73350, 156.397,  65.680, New tracking position
+10.75017, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+10.75019, 145.000,  77.000, New tracking position
+10.76683, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+10.76685, 145.000, -14.000, New tracking position
+10.78350, 158.001,  65.882, Back to the Sun
+10.78352, 158.001,  65.882, New tracking position
+10.80020, 158.541,  65.946, New tracking position
+10.81686, 159.084,  66.008, New tracking position
+10.83354, 159.628,  66.069, New tracking position
+10.85020, 160.175,  66.129, New tracking position
+10.86687, 160.725,  66.187, New tracking position
+10.88354, 161.276,  66.243, New tracking position
+10.90021, 161.830,  66.298, New tracking position
+10.91688, 162.386,  66.351, New tracking position
+10.93355, 162.944,  66.403, New tracking position
+10.95024, 163.504,  66.453, New tracking position
+10.96691, 164.066,  66.501, New tracking position
+10.98359, 164.630,  66.548, New tracking position
+10.98431, 163.230,  65.148, New scanning59 position
+10.98493, 163.930,  65.148, New scanning59 position
+10.98555, 164.630,  65.148, New scanning59 position
+10.98617, 165.330,  65.148, New scanning59 position
+10.98679, 166.030,  65.148, New scanning59 position
+10.98741, 166.030,  65.848, New scanning59 position
+10.98803, 165.330,  65.848, New scanning59 position
+10.98865, 164.630,  65.848, New scanning59 position
+10.98927, 163.930,  65.848, New scanning59 position
+10.98989, 163.230,  65.848, New scanning59 position
+10.99051, 163.230,  66.548, New scanning59 position
+10.99113, 163.930,  66.548, New scanning59 position
+10.99176, 164.630,  66.548, New scanning59 position
+10.99238, 165.330,  66.548, New scanning59 position
+10.99300, 166.030,  66.548, New scanning59 position
+10.99362, 166.030,  67.248, New scanning59 position
+10.99424, 165.330,  67.248, New scanning59 position
+10.99486, 164.630,  67.248, New scanning59 position
+10.99548, 163.930,  67.248, New scanning59 position
+10.99610, 163.230,  67.248, New scanning59 position
+10.99672, 163.230,  67.948, New scanning59 position
+10.99734, 163.930,  67.948, New scanning59 position
+10.99796, 164.630,  67.948, New scanning59 position
+10.99858, 165.330,  67.948, New scanning59 position
+10.99920, 166.030,  67.948, New scanning59 position
+10.99929, 164.630,  66.548, End of the scan59. Back to the Sun
+11.00025, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+11.00027, 145.000,  77.000, New tracking position
+11.01691, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+11.01693, 145.000, -14.000, New tracking position
+11.03358, 166.333,  66.678, Back to the Sun
+11.03360, 166.333,  66.678, New tracking position
+11.05026, 166.904,  66.718, New tracking position
+11.06693, 167.477,  66.756, New tracking position
+11.08360, 168.051,  66.793, New tracking position
+11.10028, 168.627,  66.828, New tracking position
+11.11695, 169.205,  66.861, New tracking position
+11.13362, 169.784,  66.893, New tracking position
+11.15030, 170.373,  66.923, New tracking position
+11.16698, 170.955,  66.951, New tracking position
+11.18365, 171.537,  66.978, New tracking position
+11.20033, 172.121,  67.002, New tracking position
+11.21700, 172.706,  67.025, New tracking position
+11.23340, 173.282,  67.046, New tracking position
+11.25006, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+11.25008, 145.000,  77.000, New tracking position
+11.26673, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+11.26675, 145.000, -14.000, New tracking position
+11.28339, 175.044,  67.099, Back to the Sun
+11.28341, 175.044,  67.099, New tracking position
+11.30008, 175.632,  67.113, New tracking position
+11.31675, 176.222,  67.125, New tracking position
+11.33342, 176.812,  67.136, New tracking position
+11.35008, 177.402,  67.145, New tracking position
+11.36675, 177.992,  67.152, New tracking position
+11.38343, 178.583,  67.157, New tracking position
+11.40010, 179.174,  67.160, New tracking position
+11.41677, 179.766,  67.162, New tracking position
+11.43345, 180.357,  67.162, New tracking position
+11.45012, 180.948,  67.160, New tracking position
+11.46679, 181.539,  67.156, New tracking position
+11.48346, 182.130,  67.151, New tracking position
+11.50011, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+11.50013, 145.000,  77.000, New tracking position
+11.51677, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+11.51679, 145.000, -14.000, New tracking position
+11.53344, 183.901,  67.123, Back to the Sun
+11.53346, 183.901,  67.123, New tracking position
+11.55014, 184.490,  67.111, New tracking position
+11.56681, 185.078,  67.096, New tracking position
+11.58347, 185.666,  67.080, New tracking position
+11.60014, 186.254,  67.062, New tracking position
+11.61681, 186.840,  67.042, New tracking position
+11.63347, 187.425,  67.021, New tracking position
+11.65014, 188.010,  66.998, New tracking position
+11.66681, 188.593,  66.973, New tracking position
+11.68348, 189.176,  66.946, New tracking position
+11.70014, 189.757,  66.918, New tracking position
+11.71682, 190.337,  66.887, New tracking position
+11.73350, 190.915,  66.856, New tracking position
+11.75015, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+11.75017, 145.000,  77.000, New tracking position
+11.76681, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+11.76683, 145.000, -14.000, New tracking position
+11.78348, 192.642,  66.750, Back to the Sun
+11.78350, 192.642,  66.750, New tracking position
+11.80017, 193.215,  66.711, New tracking position
+11.81684, 193.786,  66.671, New tracking position
+11.83351, 194.355,  66.629, New tracking position
+11.85018, 194.922,  66.585, New tracking position
+11.86685, 195.488,  66.540, New tracking position
+11.88354, 196.051,  66.493, New tracking position
+11.90022, 196.613,  66.444, New tracking position
+11.91689, 197.173,  66.394, New tracking position
+11.93357, 197.730,  66.342, New tracking position
+11.95023, 198.286,  66.288, New tracking position
+11.96690, 198.839,  66.233, New tracking position
+11.98357, 199.390,  66.177, New tracking position
+11.98429, 197.990,  64.777, New scanning59 position
+11.98491, 198.690,  64.777, New scanning59 position
+11.98553, 199.390,  64.777, New scanning59 position
+11.98616, 200.090,  64.777, New scanning59 position
+11.98678, 200.790,  64.777, New scanning59 position
+11.98740, 200.790,  65.477, New scanning59 position
+11.98802, 200.090,  65.477, New scanning59 position
+11.98864, 199.390,  65.477, New scanning59 position
+11.98926, 198.690,  65.477, New scanning59 position
+11.98988, 197.990,  65.477, New scanning59 position
+11.99050, 197.990,  66.177, New scanning59 position
+11.99112, 198.690,  66.177, New scanning59 position
+11.99174, 199.390,  66.177, New scanning59 position
+11.99236, 200.090,  66.177, New scanning59 position
+11.99298, 200.790,  66.177, New scanning59 position
+11.99360, 200.790,  66.877, New scanning59 position
+11.99422, 200.090,  66.877, New scanning59 position
+11.99484, 199.390,  66.877, New scanning59 position
+11.99546, 198.690,  66.877, New scanning59 position
+11.99608, 197.990,  66.877, New scanning59 position
+11.99670, 197.990,  67.577, New scanning59 position
+11.99732, 198.690,  67.577, New scanning59 position
+11.99794, 199.390,  67.577, New scanning59 position
+11.99857, 200.090,  67.577, New scanning59 position
+11.99919, 200.790,  67.577, New scanning59 position
+11.99927, 199.390,  66.177, End of the scan59. Back to the Sun
+12.00023, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+12.00024, 145.000,  77.000, New tracking position
+12.01689, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+12.01691, 145.000, -14.000, New tracking position
+12.03356, 201.030,  65.997, Back to the Sun
+12.03358, 201.030,  65.997, New tracking position
+12.05024, 201.572,  65.934, New tracking position
+12.06693, 202.112,  65.870, New tracking position
+12.08360, 202.649,  65.804, New tracking position
+12.10026, 203.183,  65.737, New tracking position
+12.11693, 203.715,  65.668, New tracking position
+12.13359, 204.245,  65.598, New tracking position
+12.15027, 204.771,  65.526, New tracking position
+12.16694, 205.296,  65.453, New tracking position
+12.18361, 205.817,  65.378, New tracking position
+12.20027, 206.336,  65.302, New tracking position
+12.21694, 206.852,  65.225, New tracking position
+12.23361, 207.366,  65.146, New tracking position
+12.25026, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+12.25028, 145.000,  77.000, New tracking position
+12.26692, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+12.26694, 145.000, -14.000, New tracking position
+12.28359, 208.890,  64.901, Back to the Sun
+12.28361, 208.890,  64.901, New tracking position
+12.30029, 209.392,  64.817, New tracking position
+12.31695, 209.892,  64.731, New tracking position
+12.33361, 210.389,  64.645, New tracking position
+12.35028, 210.883,  64.556, New tracking position
+12.36695, 211.374,  64.467, New tracking position
+12.38362, 211.862,  64.376, New tracking position
+12.40029, 212.347,  64.284, New tracking position
+12.41696, 212.830,  64.191, New tracking position
+12.43363, 213.309,  64.097, New tracking position
+12.45029, 213.786,  64.001, New tracking position
+12.46696, 214.260,  63.904, New tracking position
+12.48364, 214.739,  63.805, New tracking position
+12.50029, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+12.50031, 145.000,  77.000, New tracking position
+12.51697, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+12.51699, 145.000, -14.000, New tracking position
+12.53364, 216.134,  63.504, Back to the Sun
+12.53366, 216.134,  63.504, New tracking position
+12.55033, 216.593,  63.401, New tracking position
+12.56700, 217.049,  63.297, New tracking position
+12.58367, 217.503,  63.193, New tracking position
+12.60007, 217.946,  63.089, New tracking position
+12.61674, 218.394,  62.982, New tracking position
+12.63341, 218.839,  62.874, New tracking position
+12.65008, 219.281,  62.765, New tracking position
+12.66674, 219.720,  62.655, New tracking position
+12.68341, 220.156,  62.544, New tracking position
+12.70008, 220.590,  62.432, New tracking position
+12.71674, 221.020,  62.318, New tracking position
+12.73341, 221.448,  62.204, New tracking position
+12.75006, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+12.75008, 145.000,  77.000, New tracking position
+12.76674, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+12.76676, 145.000, -14.000, New tracking position
+12.78340, 222.715,  61.857, Back to the Sun
+12.78342, 222.715,  61.857, New tracking position
+12.80009, 223.131,  61.739, New tracking position
+12.81676, 223.545,  61.620, New tracking position
+12.83344, 223.956,  61.500, New tracking position
+12.85011, 224.365,  61.380, New tracking position
+12.86678,-1027.003,   0.656, Rotor position possibly out of range
+12.86678, 224.771,  61.258, Sun position possibly out of range
+12.88345, 225.174,  61.136, New tracking position
+12.90012, 225.574,  61.013, New tracking position
+12.91679, 225.972,  60.889, New tracking position
+12.93345, 226.367,  60.764, New tracking position
+12.95013, 226.759,  60.639, New tracking position
+12.96680, 227.149,  60.512, New tracking position
+12.98347, 227.536,  60.385, New tracking position
+12.98419, 226.136,  58.985, New scanning59 position
+12.98481, 226.836,  58.985, New scanning59 position
+12.98543, 227.536,  58.985, New scanning59 position
+12.98605, 228.236,  58.985, New scanning59 position
+12.98667, 228.936,  58.985, New scanning59 position
+12.98729, 228.936,  59.685, New scanning59 position
+12.98791, 228.236,  59.685, New scanning59 position
+12.98854, 227.536,  59.685, New scanning59 position
+12.98916, 226.836,  59.685, New scanning59 position
+12.98978, 226.136,  59.685, New scanning59 position
+12.99040, 226.136,  60.385, New scanning59 position
+12.99102, 226.836,  60.385, New scanning59 position
+12.99164, 227.536,  60.385, New scanning59 position
+12.99226, 228.236,  60.385, New scanning59 position
+12.99288, 228.936,  60.385, New scanning59 position
+12.99350, 228.936,  61.085, New scanning59 position
+12.99412, 228.236,  61.085, New scanning59 position
+12.99474, 227.536,  61.085, New scanning59 position
+12.99536, 226.836,  61.085, New scanning59 position
+12.99598, 226.136,  61.085, New scanning59 position
+12.99660, 226.136,  61.785, New scanning59 position
+12.99722, 226.836,  61.785, New scanning59 position
+12.99784, 227.536,  61.785, New scanning59 position
+12.99846, 228.236,  61.785, New scanning59 position
+12.99908, 228.936,  61.785, New scanning59 position
+12.99917, 227.536,  60.385, End of the scan59. Back to the Sun
+13.00013, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+13.00016, 145.000,  77.000, New tracking position
+13.01680, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+13.01682, 145.000, -14.000, New tracking position
+13.03346, 228.682,  59.999, Back to the Sun
+13.03348, 228.682,  59.999, New tracking position
+13.05015, 229.059,  59.868, New tracking position
+13.06682, 229.434,  59.737, New tracking position
+13.08349, 229.806,  59.605, New tracking position
+13.10016, 230.175,  59.473, New tracking position
+13.11683, 230.542,  59.340, New tracking position
+13.13350, 230.907,  59.206, New tracking position
+13.15017, 231.269,  59.071, New tracking position
+13.16684, 231.629,  58.936, New tracking position
+13.18351, 231.986,  58.800, New tracking position
+13.20017, 232.342,  58.663, New tracking position
+13.21686, 232.694,  58.526, New tracking position
+13.23352, 233.045,  58.388, New tracking position
+13.25018, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+13.25020, 145.000,  77.000, New tracking position
+13.26685, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+13.26687, 145.000, -14.000, New tracking position
+13.28354, 234.083,  57.970, Back to the Sun
+13.28356, 234.083,  57.970, New tracking position
+13.30024, 234.424,  57.830, New tracking position
+13.31691, 234.764,  57.689, New tracking position
+13.33358, 235.101,  57.547, New tracking position
+13.35024, 235.436,  57.405, New tracking position
+13.36691, 235.769,  57.262, New tracking position
+13.38357, 236.099,  57.119, New tracking position
+13.40024, 236.428,  56.975, New tracking position
+13.41691, 236.754,  56.831, New tracking position
+13.43358, 237.079,  56.686, New tracking position
+13.45024, 237.401,  56.540, New tracking position
+13.46691, 237.722,  56.394, New tracking position
+13.48357, 238.040,  56.248, New tracking position
+13.50023, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+13.50025, 145.000,  77.000, New tracking position
+13.51689, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+13.51691, 145.000, -14.000, New tracking position
+13.53356, 238.984,  55.805, Back to the Sun
+13.53358, 238.984,  55.805, New tracking position
+13.55025, 239.294,  55.657, New tracking position
+13.56693, 239.603,  55.508, New tracking position
+13.58360, 239.910,  55.358, New tracking position
+13.60027, 240.215,  55.208, New tracking position
+13.61694, 240.518,  55.058, New tracking position
+13.63361, -97.176,  -5.603, Rotor position possibly out of range
+13.63361, 240.819,  54.907, Sun position possibly out of range
+13.65027, 241.119,  54.756, New tracking position
+13.66695, 241.417,  54.604, New tracking position
+13.68361, 241.713,  54.452, New tracking position
+13.70029, 242.007,  54.299, New tracking position
+13.71696, 242.299,  54.146, New tracking position
+13.73362, 242.590,  53.993, New tracking position
+13.75027, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+13.75029, 145.000,  77.000, New tracking position
+13.76693, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+13.76695, 145.000, -14.000, New tracking position
+13.78360, 243.453,  53.530, Back to the Sun
+13.78362, 243.453,  53.530, New tracking position
+13.80029, 243.737,  53.375, New tracking position
+13.81696, 244.024,  53.218, New tracking position
+13.83363, 244.305,  53.062, New tracking position
+13.85030, 244.584,  52.906, New tracking position
+13.86697, 244.862,  52.749, New tracking position
+13.88365, 245.138,  52.593, New tracking position
+13.90032, 245.413,  52.435, New tracking position
+13.91699, 245.686,  52.278, New tracking position
+13.93366, 245.958,  52.120, New tracking position
+13.95034, -86.771,  -8.547, Rotor position possibly out of range
+13.95034, 246.228,  51.962, Sun position possibly out of range
+13.96700, 246.497,  51.803, New tracking position
+13.98367, 246.764,  51.645, New tracking position
+13.98439, 245.364,  50.245, New scanning59 position
+13.98502, 246.064,  50.245, New scanning59 position
+13.98564, 246.764,  50.245, New scanning59 position
+13.98626, 247.464,  50.245, New scanning59 position
+13.98688, 248.164,  50.245, New scanning59 position
+13.98750, 248.164,  50.945, New scanning59 position
+13.98812, 247.464,  50.945, New scanning59 position
+13.98874, 246.764,  50.945, New scanning59 position
+13.98936, 246.064,  50.945, New scanning59 position
+13.98998, 245.364,  50.945, New scanning59 position
+13.99060, 245.364,  51.645, New scanning59 position
+13.99122, 246.064,  51.645, New scanning59 position
+13.99184, 246.764,  51.645, New scanning59 position
+13.99246, 247.464,  51.645, New scanning59 position
+13.99308, 248.164,  51.645, New scanning59 position
+13.99370, 248.164,  52.345, New scanning59 position
+13.99432, 247.464,  52.345, New scanning59 position
+13.99494, 246.764,  52.345, New scanning59 position
+13.99556, 246.064,  52.345, New scanning59 position
+13.99618, 245.364,  52.345, New scanning59 position
+13.99681, 245.364,  53.045, New scanning59 position
+13.99743, 246.064,  53.045, New scanning59 position
+13.99805, 246.764,  53.045, New scanning59 position
+13.99867, 247.464,  53.045, New scanning59 position
+13.99929, 248.164,  53.045, New scanning59 position
+13.99937, 246.764,  51.645, End of the scan59. Back to the Sun
+14.00032, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+14.00034, 145.000,  77.000, New tracking position
+14.01699, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+14.01701, 145.000, -14.000, New tracking position
+14.03366, 247.558,  51.166, Back to the Sun
+14.03367, 247.558,  51.166, New tracking position
+14.05010, 247.815,  51.009, New tracking position
+14.06677, 248.076,  50.849, New tracking position
+14.08344, 248.335,  50.688, New tracking position
+14.10011, 248.592,  50.527, New tracking position
+14.11678, 248.849,  50.366, New tracking position
+14.13345, 249.104,  50.204, New tracking position
+14.15011, 249.358,  50.043, New tracking position
+14.16679, 249.610,  49.880, New tracking position
+14.18348, 249.862,  49.718, New tracking position
+14.20016, -66.719, -10.951, Rotor position possibly out of range
+14.20016, 250.112,  49.556, Sun position possibly out of range
+14.21683, -66.357, -11.114, Rotor position possibly out of range
+14.21683, 250.360,  49.393, Sun position possibly out of range
+14.23350, -65.561, -11.277, Rotor position possibly out of range
+14.23350, 250.608,  49.230, Sun position possibly out of range
+14.25015, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+14.25017, 145.000,  77.000, New tracking position
+14.26682, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+14.26684, 145.000, -14.000, New tracking position
+14.28349, 251.344,  48.739, Back to the Sun
+14.28351, -13.376, -11.762, Rotor position possibly out of range
+14.28351, 251.344,  48.739, Sun position possibly out of range
+14.30018, -93.152, -11.934, Rotor position possibly out of range
+14.30018, 251.586,  48.575, Sun position possibly out of range
+14.31684, -81.017, -12.097, Rotor position possibly out of range
+14.31684, 251.828,  48.411, Sun position possibly out of range
+14.33351, -78.005, -12.261, Rotor position possibly out of range
+14.33351, 252.069,  48.246, Sun position possibly out of range
+14.35018, -76.781, -12.426, Rotor position possibly out of range
+14.35018, 252.308,  48.082, Sun position possibly out of range
+14.36686, -76.213, -12.591, Rotor position possibly out of range
+14.36686, 252.547,  47.917, Sun position possibly out of range
+14.38354, -75.963, -12.756, Rotor position possibly out of range
+14.38354, 252.784,  47.752, Sun position possibly out of range
+14.40021, -75.895, -12.921, Rotor position possibly out of range
+14.40021, 253.020,  47.586, Sun position possibly out of range
+14.41688, -75.946, -13.087, Rotor position possibly out of range
+14.41688, 253.255,  47.421, Sun position possibly out of range
+14.43355, -76.085, -13.253, Rotor position possibly out of range
+14.43355, 253.489,  47.255, Sun position possibly out of range
+14.45022, -76.297, -13.419, Rotor position possibly out of range
+14.45022, 253.722,  47.089, Sun position possibly out of range
+14.46689, -76.581, -13.585, Rotor position possibly out of range
+14.46689, 253.954,  46.923, Sun position possibly out of range
+14.48356, -76.943, -13.751, Rotor position possibly out of range
+14.48356, 254.185,  46.756, Sun position possibly out of range
+14.50021, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+14.50023, 145.000,  77.000, New tracking position
+14.51687, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+14.51689, 145.000, -14.000, New tracking position
+14.53355, 254.872,  46.256, Back to the Sun
+14.53358, -78.852, -14.252, Rotor position possibly out of range
+14.53358, 254.872,  46.256, Sun position possibly out of range
+14.55025, -80.138, -14.419, Rotor position possibly out of range
+14.55025, 255.099,  46.089, Sun position possibly out of range
+14.56692, -82.465, -14.586, Rotor position possibly out of range
+14.56692, 255.326,  45.922, Sun position possibly out of range
+14.58358, -88.419, -14.754, Rotor position possibly out of range
+14.58358, 255.551,  45.754, Sun position possibly out of range
+14.60025,-152.047, -14.928, Rotor position possibly out of range
+14.60025, 255.775,  45.587, Sun position possibly out of range
+14.61692, -56.739, -15.087, Rotor position possibly out of range
+14.61692, 255.998,  45.419, Sun position possibly out of range
+14.63359, -67.567, -15.256, Rotor position possibly out of range
+14.63359, 256.221,  45.251, Sun position possibly out of range
+14.65026, -70.760, -15.424, Rotor position possibly out of range
+14.65026, 256.442,  45.083, Sun position possibly out of range
+14.66692, -72.343, -15.592, Rotor position possibly out of range
+14.66692, 256.663,  44.915, Sun position possibly out of range
+14.68359, -73.318, -15.761, Rotor position possibly out of range
+14.68359, 256.882,  44.746, Sun position possibly out of range
+14.70026, -73.993, -15.930, Rotor position possibly out of range
+14.70026, 257.101,  44.578, Sun position possibly out of range
+14.71694, -74.492, -16.098, Rotor position possibly out of range
+14.71694, 257.319,  44.409, Sun position possibly out of range
+14.73360, -74.875, -16.267, Rotor position possibly out of range
+14.73360, 257.536,  44.240, Sun position possibly out of range
+14.75027, 145.000,  77.000, Cold sky reference position (Tref = Tcold)
+14.75029, 145.000,  77.000, New tracking position
+14.76693, 145.000, -14.000, Hot reference position e.g. on ground (To=Thot)
+14.76695, 145.000, -14.000, New tracking position
+14.78360, 258.183,  43.733, Back to the Sun
+14.78362, -75.527, -16.775, Rotor position possibly out of range
+14.78362, 258.183,  43.733, Sun position possibly out of range
+14.80029, -75.580, -16.944, Rotor position possibly out of range
+14.80029, 258.397,  43.564, Sun position possibly out of range
+14.81695, -75.516, -17.113, Rotor position possibly out of range
+14.81695, 258.610,  43.394, Sun position possibly out of range
+14.83362, -75.279, -17.283, Rotor position possibly out of range
+14.83362, 258.822,  43.224, Sun position possibly out of range
+14.85029, -74.742, -17.453, Rotor position possibly out of range
+14.85029, 259.033,  43.055, Sun position possibly out of range
+14.86696, -73.598, -17.623, Rotor position possibly out of range
+14.86696, 259.244,  42.885, Sun position possibly out of range
+14.88364, -70.762, -17.795, Rotor position possibly out of range
+14.88364, 259.458,  42.712, Sun position possibly out of range
+14.90032, -59.863, -17.964, Rotor position possibly out of range
+14.90032, 259.667,  42.542, Sun position possibly out of range
+14.91701,-144.364, -18.143, Rotor position possibly out of range
+14.91701, 259.875,  42.372, Sun position possibly out of range
+14.93367, -92.413, -18.308, Rotor position possibly out of range
+14.93367, 260.083,  42.201, Sun position possibly out of range
+14.95035, -87.216, -18.478, Rotor position possibly out of range
+14.95035, 260.290,  42.031, Sun position possibly out of range
+14.96701, -85.410, -18.648, Rotor position possibly out of range
+14.96701, 260.496,  41.860, Sun position possibly out of range
+14.98368, -84.596, -18.819, Rotor position possibly out of range
+14.98368, 260.702,  41.690, Sun position possibly out of range
