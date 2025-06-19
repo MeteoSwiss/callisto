@@ -197,7 +197,7 @@ def ElevationRevision(myazi,myele):
 
 # I think it is more complicated than what I've tried here...
 horizontal_squint = (aziref-180)*np.cos(ele4aziref*np.pi/180)
-RotorAzi = azidir*(azi - (180 + horizontal_squint/np.cos(ele)))
+RotorAzi = azidir*(azi - (180 + horizontal_squint/np.cos(np.pi/180*ele)))
 # RotorAzi = azidir*(azi - aziref) # conversion 0° ... 360° -> +/- 180°
 RotorEle = eledir*(ele - eleref) # conversion 0° ... 90° -> +/- 45°
 RotorEle = ElevationRevision(RotorAzi,RotorEle) # +/-1.25°
@@ -208,6 +208,7 @@ if ((azi > AziMax) or (azi < AziMin) or
     (np.abs(RotorAzi) > MaxRange)):
     if (TelescopeParked == False):
         Park() # no more tracking activity useful
+        
         print("Rotor position or sun out of range")
         Log(RotorAzi,RotorEle,"Rotor position possibly out of range")
         Log(azi,ele,"Sun position possibly out of range")
