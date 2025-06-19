@@ -240,7 +240,7 @@ def main():
         time_axis_scan_noon_after = [pd.to_datetime(date_motor + 'T' + hhmmss_noon_after[ii]) for ii in range(len(time_df_noon_after))]
         time_axis_scan_afternoon_before = [pd.to_datetime(date_motor + 'T' + hhmmss_afternoon_before[ii]) for ii in range(len(time_df_afternoon_before))]
         time_axis_scan_afternoon_after = [pd.to_datetime(date_motor + 'T' + hhmmss_afternoon_after[ii]) for ii in range(len(time_df_afternoon_after))]
-        import pdb; pdb.set_trace()
+
         #### Find indices scan positions
         idx_start_scanning_morning_before = np.where(msg_morning_before == ' New scanning59 position')[0][0]
         idx_end_scanning_morning_before = np.where(msg_morning_before == ' New scanning59 position')[0][-1]
